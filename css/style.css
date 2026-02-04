@@ -590,3 +590,57 @@ footer {
     font-size: 1.1rem;
     font-weight: 600;
 }
+
+
+
+
+
+/**/
+
+.hero-grid {
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr; /* Texte un peu plus large que la photo */
+    gap: 40px;
+    align-items: center;
+    padding: 80px 0;
+}
+
+.photo-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-photo {
+    width: 100%;
+    max-width: 350px;
+    height: auto;
+    border-radius: 30px; /* Bords arrondis modernes */
+    border: 3px solid var(--primary-color);
+    box-shadow: 0 20px 40px rgba(0, 212, 255, 0.15);
+    z-index: 1;
+}
+
+/* On réajuste les badges flottants pour qu'ils s'affichent par-dessus la photo */
+.tech-stack-floating {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+/* Responsive : sur téléphone, la photo passe en dessous du texte */
+@media (max-width: 992px) {
+    .hero-grid {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .hero-btns {
+        justify-content: center;
+    }
+    .hero-photo {
+        max-width: 250px;
+    }
+}

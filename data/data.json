@@ -46,12 +46,7 @@
     {
       "id": 1,
       "titre": "SIEM & XDR : Proof of Concept Wazuh",
-      "tags": [
-        "Wazuh",
-        "Cybersecurity",
-        "Active Directory",
-        "Suricata"
-      ],
+      "tags": ["Wazuh", "Cybersecurity", "Active Directory", "Suricata"],
       "description": "Déploiement d'une plateforme de sécurité unifiée dans un environnement hybride (Windows Server/Linux). Mise en œuvre de la détection d'intrusions, analyse de vulnérabilités et configuration de mécanismes de 'Réponse Active' pour le blocage automatique de menaces.",
       "lien": "https://www.linkedin.com/in/patrice-cotcho-a6a0571b3/",
       "image": "assets/img/wazuh.png"
@@ -59,49 +54,23 @@
     {
       "id": 2,
       "titre": "Développement d'une Mini-GLIBC & Shell",
-      "tags": [
-        "Langage C",
-        "Appels Système",
-        "Gestion Mémoire",
-        "Processus UNIX"
-      ],
-      "description": "Ré-implémentation d'une bibliothèque système (malloc, printf, IO bufferisées) et création d'un Shell capable de gérer les processus (fork/wait), les variables d'environnement (export/getenv) et les redirections de flux (>>, 2>, 2>>).",
-      "lien": "https://github.com/Patrice404/Mini_Glibc",
+      "tags": ["Langage C", "Appels Système", "Gestion Mémoire", "Processus UNIX"],
+      "description": "Ré-implémentation d'une bibliothèque système (malloc, printf, IO bufferisées) et création d'un Shell capable de gérer les processus (fork/wait), les variables d'environnement (export/getenv) et les redirections de flux (>>, 2>, 2>>).",      "lien": "https://github.com/Patrice404/Mini_Glibc",
       "image": "assets/img/mini_glibc.png"
     },
     {
       "id": 3,
       "titre": "MedievAIl BAIttle GenerAIl (Simulation AoE2)",
-      "tags": [
-        "Python",
-        "IA Tactique",
-        "RTS Engine",
-        "Lanchester's Laws"
-      ],
+      "tags": ["Python", "IA Tactique", "RTS Engine", "Lanchester's Laws"],
       "description": "Développement d'un moteur de combat temps réel (RTS) inspiré d'Age of Empires II. Implémentation de généraux IA capables de micro-management, de formations de combat.",
       "lien": "https://github.com/Patrice404/age_of_empire_ai_battle_simulation",
       "image": "assets/img/battle_sim.png"
     }
   ],
   "competences": {
-    "systemes": [
-      "Windows Server 2022",
-      "Linux (Ubuntu, Debian, Kali)",
-      "Windows 10/11"
-    ],
-    "securite": [
-      "Wazuh",
-      "Suricata",
-      "Zabbix",
-      "Nagios",
-      "EyesOfNetwork"
-    ],
-    "reseaux": [
-      "Active Directory",
-      "VLAN",
-      "TCP/IP",
-      "VPN"
-    ]
+    "systemes": ["Windows Server 2022", "Linux (Ubuntu, Debian, Kali)", "Windows 10/11"],
+    "securite": ["Wazuh", "Suricata", "Zabbix", "Nagios", "EyesOfNetwork"],
+    "reseaux": ["Active Directory", "VLAN", "TCP/IP", "VPN"]
   },
   "parcours_detaille": "Actuellement en cycle ingénieur à l'INSA Centre Val de Loire, je me spécialise en cybersécurité. Mon parcours est marqué par une volonté constante de sécuriser les infrastructures critiques et d'optimiser la gestion des réseaux hybrides. Mon expérience en alternance et mes projets académiques m'ont permis de développer une vision 360° de la sécurité informatique.",
   "certifications": [
@@ -152,3 +121,4 @@
     }
   ]
 }
+
