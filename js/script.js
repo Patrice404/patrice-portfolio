@@ -114,12 +114,17 @@ async function loadAboutData() {
 
         // 4. Certifications (SecNumAcadémie, etc.)
         const certList = document.getElementById('certifications-list');
-        if (certList) {
+        if (certList && data.certifications) {
             certList.innerHTML = data.certifications.map(c => `
-                <div class="cert-item"><strong>${c.nom}</strong> — ${c.date}</div>
+                <div class="cert-item fade-in">
+                    <strong>${c.nom}</strong>
+                    <span class="cert-issuer"> — ${c.entreprise}</span>
+                    <span style="float:right; font-weight:bold; color:var(--primary-color)">${c.date}</span>
+                </div>
             `).join('');
         }
 
+       
         // 5. Passions
         const passionList = document.getElementById('passions-list');
         if (passionList) {

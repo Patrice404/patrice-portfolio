@@ -708,3 +708,16 @@ footer {
         max-width: 250px;
     }
 }
+
+
+.cert-issuer {
+    color: var(--text-gray);
+    font-style: italic;
+    font-size: 0.9em;
+}
+.cert-date {
+    float: right;
+    color: var(--primary-color);
+    font-weight: bold;
+    font-size: 0.85em;
+}

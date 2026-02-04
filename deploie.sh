@@ -1,1 +1,0 @@
-cp -r * /home/patrice/Téléchargements/Project/patrice-portfolio/

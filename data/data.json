@@ -8,7 +8,7 @@
   "experiences_pro": [
     {
       "id": 1,
-      "poste": "Administrateur Systèmes et Réseaux (Junior)",
+      "poste": "Consulter junior en cybersécurité",
       "entreprise": "Grafnet Sarl",
       "lieu": "Bénin",
       "periode": "09/2022 - 04/2023",
@@ -27,12 +27,13 @@
       "lieu": "Bénin",
       "missions": [
         "Support aux utilisateurs et traitement des incidents sur parc Windows",
-        "Déploiement et sécurisation de nouveaux postes (durcissement d'OS, antivirus)"
+        "Déploiement et sécurisation de nouveaux postes (durcissement d'OS, antivirus)",
+        "Formation des employés pour la prise en main d'un nouveau progiciel"
       ]
     },
     {
       "id": 3,
-      "poste": "Responsable Supervision (Stagiaire)",
+      "poste": "Responsable de projet informatique",
       "entreprise": "APDP",
       "periode": "03/2021 - 06/2021",
       "lieu": "Bénin",
@@ -68,33 +69,69 @@
     }
   ],
   "competences": {
-    "systemes": ["Windows Server 2022", "Linux (Ubuntu, Debian, Kali)", "Windows 10/11"],
-    "securite": ["Wazuh", "Suricata", "Zabbix", "Nagios", "EyesOfNetwork"],
-    "reseaux": ["Active Directory", "VLAN", "TCP/IP", "VPN"]
-  },
-  "parcours_detaille": "Actuellement en cycle ingénieur à l'INSA Centre Val de Loire, je me spécialise en cybersécurité. Mon parcours est marqué par une volonté constante de sécuriser les infrastructures critiques et d'optimiser la gestion des réseaux hybrides. Mon expérience en alternance et mes projets académiques m'ont permis de développer une vision 360° de la sécurité informatique.",
+    "cybersecurite": [
+        "Wazuh", "Splunk", "ELK",
+        "Suricata", "Snort", 
+        "Pentesting", 
+        "Audit de Vulnérabilités", 
+        "Réponse Active"
+    ],
+    "infrastructures_reseaux": [
+        "Active Directory (AD DS)", 
+        "Supervision (Centreon/Nagios/SNMP)", 
+        "Services Core (DNS/DHCP)", 
+        "VLAN & Segmentation", 
+        "Routage", "Wireshark"
+    ],
+    "developpement_scripting": [
+        "Python (Algorithmes/IA)", 
+        "Langage C (Programmation Système)", 
+        "Java", "Php", "SQL",
+        "Bash/Shell Scripting", 
+        "Git/GitHub"
+    ],
+    "systemes_virtualisation": [
+        "Linux (Debian/Ubuntu)", 
+        "Windows Server 2022",
+        "VMware & VirtualBox", 
+        "Gestion des Processus UNIX"
+    ]
+},
+  "parcours_detaille": "Passionné d'informatique en général, et plus particulièrement par les réseaux et la cybersécurité, je suis un profil polyvalent, impliqué et autonome. Mon aisance technique me permet d'évoluer efficacement aussi bien dans les opérations de Blue Team (défense et détection) que de Red Team (tests d'intrusion). Mes expériences professionnelles, mes formations et mon entraînement constant sur des plateformes comme TryHackMe et HackTheBox m'ont permis de forger une solide culture de la menace et de maîtriser les outils d'audit, de monitoring et d'administration réseau & système. Je suis aujourd'hui prêt à mettre cette expertise au service de la sécurisation des infrastructures critiques au sein d'une équipe dynamique.",
   "certifications": [
     {
-      "nom": "Certification SecNumAcadémie (ANSSI)",
-      "date": "2024"
+      "nom": "HTB CDSA (Training Completed)",
+      "date": "2026",
+      "entreprise": "Hack The Box"
     },
     {
-      "nom": "Google IT Support Professional Certificate",
-      "date": "2023"
+      "nom": "Networking Basics",
+      "date": "2025",
+      "entreprise": "Cisco Networking Academy"
+    },
+    {
+      "nom": "SecNumAcadémie",
+      "date": "2021",
+      "entreprise": "ANSSI"
+    },
+    {
+      "nom": "Advent of Cyber",
+      "date": "2021",
+      "entreprise": "TryHackMe"
     }
   ],
-  "passions": [
+ "passions": [
     {
-      "nom": "Veille Cybersécurité",
-      "detail": "Analyse de vulnérabilités (CVE) et actualités des menaces."
+      "nom": "Veille & Threat Intelligence",
+      "detail": "Passionné par l'actualité de la cybersécurité, le suivi des nouvelles vulnérabilités (CVE) et l'évolution des menaces mondiales."
     },
     {
-      "nom": "Open Source",
-      "detail": "Contribution et test de nouvelles distributions Linux."
+      "nom": "Musique",
+      "detail": "Un pilier quotidien qui m'aide à la concentration lors de mes sessions de déploiement ou de résolution de problèmes techniques."
     },
     {
-      "nom": "Sports collectifs",
-      "detail": "Esprit d'équipe et communication."
+      "nom": "Vie Sociale & Échanges",
+      "detail": "J'attache une grande importance aux sorties entre amis, favorisant ainsi le partage d'idées et le maintien d'un bon équilibre personnel."
     }
   ],
   "formations": [
