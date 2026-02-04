@@ -1,0 +1,154 @@
+{
+  "profil": {
+    "nom": "Patrice COTCHO",
+    "titre": "Alternant Administrateur Systèmes et Réseaux",
+    "ecole": "INSA Centre Val de Loire",
+    "recherche": "Alternance de 24 mois en infrastructure IT / Cybersécurité"
+  },
+  "experiences_pro": [
+    {
+      "id": 1,
+      "poste": "Administrateur Systèmes et Réseaux (Junior)",
+      "entreprise": "Grafnet Sarl",
+      "lieu": "Bénin",
+      "periode": "09/2022 - 04/2023",
+      "missions": [
+        "Déploiement et configuration de firewalls pour la sécurisation d'infrastructures réseau",
+        "Analyse et amélioration d'architectures réseaux sécurisées (segmentation, filtrage)",
+        "Participation à des missions d'audit de systèmes d'information",
+        "Réalisation de simulations d'attaques et sensibilisation cybersécurité"
+      ]
+    },
+    {
+      "id": 2,
+      "poste": "Support Informatique N1/N2",
+      "entreprise": "Ministère des Affaires Étrangères",
+      "periode": "09/2022 - 04/2023",
+      "lieu": "Bénin",
+      "missions": [
+        "Support aux utilisateurs et traitement des incidents sur parc Windows",
+        "Déploiement et sécurisation de nouveaux postes (durcissement d'OS, antivirus)"
+      ]
+    },
+    {
+      "id": 3,
+      "poste": "Responsable Supervision (Stagiaire)",
+      "entreprise": "APDP",
+      "periode": "03/2021 - 06/2021",
+      "lieu": "Bénin",
+      "missions": [
+        "Mise en œuvre de la solution de monitoring EyesOfNetwork",
+        "Garantie de la disponibilité des services réseaux et assistance technique"
+      ]
+    }
+  ],
+  "realisations_techniques": [
+    {
+      "id": 1,
+      "titre": "SIEM & XDR : Proof of Concept Wazuh",
+      "tags": [
+        "Wazuh",
+        "Cybersecurity",
+        "Active Directory",
+        "Suricata"
+      ],
+      "description": "Déploiement d'une plateforme de sécurité unifiée dans un environnement hybride (Windows Server/Linux). Mise en œuvre de la détection d'intrusions, analyse de vulnérabilités et configuration de mécanismes de 'Réponse Active' pour le blocage automatique de menaces.",
+      "lien": "https://www.linkedin.com/in/patrice-cotcho-a6a0571b3/",
+      "image": "assets/img/wazuh.png"
+    },
+    {
+      "id": 2,
+      "titre": "Développement d'une Mini-GLIBC & Shell",
+      "tags": [
+        "Langage C",
+        "Appels Système",
+        "Gestion Mémoire",
+        "Processus UNIX"
+      ],
+      "description": "Ré-implémentation d'une bibliothèque système (malloc, printf, IO bufferisées) et création d'un Shell capable de gérer les processus (fork/wait), les variables d'environnement (export/getenv) et les redirections de flux (>>, 2>, 2>>).",
+      "lien": "https://github.com/Patrice404/Mini_Glibc",
+      "image": "assets/img/mini_glibc.png"
+    },
+    {
+      "id": 3,
+      "titre": "MedievAIl BAIttle GenerAIl (Simulation AoE2)",
+      "tags": [
+        "Python",
+        "IA Tactique",
+        "RTS Engine",
+        "Lanchester's Laws"
+      ],
+      "description": "Développement d'un moteur de combat temps réel (RTS) inspiré d'Age of Empires II. Implémentation de généraux IA capables de micro-management, de formations de combat.",
+      "lien": "https://github.com/Patrice404/age_of_empire_ai_battle_simulation",
+      "image": "assets/img/battle_sim.png"
+    }
+  ],
+  "competences": {
+    "systemes": [
+      "Windows Server 2022",
+      "Linux (Ubuntu, Debian, Kali)",
+      "Windows 10/11"
+    ],
+    "securite": [
+      "Wazuh",
+      "Suricata",
+      "Zabbix",
+      "Nagios",
+      "EyesOfNetwork"
+    ],
+    "reseaux": [
+      "Active Directory",
+      "VLAN",
+      "TCP/IP",
+      "VPN"
+    ]
+  },
+  "parcours_detaille": "Actuellement en cycle ingénieur à l'INSA Centre Val de Loire, je me spécialise en cybersécurité. Mon parcours est marqué par une volonté constante de sécuriser les infrastructures critiques et d'optimiser la gestion des réseaux hybrides. Mon expérience en alternance et mes projets académiques m'ont permis de développer une vision 360° de la sécurité informatique.",
+  "certifications": [
+    {
+      "nom": "Certification SecNumAcadémie (ANSSI)",
+      "date": "2024"
+    },
+    {
+      "nom": "Google IT Support Professional Certificate",
+      "date": "2023"
+    }
+  ],
+  "passions": [
+    {
+      "nom": "Veille Cybersécurité",
+      "detail": "Analyse de vulnérabilités (CVE) et actualités des menaces."
+    },
+    {
+      "nom": "Open Source",
+      "detail": "Contribution et test de nouvelles distributions Linux."
+    },
+    {
+      "nom": "Sports collectifs",
+      "detail": "Esprit d'équipe et communication."
+    }
+  ],
+  "formations": [
+    {
+      "id": 1,
+      "diplome": "Diplôme d'ingénieur spécialité STI (Cybersécurité)",
+      "etablissement": "INSA Centre Val de Loire",
+      "lieu": "Bourges, France",
+      "periode": "2025 - 2028"
+    },
+    {
+      "id": 2,
+      "diplome": "Licence Informatique",
+      "etablissement": "Université de Caen Normandie",
+      "lieu": "Caen, France",
+      "periode": "2023 - 2025"
+    },
+    {
+      "id": 3,
+      "diplome": "Licence Sécurité Informatique",
+      "etablissement": "IFRI",
+      "lieu": "Bénin",
+      "periode": "2019 - 2022"
+    }
+  ]
+}
