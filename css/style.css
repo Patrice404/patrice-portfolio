@@ -89,6 +89,70 @@ nav {
     background: rgba(0, 212, 255, 0.1);
 }
 
+
+/* --- Ajustement de la Navigation --- */
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    flex-wrap: wrap; /* Permet aux éléments de s'adapter */
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 25px; /* Espace entre les onglets */
+}
+
+/* --- Style spécifique au bouton "Me contacter" --- */
+.btn-contact {
+    background: var(--primary-color);
+    color: var(--bg-dark) !important;
+    padding: 8px 16px;
+    border-radius: 5px;
+    font-weight: 600;
+    white-space: nowrap; /* Empêche le texte de se plier en deux lignes */
+    transition: 0.3s;
+}
+
+.btn-contact:hover {
+    background: #fff;
+    box-shadow: 0 0 15px var(--primary-color);
+}
+
+/* --- RESPONSIVE MOBILE --- */
+@media (max-width: 768px) {
+    header nav {
+        flex-direction: column; /* Logo au-dessus des liens sur petit mobile */
+        gap: 15px;
+    }
+
+    .nav-links {
+        gap: 10px; /* On réduit l'espace entre les onglets sur mobile */
+        font-size: 0.85rem; /* On diminue légèrement la police */
+        padding: 0;
+    }
+
+    .btn-contact {
+        padding: 6px 12px; /* Bouton un peu plus petit sur mobile */
+    }
+}
+
+/* Pour les écrans très étroits (iPhone SE, etc.) */
+@media (max-width: 400px) {
+    .nav-links {
+        justify-content: center;
+        width: 100%;
+    }
+    
+    .logo {
+        margin-bottom: 5px;
+    }
+}
+
+
 /* --- SECTION HERO --- */
 .hero {
     height: calc(100vh - 80px);
@@ -595,7 +659,7 @@ footer {
 
 
 
-/**/
+/*Photo*/
 
 .hero-grid {
     display: grid;
