@@ -188,10 +188,19 @@ if (contactForm) {
  * INITIALISATION GÉNÉRALE
  */
 document.addEventListener('DOMContentLoaded', () => {
-    // Menu actif
+    // --- GESTION MENU ACTIF ---
+
     const currentPath = window.location.pathname.split('/').pop() || 'index.html';
+
     document.querySelectorAll('.nav-links a').forEach(link => {
-        if (link.getAttribute('href') === currentPath) link.classList.add('active');
+        const linkPath = link.getAttribute('href');
+
+        // Si le nom du fichier correspond, on ajoute la classe 'active'
+        if (linkPath === currentPath) {
+            link.classList.add('active');
+        } else {
+            link.classList.remove('active');
+        }
     });
 
     // Lancement des chargements
