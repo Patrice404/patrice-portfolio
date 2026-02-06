@@ -52,7 +52,7 @@ async function loadPortfolioData() {
         if (projectContainer) {
             projectContainer.innerHTML = data.realisations_techniques.map(pro => {
                 const linkHTML = pro.lien && pro.lien !== "#" 
-                    ? `<a href="${pro.lien}" target="_blank" class="btn-project">Voir sur GitHub ↗</a>` 
+                    ? `<a href="${pro.lien}" target="_blank" class="btn-project">Voir sur ${pro.source} ↗</a>` 
                     : `<span class="btn-project disabled">Lien bientôt disponible</span>`;
 
                 return `
