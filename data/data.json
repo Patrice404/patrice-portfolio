@@ -26,9 +26,10 @@
       "periode": "09/2022 - 04/2023",
       "lieu": "Bénin",
       "missions": [
-        "Support aux utilisateurs et traitement des incidents sur parc Windows",
+        "Support informatique utilisateurs N1/N2 sur postes de travail Windows.",
+        "Traitement des incidents et demandes utilisateurs.",
         "Déploiement et sécurisation de nouveaux postes (durcissement d'OS, antivirus)",
-        "Formation des employés pour la prise en main d'un nouveau progiciel"
+        "Assistance, accompagnement et formation des utilisateurs aux outils informatiques."
       ]
     },
     {
@@ -39,7 +40,9 @@
       "lieu": "Bénin",
       "missions": [
         "Mise en œuvre de la solution de monitoring EyesOfNetwork",
-        "Garantie de la disponibilité des services réseaux et assistance technique"
+        "Surveillance de la disponibilité des services informatiques.",
+        "Garantie de la disponibilité des services réseaux et assistance technique.",
+        "Rédaction de documentation et procédures d’exploitation IT."
       ]
     }
   ],
