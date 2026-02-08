@@ -51,7 +51,7 @@
     {
       "id": 1,
       "titre": "SIEM & XDR : Proof of Concept Wazuh",
-      "tags": ["Wazuh", "Cybersecurity", "Active Directory", "Suricata"],
+      "tags": ["AD", "Wazuh", "Cybersecurity",  "Suricata"],
       "description": "Déploiement d'une plateforme de sécurité unifiée dans un environnement hybride (Windows Server/Linux). Mise en œuvre de la détection d'intrusions, analyse de vulnérabilités et configuration de mécanismes de 'Réponse Active' pour le blocage automatique de menaces.",
       "lien": "https://www.linkedin.com/in/patrice-cotcho-a6a0571b3/",
       "image": "assets/img/wazuh.png",
@@ -69,7 +69,7 @@
     {
       "id": 3,
       "titre": "MedievAIl BAIttle GenerAIl (Simulation AoE2)",
-      "tags": ["Python", "IA Tactique", "RTS Engine", "Lanchester's Laws"],
+      "tags": ["IA Tactique", "Python",  "Matplotlib", "RTS Engine"],
       "description": "Développement d'un moteur de combat temps réel (RTS) inspiré d'Age of Empires II. Implémentation de généraux IA capables de micro-management, de formations de combat.",
       "lien": "https://github.com/Patrice404/age_of_empire_ai_battle_simulation",
       "image": "assets/img/battle_sim.png",
@@ -87,7 +87,7 @@
     {
       "id": 5,
       "titre": "IA & Planification : Blocks World",
-      "tags": ["Intelligence Artificielle", "CSP", "Planification", "Data Mining", "Java"],
+      "tags": ["IA", "CSP", "Planification", "Java", "Data Mining"],
       "description": "Conception d'un système intelligent pour résoudre le problème du 'Monde des Blocs'. Implémentation de solveurs de contraintes (CSP), d'algorithmes de planification (STRIPS, Heuristiques) et d'extraction de connaissances (Fouille de données/Règles d'association).",
       "lien": "https://github.com/Patrice404/blocksword",
       "image": "assets/img/blocksworld.png",
@@ -193,4 +193,3 @@
     }
   ]
 }
-
