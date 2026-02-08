@@ -305,7 +305,7 @@ footer {
     background: rgba(0, 212, 255, 0.1);
     color: var(--primary-color);
     font-size: 0.7rem;
-    padding: 4px 10px;
+    padding: 4px;
     border-radius: 20px;
     margin-right: 5px;
     font-family: monospace;
@@ -723,4 +723,4 @@ footer {
 @media (max-width: 400px) {
     .nav-links { width: 100%; }
     .logo { margin-bottom: 5px; }
-}
+}f
