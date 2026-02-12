@@ -152,7 +152,7 @@ if (contactForm) {
     contactForm.addEventListener('submit', async (e) => {
         e.preventDefault();
 
-        // 1. Vérification visuelle (UX)
+        // Vérification visuelle (UX)
         const recaptchaResponse = grecaptcha.getResponse();
         if (recaptchaResponse.length === 0) {
             formStatus.innerHTML = "⚠️ Merci de cocher la case 'Je ne suis pas un robot'.";
