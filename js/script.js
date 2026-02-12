@@ -52,7 +52,7 @@ async function loadPortfolioData() {
         if (projectContainer) {
             projectContainer.innerHTML = data.realisations_techniques.map(pro => {
                 const linkHTML = pro.lien && pro.lien !== "#" 
-                    ? `<a href="${pro.lien}" target="_blank" class="btn-project">Voir sur GitHub ↗</a>` 
+                    ? `<a href="${pro.lien}" target="_blank" class="btn-project">Voir sur ${pro.source} ↗</a>` 
                     : `<span class="btn-project disabled">Lien bientôt disponible</span>`;
 
                 return `
@@ -151,6 +151,16 @@ const formStatus = document.getElementById('form-status');
 if (contactForm) {
     contactForm.addEventListener('submit', async (e) => {
         e.preventDefault();
+
+        // 1. Vérification visuelle (UX)
+        const recaptchaResponse = grecaptcha.getResponse();
+        if (recaptchaResponse.length === 0) {
+            formStatus.innerHTML = "⚠️ Merci de cocher la case 'Je ne suis pas un robot'.";
+            formStatus.style.color = "#ff4d4d";
+            return; 
+        }
+
+
         const data = new FormData(contactForm);
         const btn = contactForm.querySelector('button');
         
@@ -168,12 +178,20 @@ if (contactForm) {
                 formStatus.innerHTML = "Merci ! Votre message a bien été reçu.";
                 formStatus.style.color = "#00d4ff";
                 contactForm.reset();
+                grecaptcha.reset();
             } else {
-                formStatus.innerHTML = "Erreur : Impossible d'envoyer le message.";
+                // Si Formspree rejette (souvent à cause du captcha ou spam)
+                const jsonData = await response.json();
+                if (jsonData.errors) {
+                    formStatus.innerHTML = "❌ Erreur : " + jsonData.errors.map(err => err.message).join(", ");
+                } else {
+                    formStatus.innerHTML = "❌ Erreur lors de l'envoi.";
+                }
                 formStatus.style.color = "#ff4d4d";
             }
         } catch (error) {
             formStatus.innerHTML = "Erreur de connexion au service d'envoi.";
+            formStatus.style.color = "#ff4d4d";
         } finally {
             btn.innerText = "Envoyer le message";
             btn.disabled = false;

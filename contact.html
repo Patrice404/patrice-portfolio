@@ -6,6 +6,7 @@
     <title>Contact | Patrice COTCHO</title>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 <body>
     <header>
@@ -71,7 +72,9 @@
                         <textarea name="message" rows="5" placeholder="Bonjour Patrice, je souhaiterais vous rencontrer pour..." required></textarea>
                     </div>
                     <input type="hidden" name="_subject" value="Nouveau message de ton Portfolio">
-                    
+                    <div class="form-group">
+                        <div class="g-recaptcha" data-sitekey="6LfW-2gsAAAAALKdVx3R0a0aamiWH7vhpPNeSGTa"></div>
+                    </div>
                     <button type="submit" class="btn-primary">Envoyer le message</button>
                     <p id="form-status"></p>
                 </form>
@@ -80,5 +83,6 @@
     </main>
 
     <script src="js/script.js"></script>
+
 </body>
 </html>
