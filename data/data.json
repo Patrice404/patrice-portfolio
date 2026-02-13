@@ -14,9 +14,9 @@
       "periode": "09/2022 - 04/2023",
       "missions": [
         "Déploiement et configuration de firewalls pour la sécurisation d'infrastructures réseau.",
-        "Analyse et amélioration d'architectures réseaux sécurisées (segmentation, filtrage).",
+        "Analyse et amélioration de l'architecture du réseau wifi universitaire RBER (segmentation, filtrage, redondance).",
         "Participation à des missions d'audit de systèmes d'information.",
-        "Réalisation de simulations d'attaques et sensibilisation cybersécurité.",
+        "Sensibilisation et formation des fonctionnaires de l'état sur les bonnes pratiques en cybersécurité via des simulations d'attaques.",
         "Participation à des projets IT orientés infrastructure et cybersécurité."
       ]
     },
@@ -27,10 +27,10 @@
       "periode": "09/2022 - 04/2023",
       "lieu": "Bénin",
       "missions": [
-        "Support informatique utilisateurs N1/N2 sur postes de travail Windows.",
+        "Support informatique utilisateurs N1/N2 sur postes de travail Windows dans un environnement de plus 100 utilisateurs.",
         "Traitement des incidents et demandes utilisateurs.",
         "Déploiement et sécurisation de nouveaux postes (durcissement d'OS, antivirus).",
-        "Assistance, accompagnement et formation des utilisateurs aux outils informatiques."
+        "Assistance, accompagnement et formation des utilisateurs aux outils et solutions informatiques de l'entreprise."
       ]
     },
     {
@@ -40,7 +40,7 @@
       "periode": "03/2021 - 06/2021",
       "lieu": "Bénin",
       "missions": [
-        "Mise en œuvre de la solution de monitoring EyesOfNetwork.",
+        "Déployement et configuration de la solution de monitoring EyesOfNetwork.",
         "Surveillance de la disponibilité des services informatiques.",
         "Garantie de la disponibilité des services réseaux et assistance technique.",
         "Rédaction de documentation et procédures d’exploitation IT."
