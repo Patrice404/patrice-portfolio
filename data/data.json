@@ -11,7 +11,7 @@
       "poste": "Consultant junior en cybersécurité",
       "entreprise": "Grafnet Sarl",
       "lieu": "Bénin",
-      "periode": "09/2022 - 04/2023",
+      "periode": "09/2022 - 03/2023",
       "missions": [
         "Déploiement et configuration de firewalls pour la sécurisation d'infrastructures réseau.",
         "Analyse et amélioration de l'architecture du réseau wifi universitaire RBER (segmentation, filtrage, redondance).",
@@ -61,7 +61,7 @@
       "id": 2,
       "titre": "Développement d'une Mini-GLIBC & Shell",
       "tags": ["Langage C", "Appels Système", "Gestion Mémoire", "Processus UNIX"],
-      "description": "Ré-implémentation d'une bibliothèque système (malloc, printf, IO bufferisées) et création d'un Shell capable de gérer les processus (fork/wait), les variables d'environnement (export/getenv) et les redirections de flux (>>, 2>, 2>>).",      "lien": "https://github.com/Patrice404/Mini_Glibc",
+      "description": "Ré-implémentation d'une bibliothèque système (malloc, printf, IO bufferisées) et création d'un Shell capable de gérer les processus (fork/wait), les variables d'environnement (export/getenv) et les redirections de flux (>>, 2>, 2>>).",   
       "lien":"https://github.com/Patrice404/Mini_Glibc",
       "image": "assets/img/mini_glibc.png",
       "source": "Github"
