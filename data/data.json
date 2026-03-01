@@ -49,7 +49,16 @@
   ],
   "realisations_techniques": [
     {
-      "id": 1,
+    "id": 1,
+    "titre": "Infrastructure Windows Server 2025 : Active Directory, VPN & GPO",
+    "tags": ["Windows Server", "Active Directory", "VPN", "GPO", "PowerShell", "RRAS", "RADIUS", "FSRM"],
+    "description": "Conception et déploiement d'une infrastructure réseau complète sous Windows Server 2025. Structuration de l'Active Directory par OUs avec automatisation PowerShell (import CSV), mise en place d'un accès distant sécurisé via RRAS/NPS (RADIUS), gestion des quotas et filtrage de fichiers avec FSRM, et industrialisation par GPO (mappage de lecteurs, restrictions et déploiement MSI).",
+    "lien": "https://www.linkedin.com/in/patrice-cotcho-a6a0571b3/",
+    "image": "assets/img/windows-server.png",
+    "source": "LinkedIn"
+    },
+    {
+      "id": 2,
       "titre": "SIEM & XDR : Proof of Concept Wazuh",
       "tags": ["AD", "Wazuh", "Cybersecurity",  "Suricata"],
       "description": "Déploiement d'une plateforme de sécurité unifiée dans un environnement hybride (Windows Server/Linux). Mise en œuvre de la détection d'intrusions, analyse de vulnérabilités et configuration de mécanismes de 'Réponse Active' pour le blocage automatique de menaces.",
@@ -58,7 +67,7 @@
       "source": "LinkedIn"
     },
     {
-      "id": 2,
+      "id": 3,
       "titre": "Développement d'une Mini-GLIBC & Shell",
       "tags": ["Langage C", "Appels Système", "Gestion Mémoire", "Processus UNIX"],
       "description": "Ré-implémentation d'une bibliothèque système (malloc, printf, IO bufferisées) et création d'un Shell capable de gérer les processus (fork/wait), les variables d'environnement (export/getenv) et les redirections de flux (>>, 2>, 2>>).",   
@@ -67,7 +76,7 @@
       "source": "Github"
     },
     {
-      "id": 3,
+      "id": 4,
       "titre": "MedievAIl BAIttle GenerAIl (Simulation AoE2)",
       "tags": ["IA Tactique", "Python",  "Matplotlib", "RTS Engine"],
       "description": "Développement d'un moteur de combat temps réel (RTS) inspiré d'Age of Empires II. Implémentation de généraux IA capables de micro-management, de formations de combat.",
@@ -76,7 +85,7 @@
       "source": "Github"
     },
     {
-      "id": 4,
+      "id": 5,
       "titre": "Jeu de Stratégie Tactique",
       "tags": ["Java", "Design Patterns", "JUnit", "Ant", "Game Logic"],
       "description": "Conception d'un moteur de jeu de combat au tour par tour sur grille 2D. Implémentation de mécaniques complexes, validation du code par tests unitaires (JUnit) et automatisation de build (Ant).",
@@ -85,7 +94,7 @@
       "source": "Github"
     },
     {
-      "id": 5,
+      "id": 6,
       "titre": "IA & Planification : Blocks World",
       "tags": ["IA", "CSP", "Planification", "Java", "Data Mining"],
       "description": "Conception d'un système intelligent pour résoudre le problème du 'Monde des Blocs'. Implémentation de solveurs de contraintes (CSP), d'algorithmes de planification (STRIPS, Heuristiques) et d'extraction de connaissances (Fouille de données/Règles d'association).",
@@ -94,7 +103,7 @@
       "source": "Github"
     },
     {
-      "id": 6,
+      "id": 7,
       "titre": "Générateur Procédural : L-Systèmes 2D/3D",
       "tags": ["Java", "POO", "3D/2D", "Algorithmique", "Systèmes Stochastiques"],
       "description": "Développement d'une application complète en Java pour la simulation de croissance biologique (L-Systèmes). Conception d'un interpréteur de règles de réécriture, moteur de rendu graphique hybride (2D/3D) et implémentation de modèles stochastiques pour générer des structures naturelles réalistes.",
