@@ -13,10 +13,10 @@
       "lieu": "Bénin",
       "periode": "09/2022 - 03/2023",
       "missions": [
-        "Déploiement et configuration de firewalls pour la sécurisation d'infrastructures réseau en environnement professionnel.",
-        "Analyse et restructuration de l'architecture du réseau Wi-Fi universitaire RBER : segmentation par VLANs, mise en place de règles de filtrage et amélioration de la redondance.",
-        "Conduite de sessions de sensibilisation à la cybersécurité auprès des utilisateurs, incluant des simulations d'attaques.",
-        "Participation à des missions d'audit de systèmes d'information et rédaction des livrables associés."
+        "Déployé et configuré des firewalls sur des infrastructures réseau professionnelles, réduisant la surface d'attaque exposée.",
+        "Restructuré l'architecture Wi-Fi universitaire RBER par segmentation en VLANs et mise en place de règles de filtrage, améliorant la redondance et l'isolation des flux.",
+        "Animé des sessions de sensibilisation à la cybersécurité incluant des simulations d'attaques, renforçant la vigilance des utilisateurs face aux menaces réelles.",
+        "Conduit des audits de systèmes d'information et rédigé les livrables associés, formalisant les risques identifiés et les recommandations correctives."
       ]
     },
     {
@@ -26,9 +26,9 @@
       "periode": "10/2021 - 12/2021",
       "lieu": "Bénin",
       "missions": [
-        "Traitement des incidents et demandes utilisateurs (N1/N2) sur un parc Windows de plus de 500 postes.",
-        "Déploiement et sécurisation de postes de travail : durcissement d'OS, déploiement antivirus, intégration au domaine.",
-        "Formation et accompagnement des utilisateurs aux outils et solutions informatiques de l'organisation."
+        "Traité et résolu les incidents utilisateurs N1/N2 sur un parc Windows de plus de 500 postes, assurant la continuité de service des agents.",
+        "Déployé et durci des postes de travail (OS hardening, déploiement antivirus, intégration au domaine), réduisant l'exposition aux menaces sur le parc.",
+        "Formé et accompagné les utilisateurs aux outils informatiques de l'organisation, améliorant leur autonomie et réduisant le volume de tickets récurrents."
       ]
     },
     {
@@ -38,10 +38,9 @@
       "periode": "03/2021 - 06/2021",
       "lieu": "Bénin",
       "missions": [
-        "Déploiement et configuration de la solution de monitoring EyesOfNetwork pour la supervision centralisée de l'infrastructure.",
-        "Mise en place d'une surveillance proactive de la disponibilité des services réseaux et systèmes (SNMP).",
-        "Garantie de la continuité de service et assistance technique aux équipes d'exploitation.",
-        "Rédaction de la documentation technique et des procédures d'exploitation IT."
+        "Déployé et configuré EyesOfNetwork pour la supervision centralisée de l'infrastructure réseau (30+ équipements), réduisant le délai de détection des incidents.",
+        "Mis en place une surveillance proactive via SNMP sur les services réseaux et systèmes critiques, garantissant la continuité de service.",
+        "Rédigé la documentation technique et les procédures d'exploitation IT, assurant la reproductibilité des déploiements et la montée en compétence des équipes."
       ]
     }
   ],
@@ -50,7 +49,7 @@
       "id": 1,
       "titre": "Infrastructure Windows Server 2025 : Active Directory, VPN & GPO",
       "tags": ["VPN", "GPO", "PowerShell", "RRAS", "FSRM", "Windows Server", "Active Directory"],
-      "description": "Conception et déploiement d'une infrastructure réseau complète sous Windows Server 2025 : structuration de l'Active Directory par unités organisationnelles (OUs) avec automatisation PowerShell, mise en place d'un accès distant sécurisé via RRAS/NPS (RADIUS), gestion des quotas et filtrage de fichiers avec FSRM, et déploiement de politiques de configuration centralisées (GPO).",
+      "description": "Conçu et déployé une infrastructure réseau complète sous Windows Server 2025 : structuré l'Active Directory en unités organisationnelles (OUs) avec automatisation PowerShell, sécurisé l'accès distant via RRAS/NPS (RADIUS), appliqué des politiques GPO centralisées et géré les quotas de fichiers via FSRM, garantissant un environnement robuste et administrable à l'échelle.",
       "lien": "https://www.linkedin.com/in/patrice-cotcho-a6a0571b3/",
       "image": "assets/img/windows-server.png",
       "source": "LinkedIn"
@@ -59,7 +58,7 @@
       "id": 2,
       "titre": "Plateforme SIEM & XDR – Proof of Concept Wazuh",
       "tags": ["AD", "Wazuh", "Cybersecurity", "Suricata"],
-      "description": "Déploiement d'une plateforme de sécurité unifiée en environnement hybride (Windows Server / Linux). Intégration de Wazuh pour la corrélation d'événements et l'analyse de vulnérabilités, couplé à Suricata pour la détection d'intrusions réseau. Mise en œuvre de mécanismes de réponse active pour le blocage automatique de menaces identifiées.",
+      "description": "Déployé une plateforme de sécurité unifiée en environnement hybride (Windows Server / Linux) : intégré Wazuh pour la corrélation d'événements et l'analyse de vulnérabilités en temps réel, couplé à Suricata pour la détection d'intrusions réseau, avec activation de mécanismes de réponse active permettant le blocage automatique des menaces identifiées.",
       "lien": "https://www.linkedin.com/in/patrice-cotcho-a6a0571b3/",
       "image": "assets/img/wazuh.png",
       "source": "LinkedIn"
@@ -68,7 +67,7 @@
       "id": 3,
       "titre": "Mini-GLIBC & Shell UNIX",
       "tags": ["Langage C", "Appels Système", "Gestion Mémoire", "Processus UNIX"],
-      "description": "Ré-implémentation en C d'une bibliothèque système bas niveau (malloc, printf, I/O bufférisées) et développement d'un shell UNIX fonctionnel : gestion des processus (fork/wait), variables d'environnement (export/getenv) et redirections de flux (>>, 2>, 2>>).",
+      "description": "Réimplémenté en C une bibliothèque système bas niveau (malloc, printf, I/O bufférisées) et développé un shell UNIX fonctionnel gérant les processus (fork/wait), les variables d'environnement (export/getenv) et les redirections de flux (>>, 2>, 2>>), approfondissant la maîtrise des mécanismes internes d'un OS.",
       "lien": "https://github.com/Patrice404/Mini_Glibc",
       "image": "assets/img/mini_glibc.png",
       "source": "Github"
@@ -77,7 +76,7 @@
       "id": 4,
       "titre": "Simulateur de Combat RTS – IA Tactique",
       "tags": ["IA Tactique", "Python", "Matplotlib", "RTS Engine"],
-      "description": "Développement en Python d'un moteur de combat temps réel (RTS) inspiré d'Age of Empires II. Implémentation d'agents IA autonomes capables de micro-management et de gestion de formations de combat, avec rendu visuel via Matplotlib.",
+      "description": "Développé en Python un moteur de combat temps réel (RTS) inspiré d'Age of Empires II, implémentant des agents IA autonomes capables de micro-management et de gestion de formations, avec rendu visuel via Matplotlib — démontrant la maîtrise de la conception algorithmique appliquée à des systèmes multi-agents.",
       "lien": "https://github.com/Patrice404/age_of_empire_ai_battle_simulation",
       "image": "assets/img/battle_sim.png",
       "source": "Github"
@@ -86,7 +85,7 @@
       "id": 5,
       "titre": "Jeu de Stratégie Tactique au Tour par Tour",
       "tags": ["Java", "Design Patterns", "JUnit", "Ant", "Game Logic"],
-      "description": "Conception en Java d'un moteur de jeu de combat sur grille 2D : implémentation des mécaniques de jeu, application de design patterns, validation par tests unitaires (JUnit) et automatisation du build (Ant).",
+      "description": "Conçu en Java un moteur de jeu de combat sur grille 2D en appliquant des design patterns structurants, validé par tests unitaires (JUnit) et automatisé via Ant, assurant la maintenabilité et la robustesse du code livré.",
       "lien": "https://github.com/Patrice404/fightGame/",
       "image": "assets/img/fightgame.png",
       "source": "Github"
@@ -95,7 +94,7 @@
       "id": 6,
       "titre": "Planification IA – Blocks World",
       "tags": ["IA", "CSP", "Planification", "Java", "Data Mining"],
-      "description": "Développement en Java d'un système de planification automatique pour le problème du Monde des Blocs : implémentation de solveurs de contraintes (CSP), d'algorithmes de planification (STRIPS, heuristiques admissibles) et de méthodes de fouille de données (règles d'association).",
+      "description": "Développé en Java un système de planification automatique pour le Monde des Blocs : implémenté des solveurs de contraintes (CSP), des algorithmes de planification (STRIPS, heuristiques admissibles) et des méthodes de fouille de données (règles d'association), aboutissant à un agent capable de résoudre des scénarios complexes de réorganisation.",
       "lien": "https://github.com/Patrice404/blocksword",
       "image": "assets/img/blocksworld.png",
       "source": "Github"
@@ -104,7 +103,7 @@
       "id": 7,
       "titre": "Générateur Procédural L-Systèmes 2D/3D",
       "tags": ["Java", "POO", "3D/2D", "Algorithmique", "Systèmes Stochastiques"],
-      "description": "Développement en Java d'une application de simulation de croissance biologique par L-Systèmes : conception d'un interpréteur de règles de réécriture, moteur de rendu graphique hybride 2D/3D et intégration de modèles stochastiques pour la génération de structures naturelles réalistes.",
+      "description": "Développé en Java un générateur de structures biologiques par L-Systèmes : conçu un interpréteur de règles de réécriture, un moteur de rendu hybride 2D/3D et intégré des modèles stochastiques, produisant des structures naturelles réalistes et démontrant la maîtrise de la programmation orientée objet avancée.",
       "lien": "https://github.com/Patrice404/lsystem",
       "image": "assets/img/lsystem.png",
       "source": "Github"
