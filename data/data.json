@@ -14,9 +14,10 @@
       "periode": "09/2022 - 03/2023",
       "missions": [
         "Déployé et configuré des firewalls sur des infrastructures réseau professionnelles, réduisant la surface d'attaque exposée.",
-        "Restructuré l'architecture Wi-Fi universitaire RBER par segmentation en VLANs et mise en place de règles de filtrage, améliorant la redondance et l'isolation des flux.",
+        "Etudié et restructuré l'architecture Wi-Fi universitaire RBER, améliorant la redondance et l'isolation des flux.",
         "Animé des sessions de sensibilisation à la cybersécurité incluant des simulations d'attaques, renforçant la vigilance des utilisateurs face aux menaces réelles.",
-        "Conduit des audits de systèmes d'information et rédigé les livrables associés, formalisant les risques identifiés et les recommandations correctives."
+        "Conduit des audits de systèmes d'information et rédigé les livrables associés, formalisant les risques identifiés et les recommandations correctives.",
+        "Assisté un consultant senior dans la conduite de surveys auprès d'une dizaine d'agents publics, contribuant à la cartographie de l'existant informatique."
       ]
     },
     {
