@@ -50,7 +50,7 @@
       "id": 1,
       "titre": "Infrastructure Windows Server 2025 : Active Directory, VPN & GPO",
       "tags": ["VPN", "GPO", "PowerShell", "RRAS", "FSRM", "Windows Server", "Active Directory"],
-      "description": "Conçu et déployé une infrastructure réseau complète sous Windows Server 2025 : structuré l'Active Directory en unités organisationnelles (OUs) avec automatisation PowerShell, sécurisé l'accès distant via RRAS/NPS (RADIUS), appliqué des politiques GPO centralisées et géré les quotas de fichiers via FSRM, garantissant un environnement robuste et administrable à l'échelle.",
+      "description": "J'ai conçu et déployé une infrastructure réseau complète sous Windows Server 2025 : structuré l'Active Directory en unités organisationnelles (OUs) avec automatisation PowerShell, sécurisé l'accès distant via RRAS/NPS (RADIUS), appliqué des politiques GPO centralisées et géré les quotas de fichiers via FSRM, garantissant un environnement robuste et administrable à l'échelle.",
       "lien": "https://www.linkedin.com/in/patrice-cotcho-a6a0571b3/",
       "image": "assets/img/windows-server.png",
       "source": "LinkedIn"
@@ -59,7 +59,7 @@
       "id": 2,
       "titre": "Plateforme SIEM & XDR – Proof of Concept Wazuh",
       "tags": ["AD", "Wazuh", "Cybersecurity", "Suricata"],
-      "description": "Déployé une plateforme de sécurité unifiée en environnement hybride (Windows Server / Linux) : intégré Wazuh pour la corrélation d'événements et l'analyse de vulnérabilités en temps réel, couplé à Suricata pour la détection d'intrusions réseau, avec activation de mécanismes de réponse active permettant le blocage automatique des menaces identifiées.",
+      "description": "J'ai déployé une plateforme de sécurité unifiée en environnement hybride (Windows Server / Linux) : intégré Wazuh pour la corrélation d'événements et l'analyse de vulnérabilités en temps réel, couplé à Suricata pour la détection d'intrusions réseau, avec activation de mécanismes de réponse active permettant le blocage automatique des menaces identifiées.",
       "lien": "https://www.linkedin.com/in/patrice-cotcho-a6a0571b3/",
       "image": "assets/img/wazuh.png",
       "source": "LinkedIn"
@@ -68,7 +68,7 @@
       "id": 3,
       "titre": "Mini-GLIBC & Shell UNIX",
       "tags": ["Langage C", "Appels Système", "Gestion Mémoire", "Processus UNIX"],
-      "description": "Réimplémenté en C une bibliothèque système bas niveau (malloc, printf, I/O bufférisées) et développé un shell UNIX fonctionnel gérant les processus (fork/wait), les variables d'environnement (export/getenv) et les redirections de flux (>>, 2>, 2>>), approfondissant la maîtrise des mécanismes internes d'un OS.",
+      "description": "J'ai réimplémenté en C une bibliothèque système bas niveau (malloc, printf, I/O bufférisées) et développé un shell UNIX fonctionnel gérant les processus (fork/wait), les variables d'environnement (export/getenv) et les redirections de flux (>>, 2>, 2>>), approfondissant la maîtrise des mécanismes internes d'un OS.",
       "lien": "https://github.com/Patrice404/Mini_Glibc",
       "image": "assets/img/mini_glibc.png",
       "source": "Github"
@@ -77,7 +77,7 @@
       "id": 4,
       "titre": "Simulateur de Combat RTS – IA Tactique",
       "tags": ["IA Tactique", "Python", "Matplotlib", "RTS Engine"],
-      "description": "Développé en Python un moteur de combat temps réel (RTS) inspiré d'Age of Empires II, implémentant des agents IA autonomes capables de micro-management et de gestion de formations, avec rendu visuel via Matplotlib — démontrant la maîtrise de la conception algorithmique appliquée à des systèmes multi-agents.",
+      "description": "J'ai développé en Python un moteur de combat temps réel (RTS) inspiré d'Age of Empires II, implémentant des agents IA autonomes capables de micro-management et de gestion de formations, avec rendu visuel via Matplotlib — démontrant ma maîtrise de la conception algorithmique appliquée à des systèmes multi-agents.",
       "lien": "https://github.com/Patrice404/age_of_empire_ai_battle_simulation",
       "image": "assets/img/battle_sim.png",
       "source": "Github"
@@ -86,7 +86,7 @@
       "id": 5,
       "titre": "Jeu de Stratégie Tactique au Tour par Tour",
       "tags": ["Java", "Design Patterns", "JUnit", "Ant", "Game Logic"],
-      "description": "Conçu en Java un moteur de jeu de combat sur grille 2D en appliquant des design patterns structurants, validé par tests unitaires (JUnit) et automatisé via Ant, assurant la maintenabilité et la robustesse du code livré.",
+      "description": "J'ai conçu en Java un moteur de jeu de combat sur grille 2D en appliquant des design patterns structurants, validé par tests unitaires (JUnit) et automatisé via Ant, assurant la maintenabilité et la robustesse du code livré.",
       "lien": "https://github.com/Patrice404/fightGame/",
       "image": "assets/img/fightgame.png",
       "source": "Github"
@@ -95,7 +95,7 @@
       "id": 6,
       "titre": "Planification IA – Blocks World",
       "tags": ["IA", "CSP", "Planification", "Java", "Data Mining"],
-      "description": "Développé en Java un système de planification automatique pour le Monde des Blocs : implémenté des solveurs de contraintes (CSP), des algorithmes de planification (STRIPS, heuristiques admissibles) et des méthodes de fouille de données (règles d'association), aboutissant à un agent capable de résoudre des scénarios complexes de réorganisation.",
+      "description": "J'ai développé en Java un système de planification automatique pour le Monde des Blocs : implémenté des solveurs de contraintes (CSP), des algorithmes de planification (STRIPS, heuristiques admissibles) et des méthodes de fouille de données (règles d'association), aboutissant à un agent capable de résoudre des scénarios complexes de réorganisation.",
       "lien": "https://github.com/Patrice404/blocksword",
       "image": "assets/img/blocksworld.png",
       "source": "Github"
@@ -104,7 +104,7 @@
       "id": 7,
       "titre": "Générateur Procédural L-Systèmes 2D/3D",
       "tags": ["Java", "POO", "3D/2D", "Algorithmique", "Systèmes Stochastiques"],
-      "description": "Développé en Java un générateur de structures biologiques par L-Systèmes : conçu un interpréteur de règles de réécriture, un moteur de rendu hybride 2D/3D et intégré des modèles stochastiques, produisant des structures naturelles réalistes et démontrant la maîtrise de la programmation orientée objet avancée.",
+      "description": "J'ai développé en Java un générateur de structures biologiques par L-Systèmes : conçu un interpréteur de règles de réécriture, un moteur de rendu hybride 2D/3D et intégré des modèles stochastiques, produisant des structures naturelles réalistes et démontrant la maîtrise de la programmation orientée objet avancée.",
       "lien": "https://github.com/Patrice404/lsystem",
       "image": "assets/img/lsystem.png",
       "source": "Github"
