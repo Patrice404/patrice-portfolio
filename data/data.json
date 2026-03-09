@@ -57,9 +57,9 @@
     },
     {
       "id": 2,
-      "titre": "Infrastructure Windows Server 2025 : Active Directory, VPN & GPO",
+      "titre": "Infrastructure Windows Server 2022 : Active Directory, VPN & GPO",
       "tags": ["VPN", "GPO", "PowerShell", "RRAS", "FSRM", "Windows Server", "Active Directory"],
-      "description": "J'ai conçu et déployé une infrastructure réseau complète sous Windows Server 2025 : structuré l'Active Directory en unités organisationnelles (OUs) avec automatisation PowerShell, sécurisé l'accès distant via RRAS/NPS (RADIUS), appliqué des politiques GPO centralisées et géré les quotas de fichiers via FSRM, garantissant un environnement robuste et administrable à l'échelle.",
+      "description": "J'ai conçu et déployé une infrastructure réseau complète sous Windows Server 2022 : structuré l'Active Directory en unités organisationnelles (OUs) avec automatisation PowerShell, sécurisé l'accès distant via RRAS/NPS (RADIUS), appliqué des politiques GPO centralisées et géré les quotas de fichiers via FSRM, garantissant un environnement robuste et administrable à l'échelle.",
       "lien": "https://www.linkedin.com/in/patrice-cotcho-a6a0571b3/",
       "image": "assets/img/windows-server.png",
       "source": "LinkedIn"
