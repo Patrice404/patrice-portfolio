@@ -39,7 +39,8 @@
       "periode": "03/2021 - 06/2021",
       "lieu": "Bénin",
       "missions": [
-        "Déployé et configuré EyesOfNetwork pour la supervision centralisée de l'infrastructure réseau (30+ équipements), réduisant le délai de détection des incidents.",
+        "Cadrage et analyse des besoins : rédaction du cahier des charges pour le déploiement de la solution EyesOfNetwork",
+        "Déployé et configuré la solution pour la supervision centralisée de l'infrastructure réseau, réduisant le délai de détection des incidents.",
         "Mis en place une surveillance proactive via SNMP sur les services réseaux et systèmes critiques, garantissant la continuité de service.",
         "Rédigé la documentation technique et les procédures d'exploitation IT, assurant la reproductibilité des déploiements et la montée en compétence des équipes."
       ]
