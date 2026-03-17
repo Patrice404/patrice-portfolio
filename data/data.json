@@ -53,7 +53,7 @@
       "tags": ["FortiGate", "pfSense", "Wazuh", "Suricata", "Active Directory", "Segmentation Réseau", "IDS/IPS", "VMware"],
       "description": "J'ai conçu et déployé une infrastructure réseau d'entreprise hautement sécurisée sous VMware, reposant sur une architecture en cascade (Defense-in-Depth) : un pare-feu périmétrique FortiGate (NAT, publication de services via VIP, IPS applicatif) couplé à un routeur cœur pfSense assurant la segmentation stricte des zones LAN, DMZ et SOC. J'ai intégré une stack SIEM/IDS unifiée (Wazuh + Suricata) avec collecte Syslog centralisée depuis FortiGate et pfSense, et appliqué une politique de moindre privilège sur l'ensemble des interfaces. L'infrastructure est pilotée par un contrôleur de domaine Active Directory (Windows Server 2025) centralisant la gestion des identités et des GPO pour les environnements Windows et Linux (via SSSD/realmd).",
       "lien": "https://www.linkedin.com/in/patrice-cotcho-a6a0571b3/",
-      "image": "assets/img/network-security.png",
+      "image": "assets/img/network-security.jpg",
       "source": "LinkedIn"
     },
     {
