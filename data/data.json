@@ -49,6 +49,15 @@
   "realisations_techniques": [
     {
       "id": 1,
+      "titre": "Architecture Réseau Hautement Sécurisée & SOC (Cascade Firewalling)",
+      "tags": ["FortiGate", "pfSense", "Wazuh", "Suricata", "Active Directory", "Segmentation Réseau", "IDS/IPS", "VMware"],
+      "description": "J'ai conçu et déployé une infrastructure réseau d'entreprise hautement sécurisée sous VMware, reposant sur une architecture en cascade (Defense-in-Depth) : un pare-feu périmétrique FortiGate (NAT, publication de services via VIP, IPS applicatif) couplé à un routeur cœur pfSense assurant la segmentation stricte des zones LAN, DMZ et SOC. J'ai intégré une stack SIEM/IDS unifiée (Wazuh + Suricata) avec collecte Syslog centralisée depuis FortiGate et pfSense, et appliqué une politique de moindre privilège sur l'ensemble des interfaces. L'infrastructure est pilotée par un contrôleur de domaine Active Directory (Windows Server 2025) centralisant la gestion des identités et des GPO pour les environnements Windows et Linux (via SSSD/realmd).",
+      "lien": "https://www.linkedin.com/in/patrice-cotcho-a6a0571b3/",
+      "image": "assets/img/network-security.png",
+      "source": "LinkedIn"
+    },
+    {
+      "id": 2,
       "titre": "Moteur de Recherche d'Alternance Multi-Plateformes & Alerting",
       "tags": ["Python", "Selenium", "Web Scraping", "API REST", "Automatisation (Cron)", "Discord Webhook"],
       "description": "J'ai conçu et développé de bout en bout un robot de scraping automatisé en Python capable d'agréger et d'analyser les offres d'alternance sur 5 plateformes majeures (APEC, LinkedIn, HelloWork, WTTJ, LBA). Le système intègre un algorithme de scoring basé sur mes compétences, une mémoire anti-doublon (fichiers JSON/TXT), une génération de statistiques visuelles (Matplotlib) et l'envoi d'alertes en temps réel sur un serveur Discord.",
@@ -57,7 +66,7 @@
       "source": "Github"
     },
     {
-      "id": 2,
+      "id": 3,
       "titre": "Infrastructure Windows Server 2022 : Active Directory, VPN & GPO",
       "tags": ["VPN", "GPO", "PowerShell", "RRAS", "FSRM", "Windows Server", "Active Directory"],
       "description": "J'ai conçu et déployé une infrastructure réseau complète sous Windows Server 2022 : structuré l'Active Directory en unités organisationnelles (OUs) avec automatisation PowerShell, sécurisé l'accès distant via RRAS/NPS (RADIUS), appliqué des politiques GPO centralisées et géré les quotas de fichiers via FSRM, garantissant un environnement robuste et administrable à l'échelle.",
@@ -66,7 +75,7 @@
       "source": "LinkedIn"
     },
     {
-      "id": 3,
+      "id": 4,
       "titre": "Plateforme SIEM & XDR – Proof of Concept Wazuh",
       "tags": ["AD", "Wazuh", "Cybersecurity", "Suricata"],
       "description": "J'ai déployé une plateforme de sécurité unifiée en environnement hybride (Windows Server / Linux) : intégré Wazuh pour la corrélation d'événements et l'analyse de vulnérabilités en temps réel, couplé à Suricata pour la détection d'intrusions réseau, avec activation de mécanismes de réponse active permettant le blocage automatique des menaces identifiées.",
@@ -75,7 +84,7 @@
       "source": "LinkedIn"
     },
     {
-      "id": 4,
+      "id": 5,
       "titre": "Mini-GLIBC & Shell UNIX",
       "tags": ["Langage C", "Appels Système", "Gestion Mémoire", "Processus UNIX"],
       "description": "J'ai réimplémenté en C une bibliothèque système bas niveau (malloc, printf, I/O bufférisées) et développé un shell UNIX fonctionnel gérant les processus (fork/wait), les variables d'environnement (export/getenv) et les redirections de flux (>>, 2>, 2>>), approfondissant la maîtrise des mécanismes internes d'un OS.",
@@ -84,7 +93,7 @@
       "source": "Github"
     },
     {
-      "id": 5,
+      "id": 6,
       "titre": "Simulateur de Combat RTS – IA Tactique",
       "tags": ["IA Tactique", "Python", "Matplotlib", "RTS Engine"],
       "description": "J'ai développé en Python un moteur de combat temps réel (RTS) inspiré d'Age of Empires II, implémentant des agents IA autonomes capables de micro-management et de gestion de formations, avec rendu visuel via Matplotlib — démontrant ma maîtrise de la conception algorithmique appliquée à des systèmes multi-agents.",
@@ -93,7 +102,7 @@
       "source": "Github"
     },
     {
-      "id": 6,
+      "id": 7,
       "titre": "Jeu de Stratégie Tactique au Tour par Tour",
       "tags": ["Java", "Design Patterns", "JUnit", "Ant", "Game Logic"],
       "description": "J'ai conçu en Java un moteur de jeu de combat sur grille 2D en appliquant des design patterns structurants, validé par tests unitaires (JUnit) et automatisé via Ant, assurant la maintenabilité et la robustesse du code livré.",
@@ -102,7 +111,7 @@
       "source": "Github"
     },
     {
-      "id": 7,
+      "id": 8,
       "titre": "Planification IA – Blocks World",
       "tags": ["IA", "CSP", "Planification", "Java", "Data Mining"],
       "description": "J'ai développé en Java un système de planification automatique pour le Monde des Blocs : implémenté des solveurs de contraintes (CSP), des algorithmes de planification (STRIPS, heuristiques admissibles) et des méthodes de fouille de données (règles d'association), aboutissant à un agent capable de résoudre des scénarios complexes de réorganisation.",
@@ -111,7 +120,7 @@
       "source": "Github"
     },
     {
-      "id": 8,
+      "id": 9,
       "titre": "Générateur Procédural L-Systèmes 2D/3D",
       "tags": ["Java", "POO", "3D/2D", "Algorithmique", "Systèmes Stochastiques"],
       "description": "J'ai développé en Java un générateur de structures biologiques par L-Systèmes : conçu un interpréteur de règles de réécriture, un moteur de rendu hybride 2D/3D et intégré des modèles stochastiques, produisant des structures naturelles réalistes et démontrant la maîtrise de la programmation orientée objet avancée.",
