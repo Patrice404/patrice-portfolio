@@ -13,11 +13,11 @@
       "lieu": "Bénin",
       "periode": "09/2022 - 03/2023",
       "missions": [
-        "Déployé et configuré des firewalls sur des infrastructures réseau professionnelles, réduisant la surface d'attaque exposée.",
-        "Etudié et restructuré l'architecture Wi-Fi universitaire RBER, améliorant la redondance et l'isolation des flux.",
-        "Animé des sessions de sensibilisation à la cybersécurité incluant des simulations d'attaques, renforçant la vigilance des utilisateurs face aux menaces réelles.",
-        "Conduit des audits de systèmes d'information et rédigé les livrables associés, formalisant les risques identifiés et les recommandations correctives.",
-        "Assisté un consultant senior dans la conduite de surveys auprès d'une dizaine d'agents publics, contribuant à la cartographie de l'existant informatique."
+        "Déployer et configurer des équipements réseaux sur des infrastructures  professionnelles, réduisant la surface d'attaque exposée.",
+        "Étudier et restructurer l'architecture Wi-Fi universitaire RBER, améliorant la redondance et l'isolation des flux.",
+        "Animer des sessions de sensibilisation à la cybersécurité incluant des simulations d'attaques, renforçant la vigilance des utilisateurs face aux menaces réelles.",
+        "Conduire des audits de systèmes d'information et rédiger les livrables associés, formalisant les risques identifiés et les recommandations correctives.",
+        "Assister un consultant senior dans la conduite de surveys auprès d'une dizaine d'agents publics, contribuant à la cartographie de l'existant informatique."
       ]
     },
     {
@@ -27,9 +27,9 @@
       "periode": "10/2021 - 12/2021",
       "lieu": "Bénin",
       "missions": [
-        "Traité et résolu les incidents utilisateurs N1/N2 sur un parc Windows de plus de 500 postes, assurant la continuité de service des agents.",
-        "Déployé et durci des postes de travail (OS hardening, déploiement antivirus, intégration au domaine), réduisant l'exposition aux menaces sur le parc.",
-        "Formé et accompagné les utilisateurs aux outils informatiques de l'organisation, améliorant leur autonomie et réduisant le volume de tickets récurrents."
+        "Traiter et résoudre les incidents utilisateurs N1/N2 sur un parc Windows de plus de 500 postes, assurant la continuité de service des agents.",
+        "Déployer et durcir des postes de travail (OS hardening, déploiement antivirus, intégration au domaine), réduisant l'exposition aux menaces sur le parc.",
+        "Former et accompagner les utilisateurs aux outils informatiques de l'organisation, améliorant leur autonomie et réduisant le volume de tickets récurrents."
       ]
     },
     {
@@ -39,10 +39,10 @@
       "periode": "03/2021 - 06/2021",
       "lieu": "Bénin",
       "missions": [
-        "Cadrage et analyse des besoins : rédaction du cahier des charges pour le déploiement de la solution EyesOfNetwork",
-        "Déployé et configuré la solution pour la supervision centralisée de l'infrastructure réseau, réduisant le délai de détection des incidents.",
-        "Mis en place une surveillance proactive via SNMP sur les services réseaux et systèmes critiques, garantissant la continuité de service.",
-        "Rédigé la documentation technique et les procédures d'exploitation IT, assurant la reproductibilité des déploiements et la montée en compétence des équipes."
+        "Cadrer et analyser les besoins : rédiger le cahier des charges pour le déploiement de la solution EyesOfNetwork.",
+        "Déployer et configurer la solution pour la supervision centralisée de l'infrastructure réseau, réduisant le délai de détection des incidents.",
+        "Mettre en place une surveillance proactive via SNMP sur les services réseaux et systèmes critiques, garantissant la continuité de service.",
+        "Rédiger la documentation technique et les procédures d'exploitation IT, assurant la reproductibilité des déploiements et la montée en compétences des équipes."
       ]
     }
   ],
@@ -51,7 +51,7 @@
       "id": 1,
       "titre": "Architecture Réseau Sécurisée (Cascade Firewalling)",
       "tags": ["FortiGate", "pfSense", "Wazuh", "Suricata", "Active Directory", "Segmentation Réseau", "IDS/IPS", "VMware"],
-      "description": "J'ai conçu et déployé une infrastructure réseau d'entreprise hautement sécurisée sous VMware, reposant sur une architecture en cascade (Defense-in-Depth) : un pare-feu périmétrique FortiGate (NAT, publication de services via VIP, IPS applicatif) couplé à un routeur cœur pfSense assurant la segmentation stricte des zones LAN, DMZ et SOC. J'ai intégré une stack SIEM/IDS unifiée (Wazuh + Suricata) avec collecte Syslog centralisée depuis FortiGate et pfSense, et appliqué une politique de moindre privilège sur l'ensemble des interfaces. L'infrastructure est pilotée par un contrôleur de domaine Active Directory (Windows Server 2025) centralisant la gestion des identités et des GPO pour les environnements Windows et Linux (via SSSD/realmd).",
+      "description": "Concevoir et déployer une infrastructure réseau d'entreprise hautement sécurisée sous VMware, reposant sur une architecture en cascade (Defense-in-Depth) : un pare-feu périmétrique FortiGate (NAT, publication de services via VIP, IPS applicatif) couplé à un routeur cœur pfSense assurant la segmentation stricte des zones LAN, DMZ et SOC. Intégrer une stack SIEM/IDS unifiée (Wazuh + Suricata) avec collecte Syslog centralisée depuis FortiGate et pfSense, et appliquer une politique de moindre privilège sur l'ensemble des interfaces. L'infrastructure est pilotée par un contrôleur de domaine Active Directory (Windows Server 2025) centralisant la gestion des identités et des GPO pour les environnements Windows et Linux (via SSSD/realmd).",
       "lien": "https://www.linkedin.com/in/patrice-cotcho-a6a0571b3/",
       "image": "assets/img/network-security.jpg",
       "source": "LinkedIn"
@@ -60,7 +60,7 @@
       "id": 2,
       "titre": "Moteur de Recherche d'Alternance Multi-Plateformes & Alerting",
       "tags": ["Python", "Selenium", "Web Scraping", "API REST", "Automatisation (Cron)", "Discord Webhook"],
-      "description": "J'ai conçu et développé de bout en bout un robot de scraping automatisé en Python capable d'agréger et d'analyser les offres d'alternance sur 5 plateformes majeures (APEC, LinkedIn, HelloWork, WTTJ, LBA). Le système intègre un algorithme de scoring basé sur mes compétences, une mémoire anti-doublon (fichiers JSON/TXT), une génération de statistiques visuelles (Matplotlib) et l'envoi d'alertes en temps réel sur un serveur Discord.",
+      "description": "Concevoir et développer de bout en bout un robot de scraping automatisé en Python capable d'agréger et d'analyser les offres d'alternance sur 5 plateformes majeures (APEC, LinkedIn, HelloWork, WTTJ, LBA). Le système intègre un algorithme de scoring basé sur les compétences, une mémoire anti-doublon (fichiers JSON/TXT), une génération de statistiques visuelles (Matplotlib) et l'envoi d'alertes en temps réel sur un serveur Discord.",
       "lien": "https://github.com/Patrice404/alternance_search_engine",
       "image": "assets/img/bot.png",
       "source": "Github"
@@ -69,7 +69,7 @@
       "id": 3,
       "titre": "Infrastructure Windows Server 2022 : Active Directory, VPN & GPO",
       "tags": ["VPN", "GPO", "PowerShell", "RRAS", "FSRM", "Windows Server", "Active Directory"],
-      "description": "J'ai conçu et déployé une infrastructure réseau complète sous Windows Server 2022 : structuré l'Active Directory en unités organisationnelles (OUs) avec automatisation PowerShell, sécurisé l'accès distant via RRAS/NPS (RADIUS), appliqué des politiques GPO centralisées et géré les quotas de fichiers via FSRM, garantissant un environnement robuste et administrable à l'échelle.",
+      "description": "Concevoir et déployer une infrastructure réseau complète sous Windows Server 2022 : structurer l'Active Directory en unités organisationnelles (OUs) avec automatisation PowerShell, sécuriser l'accès distant via RRAS/NPS (RADIUS), appliquer des politiques GPO centralisées et gérer les quotas de fichiers via FSRM, garantissant un environnement robuste et administrable à l'échelle.",
       "lien": "https://www.linkedin.com/in/patrice-cotcho-a6a0571b3/",
       "image": "assets/img/windows-server.png",
       "source": "LinkedIn"
@@ -78,7 +78,7 @@
       "id": 4,
       "titre": "Plateforme SIEM & XDR – Proof of Concept Wazuh",
       "tags": ["AD", "Wazuh", "Cybersecurity", "Suricata"],
-      "description": "J'ai déployé une plateforme de sécurité unifiée en environnement hybride (Windows Server / Linux) : intégré Wazuh pour la corrélation d'événements et l'analyse de vulnérabilités en temps réel, couplé à Suricata pour la détection d'intrusions réseau, avec activation de mécanismes de réponse active permettant le blocage automatique des menaces identifiées.",
+      "description": "Déployer une plateforme de sécurité unifiée en environnement hybride (Windows Server / Linux) : intégrer Wazuh pour la corrélation d'événements et l'analyse de vulnérabilités en temps réel, couplé à Suricata pour la détection d'intrusions réseau, avec activation de mécanismes de réponse active permettant le blocage automatique des menaces identifiées.",
       "lien": "https://www.linkedin.com/in/patrice-cotcho-a6a0571b3/",
       "image": "assets/img/wazuh.png",
       "source": "LinkedIn"
@@ -87,7 +87,7 @@
       "id": 5,
       "titre": "Mini-GLIBC & Shell UNIX",
       "tags": ["Langage C", "Appels Système", "Gestion Mémoire", "Processus UNIX"],
-      "description": "J'ai réimplémenté en C une bibliothèque système bas niveau (malloc, printf, I/O bufférisées) et développé un shell UNIX fonctionnel gérant les processus (fork/wait), les variables d'environnement (export/getenv) et les redirections de flux (>>, 2>, 2>>), approfondissant la maîtrise des mécanismes internes d'un OS.",
+      "description": "Réimplémenter en C une bibliothèque système bas niveau (malloc, printf, I/O bufférisées) et développer un shell UNIX fonctionnel gérant les processus (fork/wait), les variables d'environnement (export/getenv) et les redirections de flux (>>, 2>, 2>>), approfondissant la maîtrise des mécanismes internes d'un OS.",
       "lien": "https://github.com/Patrice404/Mini_Glibc",
       "image": "assets/img/mini_glibc.png",
       "source": "Github"
@@ -96,7 +96,7 @@
       "id": 6,
       "titre": "Simulateur de Combat RTS – IA Tactique",
       "tags": ["IA Tactique", "Python", "Matplotlib", "RTS Engine"],
-      "description": "J'ai développé en Python un moteur de combat temps réel (RTS) inspiré d'Age of Empires II, implémentant des agents IA autonomes capables de micro-management et de gestion de formations, avec rendu visuel via Matplotlib — démontrant ma maîtrise de la conception algorithmique appliquée à des systèmes multi-agents.",
+      "description": "Développer en Python un moteur de combat temps réel (RTS) inspiré d'Age of Empires II, implémentant des agents IA autonomes capables de micro-management et de gestion de formations, avec rendu visuel via Matplotlib — démontrant la maîtrise de la conception algorithmique appliquée à des systèmes multi-agents.",
       "lien": "https://github.com/Patrice404/age_of_empire_ai_battle_simulation",
       "image": "assets/img/battle_sim.png",
       "source": "Github"
@@ -105,7 +105,7 @@
       "id": 7,
       "titre": "Jeu de Stratégie Tactique au Tour par Tour",
       "tags": ["Java", "Design Patterns", "JUnit", "Ant", "Game Logic"],
-      "description": "J'ai conçu en Java un moteur de jeu de combat sur grille 2D en appliquant des design patterns structurants, validé par tests unitaires (JUnit) et automatisé via Ant, assurant la maintenabilité et la robustesse du code livré.",
+      "description": "Concevoir en Java un moteur de jeu de combat sur grille 2D en appliquant des design patterns structurants, validé par tests unitaires (JUnit) et automatisé via Ant, assurant la maintenabilité et la robustesse du code livré.",
       "lien": "https://github.com/Patrice404/fightGame/",
       "image": "assets/img/fightgame.png",
       "source": "Github"
@@ -114,7 +114,7 @@
       "id": 8,
       "titre": "Planification IA – Blocks World",
       "tags": ["IA", "CSP", "Planification", "Java", "Data Mining"],
-      "description": "J'ai développé en Java un système de planification automatique pour le Monde des Blocs : implémenté des solveurs de contraintes (CSP), des algorithmes de planification (STRIPS, heuristiques admissibles) et des méthodes de fouille de données (règles d'association), aboutissant à un agent capable de résoudre des scénarios complexes de réorganisation.",
+      "description": "Développer en Java un système de planification automatique pour le Monde des Blocs : implémenter des solveurs de contraintes (CSP), des algorithmes de planification (STRIPS, heuristiques admissibles) et des méthodes de fouille de données (règles d'association), aboutissant à un agent capable de résoudre des scénarios complexes de réorganisation.",
       "lien": "https://github.com/Patrice404/blocksword",
       "image": "assets/img/blocksworld.png",
       "source": "Github"
@@ -123,7 +123,7 @@
       "id": 9,
       "titre": "Générateur Procédural L-Systèmes 2D/3D",
       "tags": ["Java", "POO", "3D/2D", "Algorithmique", "Systèmes Stochastiques"],
-      "description": "J'ai développé en Java un générateur de structures biologiques par L-Systèmes : conçu un interpréteur de règles de réécriture, un moteur de rendu hybride 2D/3D et intégré des modèles stochastiques, produisant des structures naturelles réalistes et démontrant la maîtrise de la programmation orientée objet avancée.",
+      "description": "Développer en Java un générateur de structures biologiques par L-Systèmes : concevoir un interpréteur de règles de réécriture, un moteur de rendu hybride 2D/3D et intégrer des modèles stochastiques, produisant des structures naturelles réalistes et démontrant la maîtrise de la programmation orientée objet avancée.",
       "lien": "https://github.com/Patrice404/lsystem",
       "image": "assets/img/lsystem.png",
       "source": "Github"
@@ -142,23 +142,23 @@
       "Supervision (Centreon/Nagios/SNMP)",
       "Services Core (DNS/DHCP)",
       "VLAN & Segmentation",
-      "Routage", "Wireshark"
+      "Routage (RIP/OSPF/BGP)"
     ],
     "developpement_scripting": [
-      "Python (Algorithmes/IA)",
-      "Langage C (Programmation Système)",
-      "Java", "Php", "SQL",
+      "Python",
+      "Langage C",
+      "Java", "PHP", "SQL",
       "Bash/Shell Scripting",
       "Git/GitHub"
     ],
     "systemes_virtualisation": [
-      "Linux (Debian/Ubuntu)",
-      "Windows Server 2022",
+      "Linux", "Windows",
+      "Windows Server 2022/2025",
       "VMware & VirtualBox",
-      "Gestion des Processus UNIX"
+      "Docker"
     ]
   },
-  "parcours_detaille": "Passionné d'informatique en général, et plus particulièrement par les réseaux et la cybersécurité, je suis un profil polyvalent, impliqué et autonome. Mon aisance technique me permet d'évoluer efficacement aussi bien dans les opérations de Blue Team (défense et détection) que de Red Team (tests d'intrusion). Mes expériences professionnelles, mes formations et mon entraînement constant sur des plateformes comme TryHackMe et HackTheBox m'ont permis de forger une solide culture de la menace et de maîtriser les outils d'audit, de monitoring et d'administration réseau & système. Je suis aujourd'hui prêt à mettre cette expertise au service de la sécurisation des infrastructures critiques au sein d'une équipe dynamique.",
+  "parcours_detaille": "Passionné par les réseaux, la cybersécurité et les infrastructures, je suis un profil polyvalent, impliqué et autonome. Mon aisance technique me permet d'évoluer efficacement aussi bien dans les opérations de Blue Team que de Red Team. Mes expériences professionnelles, mes formations et mon entraînement constant sur des plateformes comme TryHackMe et HackTheBox m'ont permis de forger une solide culture de la menace et de maîtriser les outils d'audit, de monitoring et d'administration réseau & système. Je suis aujourd'hui prêt à mettre ces compétences au service de la sécurisation des infrastructures critiques au sein d'une équipe dynamique.",
   "certifications": [
     {
       "nom": "HTB CDSA (Training Completed)",
