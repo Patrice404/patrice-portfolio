@@ -253,7 +253,7 @@ footer {
 .skill-card:nth-child(3) { transition-delay: 0.6s; }
 
 /* --- PORTFOLIO STYLES --- */
-.portfolio-header {
+.portfolio-header, .about-header {
     text-align: center;
     padding: 60px 0;
 }
@@ -385,11 +385,6 @@ footer {
 }
 
 /* --- LAYOUT A-PROPOS --- */
-.about-header {
-    padding: 60px 0;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-    margin-bottom: 50px;
-}
 
 .bio-text {
     font-size: 1.2rem;
