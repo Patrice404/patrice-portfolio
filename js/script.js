@@ -77,7 +77,7 @@ async function loadPortfolioData() {
  * CHARGEMENT DES DONNÉES À PROPOS
  */
 async function loadAboutData() {
-    const bioContainer = document.getElementById('detailed-bio');
+    const bioContainer = document.getElementById('parcours');
     // On vérifie si on est sur la page "À Propos" pour éviter les erreurs console
     if (!bioContainer) return; 
 
