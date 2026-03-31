@@ -87,7 +87,7 @@ async function loadAboutData() {
         const data = await response.json();
 
         // 1. Bio détaillée (Parcours INSA et profil)
-        bioContainer.innerText = data.parcours_detaille;
+        //bioContainer.innerText = data.parcours_detaille;
 
         // 2. Compétences (Systèmes, Sécurité, Réseaux)
         const skillsContainer = document.getElementById('skills-container');
