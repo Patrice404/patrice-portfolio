@@ -49,9 +49,9 @@
   "realisations_techniques": [
     {
       "id": 1,
-      "titre": "Architecture Réseau Sécurisée (Cascade Firewalling)",
+      "titre": "Architecture Réseau & Sécurité",
       "tags": ["FortiGate", "pfSense", "Wazuh", "Suricata", "Active Directory", "Segmentation Réseau", "IDS/IPS", "VMware"],
-      "description": "Concevoir et déployer une infrastructure réseau d'entreprise hautement sécurisée sous VMware, reposant sur une architecture en cascade (Defense-in-Depth) : un pare-feu périmétrique FortiGate (NAT, publication de services via VIP, IPS applicatif) couplé à un routeur cœur pfSense assurant la segmentation stricte des zones LAN, DMZ et SOC. Intégrer une stack SIEM/IDS unifiée (Wazuh + Suricata) avec collecte Syslog centralisée depuis FortiGate et pfSense, et appliquer une politique de moindre privilège sur l'ensemble des interfaces. L'infrastructure est pilotée par un contrôleur de domaine Active Directory (Windows Server 2025) centralisant la gestion des identités et des GPO pour les environnements Windows et Linux (via SSSD/realmd).",
+      "description": "Concevoir et déployer une infrastructure réseau d'entreprise sécurisée sous VMware, reposant sur une architecture en cascade: un pare-feu périmétrique FortiGate couplé à un routeur cœur pfSense assurant la segmentation stricte des zones LAN, DMZ et SOC. Intégrer une stack SIEM/IDS unifiée (Wazuh + Suricata) avec collecte Syslog centralisée, et appliquer une politique de moindre privilège sur l'ensemble des interfaces. L'infrastructure est pilotée par un contrôleur de domaine Active Directory centralisant la gestion des identités et des GPO pour les environnements Windows et Linux.",
       "lien": "https://www.linkedin.com/in/patrice-cotcho-a6a0571b3/",
       "image": "assets/img/network-security.jpg",
       "source": "LinkedIn"
