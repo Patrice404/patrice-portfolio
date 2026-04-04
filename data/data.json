@@ -3,7 +3,9 @@
     "nom": "Patrice COTCHO",
     "titre": "Alternant Ingénieur Systèmes, Réseaux et Cybersécurité",
     "ecole": "INSA Centre Val de Loire",
-    "recherche": "Alternance de 24 mois en infrastructure IT / Cybersécurité"
+    "recherche": "Alternance de 24 à 36 mois en infrastructure IT / Cybersécurité",
+    "rythme": "5 à 7 semaines consécutives (2/3 Entreprise, 1/3 École)",
+    "localisation": "Mobile France (Axe Bourges / Valence / Caen)"
   },
   "experiences_pro": [
     {
@@ -13,209 +15,119 @@
       "lieu": "Bénin",
       "periode": "09/2022 - 03/2023",
       "missions": [
-        "Déployer et configurer des équipements réseaux sur des infrastructures  professionnelles, réduisant la surface d'attaque exposée.",
-        "Étudier et restructurer l'architecture Wi-Fi universitaire RBER, améliorant la redondance et l'isolation des flux.",
-        "Animer des sessions de sensibilisation à la cybersécurité incluant des simulations d'attaques, renforçant la vigilance des utilisateurs face aux menaces réelles.",
-        "Conduire des audits de systèmes d'information et rédiger les livrables associés, formalisant les risques identifiés et les recommandations correctives.",
-        "Assister un consultant senior dans la conduite de surveys auprès d'une dizaine d'agents publics, contribuant à la cartographie de l'existant informatique."
+        "Auditer le SI et refondre l'architecture Wi-Fi universitaire (RBER) pour optimiser la redondance et l'isolation des flux.",
+        "Déployer et configurer des équipements réseaux durcis pour réduire la surface d'attaque exposée.",
+        "Animer des sessions de sensibilisation incluant des simulations d'attaques réelles pour les utilisateurs.",
+        "Conduire des audits de sécurité et rédiger les rapports de préconisations techniques.",
+        "Cartographier l'existant informatique auprès des agents publics pour la modernisation du SI."
       ]
     },
     {
       "id": 2,
-      "poste": "Support Informatique N1/N2",
+      "poste": "Support Informatique N1/N2 (MCO)",
       "entreprise": "Ministère des Affaires Étrangères",
       "periode": "10/2021 - 12/2021",
       "lieu": "Bénin",
       "missions": [
-        "Traiter et résoudre les incidents utilisateurs N1/N2 sur un parc Windows de plus de 500 postes, assurant la continuité de service des agents.",
-        "Déployer et durcir des postes de travail (OS hardening, déploiement antivirus, intégration au domaine), réduisant l'exposition aux menaces sur le parc.",
-        "Former et accompagner les utilisateurs aux outils informatiques de l'organisation, améliorant leur autonomie et réduisant le volume de tickets récurrents."
+        "Résoudre les incidents N1/N2 sur un parc Windows de 500+ postes (Maintien en Condition Opérationnelle).",
+        "Durcir les OS (Hardening), intégrer les postes au domaine AD et déployer des solutions antivirus centralisées.",
+        "Accompagner et former les utilisateurs pour optimiser l'autonomie et réduire le volume de tickets.",
+        "Assurer la continuité de service des agents via une maintenance proactive du parc informatique."
       ]
     },
     {
       "id": 3,
-      "poste": "Responsable de Projet IT – Supervision Réseau",
+      "poste": "Responsable de Projet IT – Supervision",
       "entreprise": "APDP",
       "periode": "03/2021 - 06/2021",
       "lieu": "Bénin",
       "missions": [
-        "Cadrer et analyser les besoins : rédiger le cahier des charges pour le déploiement de la solution EyesOfNetwork.",
-        "Déployer et configurer la solution pour la supervision centralisée de l'infrastructure réseau, réduisant le délai de détection des incidents.",
-        "Mettre en place une surveillance proactive via SNMP sur les services réseaux et systèmes critiques, garantissant la continuité de service.",
-        "Rédiger la documentation technique et les procédures d'exploitation IT, assurant la reproductibilité des déploiements et la montée en compétences des équipes."
+        "Cadrer les besoins et rédiger le cahier des charges pour le monitoring de l'infrastructure.",
+        "Déployer la solution EyesOfNetwork (SNMP) pour la supervision centralisée des services critiques.",
+        "Automatiser la détection des incidents réseaux et systèmes via des alertes proactives.",
+        "Rédiger les procédures d'exploitation technique (SOP) pour garantir la résilience du SI."
       ]
     }
   ],
   "realisations_techniques": [
     {
       "id": 1,
-      "titre": "Architecture Réseau & Sécurité",
-      "tags": ["FortiGate", "pfSense", "Wazuh", "Suricata", "Active Directory", "Segmentation Réseau", "IDS/IPS", "VMware"],
-      "description": "Concevoir et déployer une infrastructure réseau d'entreprise sécurisée sous VMware, reposant sur une architecture en cascade: un pare-feu périmétrique FortiGate couplé à un routeur cœur pfSense assurant la segmentation stricte des zones LAN, DMZ et SOC. Intégrer une stack SIEM/IDS unifiée (Wazuh + Suricata) avec collecte Syslog centralisée, et appliquer une politique de moindre privilège sur l'ensemble des interfaces. L'infrastructure est pilotée par un contrôleur de domaine Active Directory centralisant la gestion des identités et des GPO pour les environnements Windows et Linux.",
+      "titre": "Architecture Réseau Sécurisée & MCO",
+      "tags": ["FortiGate", "pfSense", "Wazuh", "Zabbix", "GLPI", "API"],
+      "description": "Concevoir une infrastructure segmentée LAN/DMZ/SOC. Interconnecter Zabbix à GLPI via API pour automatiser le cycle de vie des incidents (Ticketing & Inventaire). Intégrer une stack SIEM/XDR (Wazuh + Suricata).",
       "lien": "https://www.linkedin.com/in/patrice-cotcho-a6a0571b3/",
-      "image": "assets/img/network-security.jpg",
       "source": "LinkedIn"
     },
     {
       "id": 2,
-      "titre": "Moteur de Recherche d'Alternance Multi-Plateformes & Alerting",
-      "tags": ["Python", "Selenium", "Web Scraping", "API REST", "Automatisation (Cron)", "Discord Webhook"],
-      "description": "Concevoir et développer de bout en bout un robot de scraping automatisé en Python capable d'agréger et d'analyser les offres d'alternance sur 5 plateformes majeures (APEC, LinkedIn, HelloWork, WTTJ, LBA). Le système intègre un algorithme de scoring basé sur les compétences, une mémoire anti-doublon (fichiers JSON/TXT), une génération de statistiques visuelles (Matplotlib) et l'envoi d'alertes en temps réel sur un serveur Discord.",
+      "titre": "Moteur de Recherche d'Alternance (Bot Python)",
+      "tags": ["Python", "Selenium", "Web Scraping", "Discord Webhook"],
+      "description": "Développer un robot de scraping capable d'agréger les offres de 5 plateformes majeures (LinkedIn, APEC, HelloWork, WTTJ, LBA) avec algorithme de scoring et notifications Discord en temps réel.",
       "lien": "https://github.com/Patrice404/alternance_search_engine",
-      "image": "assets/img/bot.png",
       "source": "Github"
     },
     {
       "id": 3,
-      "titre": "Infrastructure Windows Server 2022 : Active Directory, VPN & GPO",
-      "tags": ["VPN", "GPO", "PowerShell", "RRAS", "FSRM", "Windows Server", "Active Directory"],
-      "description": "Concevoir et déployer une infrastructure réseau complète sous Windows Server 2022 : structurer l'Active Directory en unités organisationnelles (OUs) avec automatisation PowerShell, sécuriser l'accès distant via RRAS/NPS (RADIUS), appliquer des politiques GPO centralisées et gérer les quotas de fichiers via FSRM, garantissant un environnement robuste et administrable à l'échelle.",
+      "titre": "Infrastructure Windows Server 2022",
+      "tags": ["Active Directory", "GPO", "VPN", "PowerShell"],
+      "description": "Déployer une infrastructure AD complète : automatisation PowerShell des UOs, sécurisation des accès distants (VPN RRAS/NPS) et gestion des politiques de sécurité centralisées (GPO).",
       "lien": "https://www.linkedin.com/in/patrice-cotcho-a6a0571b3/",
-      "image": "assets/img/windows-server.png",
       "source": "LinkedIn"
     },
     {
       "id": 4,
-      "titre": "Plateforme SIEM & XDR – Proof of Concept Wazuh",
-      "tags": ["AD", "Wazuh", "Cybersecurity", "Suricata"],
-      "description": "Déployer une plateforme de sécurité unifiée en environnement hybride (Windows Server / Linux) : intégrer Wazuh pour la corrélation d'événements et l'analyse de vulnérabilités en temps réel, couplé à Suricata pour la détection d'intrusions réseau, avec activation de mécanismes de réponse active permettant le blocage automatique des menaces identifiées.",
-      "lien": "https://www.linkedin.com/in/patrice-cotcho-a6a0571b3/",
-      "image": "assets/img/wazuh.png",
-      "source": "LinkedIn"
+      "titre": "Mini-GLIBC & Shell UNIX (Bas Niveau)",
+      "tags": ["Langage C", "Système", "Processus"],
+      "description": "Réimplémenter les fonctions système (malloc, printf) et développer un shell UNIX gérant les processus (fork/wait) et les redirections de flux. Expertise en gestion mémoire et appels système.",
+      "lien": "https://github.com/Patrice404/Mini_Glibc",
+      "source": "Github"
     },
     {
       "id": 5,
-      "titre": "Mini-GLIBC & Shell UNIX",
-      "tags": ["Langage C", "Appels Système", "Gestion Mémoire", "Processus UNIX"],
-      "description": "Réimplémenter en C une bibliothèque système bas niveau (malloc, printf, I/O bufférisées) et développer un shell UNIX fonctionnel gérant les processus (fork/wait), les variables d'environnement (export/getenv) et les redirections de flux (>>, 2>, 2>>), approfondissant la maîtrise des mécanismes internes d'un OS.",
-      "lien": "https://github.com/Patrice404/Mini_Glibc",
-      "image": "assets/img/mini_glibc.png",
+      "titre": "IA Tactique & Simulateur RTS",
+      "tags": ["Python", "IA", "Algorithmique"],
+      "description": "Concevoir un moteur de combat temps réel avec agents IA autonomes capables de micro-management et de gestion de formations tactiques (inspiré d'Age of Empires II).",
+      "lien": "https://github.com/Patrice404/age_of_empire_ai_battle_simulation",
       "source": "Github"
     },
     {
       "id": 6,
-      "titre": "Simulateur de Combat RTS – IA Tactique",
-      "tags": ["IA Tactique", "Python", "Matplotlib", "RTS Engine"],
-      "description": "Développer en Python un moteur de combat temps réel (RTS) inspiré d'Age of Empires II, implémentant des agents IA autonomes capables de micro-management et de gestion de formations, avec rendu visuel via Matplotlib — démontrant la maîtrise de la conception algorithmique appliquée à des systèmes multi-agents.",
-      "lien": "https://github.com/Patrice404/age_of_empire_ai_battle_simulation",
-      "image": "assets/img/battle_sim.png",
+      "titre": "Moteur de Jeu Tactique & Design Patterns",
+      "tags": ["Java", "POO", "JUnit"],
+      "description": "Concevoir un jeu de stratégie sur grille 2D en appliquant les Design Patterns structurants (State, Strategy, Factory) et valider la robustesse via tests unitaires JUnit.",
+      "lien": "https://github.com/Patrice404/fightGame/",
       "source": "Github"
     },
     {
       "id": 7,
-      "titre": "Jeu de Stratégie Tactique au Tour par Tour",
-      "tags": ["Java", "Design Patterns", "JUnit", "Ant", "Game Logic"],
-      "description": "Concevoir en Java un moteur de jeu de combat sur grille 2D en appliquant des design patterns structurants, validé par tests unitaires (JUnit) et automatisé via Ant, assurant la maintenabilité et la robustesse du code livré.",
-      "lien": "https://github.com/Patrice404/fightGame/",
-      "image": "assets/img/fightgame.png",
+      "titre": "Planification Automatique (Blocks World)",
+      "tags": ["Java", "IA", "CSP"],
+      "description": "Développer un système de planification via solveurs de contraintes (CSP) et algorithmes STRIPS pour la résolution de scénarios complexes de réorganisation spatiale.",
+      "lien": "https://github.com/Patrice404/blocksword",
       "source": "Github"
     },
     {
       "id": 8,
-      "titre": "Planification IA – Blocks World",
-      "tags": ["IA", "CSP", "Planification", "Java", "Data Mining"],
-      "description": "Développer en Java un système de planification automatique pour le Monde des Blocs : implémenter des solveurs de contraintes (CSP), des algorithmes de planification (STRIPS, heuristiques admissibles) et des méthodes de fouille de données (règles d'association), aboutissant à un agent capable de résoudre des scénarios complexes de réorganisation.",
-      "lien": "https://github.com/Patrice404/blocksword",
-      "image": "assets/img/blocksworld.png",
-      "source": "Github"
-    },
-    {
-      "id": 9,
-      "titre": "Générateur Procédural L-Systèmes 2D/3D",
-      "tags": ["Java", "POO", "3D/2D", "Algorithmique", "Systèmes Stochastiques"],
-      "description": "Développer en Java un générateur de structures biologiques par L-Systèmes : concevoir un interpréteur de règles de réécriture, un moteur de rendu hybride 2D/3D et intégrer des modèles stochastiques, produisant des structures naturelles réalistes et démontrant la maîtrise de la programmation orientée objet avancée.",
+      "titre": "Générateur Procédural L-Systèmes",
+      "tags": ["Java", "Algorithmique", "3D"],
+      "description": "Modéliser des structures biologiques complexes (systèmes de Lindenmayer) via des interpréteurs de règles stochastiques et un moteur de rendu hybride 2D/3D.",
       "lien": "https://github.com/Patrice404/lsystem",
-      "image": "assets/img/lsystem.png",
       "source": "Github"
     }
   ],
   "competences": {
-    "cybersecurite": [
-      "Wazuh", "Splunk", "ELK",
-      "Suricata", "Snort",
-      "Pentesting",
-      "Audit de Vulnérabilités",
-      "Réponse Active"
-    ],
-    "infrastructures_reseaux": [
-      "Active Directory (AD DS)",
-      "Supervision (Centreon/Nagios/SNMP)",
-      "Services Core (DNS/DHCP)",
-      "VLAN & Segmentation",
-      "Routage (RIP/OSPF/BGP)"
-    ],
-    "developpement_scripting": [
-      "Python",
-      "Langage C",
-      "Java", "PHP", "SQL",
-      "Bash/Shell Scripting",
-      "Git/GitHub"
-    ],
-    "systemes_virtualisation": [
-      "Linux", "Windows",
-      "Windows Server 2022/2025",
-      "VMware & VirtualBox",
-      "Docker"
-    ]
+    "cybersecurite": ["Wazuh", "Suricata", "Pentesting", "Audit de Vulnérabilités", "Hardening (ANSSI)"],
+    "infrastructures_reseaux": ["Active Directory", "Supervision (Zabbix/SNMP)", "TCP/IP & VLAN", "Routage (OSPF/BGP)"],
+    "developpement_scripting": ["Python (Scraping/API)", "Langage C (Système)", "Java (POO)", "Bash/Shell", "Git"],
+    "systemes_virtualisation": ["Linux (Debian/Ubuntu)", "Windows Server 2022", "VMware ESXi", "Docker"]
   },
-  "parcours_detaille": "Passionné par les infrastructures réseau et les systèmes, je conçois, déploie et administre des environnements IT robustes. Mes expériences terrain m'ont permis de développer une approche rigoureuse et orientée résultats. En parallèle, je me forme activement en cybersécurité offensive et défensive via TryHackMe et HackTheBox, afin d'intégrer la dimension sécurité au cœur de chaque infrastructure que je construis. Aujourd'hui, je cherche à relever des défis techniques ambitieux au sein d'une équipe où l'excellence opérationnelle est une priorité.",
   "certifications": [
-    {
-      "nom": "HTB CDSA (Training Completed)",
-      "date": "2026",
-      "entreprise": "Hack The Box"
-    },
-    {
-      "nom": "Networking Basics",
-      "date": "2025",
-      "entreprise": "Cisco Networking Academy"
-    },
-    {
-      "nom": "SecNumAcadémie",
-      "date": "2021",
-      "entreprise": "ANSSI"
-    },
-    {
-      "nom": "Advent of Cyber",
-      "date": "2021",
-      "entreprise": "TryHackMe"
-    }
+    { "nom": "HTB CDSA (Training)", "date": "2026", "entreprise": "Hack The Box" },
+    { "nom": "Networking Basics", "date": "2025", "entreprise": "Cisco" },
+    { "nom": "SecNumAcadémie", "date": "2021", "entreprise": "ANSSI" }
   ],
-  "passions": [
-    {
-      "nom": "Veille & Threat Intelligence",
-      "detail": "Passionné par l'actualité de la cybersécurité, le suivi des nouvelles vulnérabilités (CVE) et l'évolution des menaces mondiales."
-    },
-    {
-      "nom": "Musique",
-      "detail": "Un pilier quotidien qui m'aide à la concentration lors de mes sessions de déploiement ou de résolution de problèmes techniques."
-    },
-    {
-      "nom": "Vie Sociale & Échanges",
-      "detail": "J'attache une grande importance aux sorties entre amis, favorisant ainsi le partage d'idées et le maintien d'un bon équilibre personnel."
-    }
-  ],
-  "formations": [
-    {
-      "id": 1,
-      "diplome": "Diplôme d'ingénieur spécialité Sécurité et Technologies Informatiques (STI)",
-      "etablissement": "INSA Centre Val de Loire",
-      "lieu": "Bourges, France",
-      "periode": "2025 - 2028"
-    },
-    {
-      "id": 2,
-      "diplome": "Licence Informatique",
-      "etablissement": "Université de Caen Normandie",
-      "lieu": "Caen, France",
-      "periode": "2023 - 2025"
-    },
-    {
-      "id": 3,
-      "diplome": "Licence Sécurité Informatique",
-      "etablissement": "IFRI",
-      "lieu": "Bénin",
-      "periode": "2019 - 2022"
-    }
-  ]
+  "langues": {
+    "francais": "Natif",
+    "anglais": "Technique (Lecture doc, outils pros, rédaction rapports)"
+  }
 }
