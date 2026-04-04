@@ -138,10 +138,41 @@
     "developpement_scripting": ["Python (Scraping/API)", "Langage C (Système)", "Java (POO)", "Bash/Shell", "Git"],
     "systemes_virtualisation": ["Linux (Debian/Ubuntu)", "Windows Server 2022", "VMware ESXi", "Docker"]
   },
-  "certifications": [
-    { "nom": "HTB CDSA (Training)", "date": "2026", "entreprise": "Hack The Box" },
-    { "nom": "Networking Basics", "date": "2025", "entreprise": "Cisco" },
-    { "nom": "SecNumAcadémie", "date": "2021", "entreprise": "ANSSI" }
+ "certifications": [
+    {
+      "nom": "HTB CDSA (Training Completed)",
+      "date": "2026",
+      "entreprise": "Hack The Box"
+    },
+    {
+      "nom": "Networking Basics",
+      "date": "2025",
+      "entreprise": "Cisco Networking Academy"
+    },
+    {
+      "nom": "SecNumAcadémie",
+      "date": "2021",
+      "entreprise": "ANSSI"
+    },
+    {
+      "nom": "Advent of Cyber",
+      "date": "2021",
+      "entreprise": "TryHackMe"
+    }
+  ],
+  "passions": [
+    {
+      "nom": "Veille & Threat Intelligence",
+      "detail": "Passionné par l'actualité de la cybersécurité, le suivi des nouvelles vulnérabilités (CVE) et l'évolution des menaces mondiales."
+    },
+    {
+      "nom": "Musique",
+      "detail": "Un pilier quotidien qui m'aide à la concentration lors de mes sessions de déploiement ou de résolution de problèmes techniques."
+    },
+    {
+      "nom": "Vie Sociale & Échanges",
+      "detail": "J'attache une grande importance aux sorties entre amis, favorisant ainsi le partage d'idées et le maintien d'un bon équilibre personnel."
+    }
   ],
   "langues": {
     "francais": "Natif",
