@@ -3,9 +3,9 @@
     "nom": "Patrice COTCHO",
     "titre": "Alternant Ingénieur Systèmes, Réseaux et Cybersécurité",
     "ecole": "INSA Centre Val de Loire",
-    "recherche": "Alternance de 24 à 36 mois en infrastructure IT / Cybersécurité",
+    "recherche": "Alternance de 24 mois en infrastructure IT / Cybersécurité",
     "rythme": "5 à 7 semaines consécutives (2/3 Entreprise, 1/3 École)",
-    "localisation": "Mobile France (Axe Bourges / Valence / Caen)"
+    "localisation": "Mobile France"
   },
   "experiences_pro": [
     {
@@ -30,13 +30,13 @@
       "lieu": "Bénin",
       "missions": [
         "Résoudre les incidents N1/N2 sur un parc Windows de 500+ postes (Maintien en Condition Opérationnelle).",
-        "Durcir les OS (Hardening), intégrer les postes au domaine AD et déployer des solutions antivirus centralisées.",
+        "Durcir les OS (Hardening), intégrer les machines au domaine AD et déployer des solutions antivirus centralisées.",
         "Accompagner et former les utilisateurs pour optimiser l'autonomie et réduire le volume de tickets.",
         "Assurer la continuité de service des agents via une maintenance proactive du parc informatique."
       ]
     },
     {
-      "id": 3,
+      "id": 4,
       "poste": "Responsable de Projet IT – Supervision",
       "entreprise": "APDP",
       "periode": "03/2021 - 06/2021",
@@ -56,6 +56,7 @@
       "tags": ["FortiGate", "pfSense", "Wazuh", "Zabbix", "GLPI", "API"],
       "description": "Concevoir une infrastructure segmentée LAN/DMZ/SOC. Interconnecter Zabbix à GLPI via API pour automatiser le cycle de vie des incidents (Ticketing & Inventaire). Intégrer une stack SIEM/XDR (Wazuh + Suricata).",
       "lien": "https://www.linkedin.com/in/patrice-cotcho-a6a0571b3/",
+      "image": "assets/img/network-security.jpg",
       "source": "LinkedIn"
     },
     {
@@ -64,6 +65,7 @@
       "tags": ["Python", "Selenium", "Web Scraping", "Discord Webhook"],
       "description": "Développer un robot de scraping capable d'agréger les offres de 5 plateformes majeures (LinkedIn, APEC, HelloWork, WTTJ, LBA) avec algorithme de scoring et notifications Discord en temps réel.",
       "lien": "https://github.com/Patrice404/alternance_search_engine",
+      "image": "assets/img/bot.png",
       "source": "Github"
     },
     {
@@ -72,46 +74,61 @@
       "tags": ["Active Directory", "GPO", "VPN", "PowerShell"],
       "description": "Déployer une infrastructure AD complète : automatisation PowerShell des UOs, sécurisation des accès distants (VPN RRAS/NPS) et gestion des politiques de sécurité centralisées (GPO).",
       "lien": "https://www.linkedin.com/in/patrice-cotcho-a6a0571b3/",
+      "image": "assets/img/windows-server.png",
       "source": "LinkedIn"
     },
     {
       "id": 4,
-      "titre": "Mini-GLIBC & Shell UNIX (Bas Niveau)",
-      "tags": ["Langage C", "Système", "Processus"],
-      "description": "Réimplémenter les fonctions système (malloc, printf) et développer un shell UNIX gérant les processus (fork/wait) et les redirections de flux. Expertise en gestion mémoire et appels système.",
-      "lien": "https://github.com/Patrice404/Mini_Glibc",
-      "source": "Github"
+      "titre": "Plateforme SIEM & XDR – PoC Wazuh",
+      "tags": ["AD", "Wazuh", "Cybersecurity", "Suricata"],
+      "description": "Déployer une plateforme de sécurité unifiée en environnement hybride : corrélation d'événements, analyse de vulnérabilités et activation de mécanismes de réponse active.",
+      "lien": "https://www.linkedin.com/in/patrice-cotcho-a6a0571b3/",
+      "image": "assets/img/wazuh.png",
+      "source": "LinkedIn"
     },
     {
       "id": 5,
-      "titre": "IA Tactique & Simulateur RTS",
-      "tags": ["Python", "IA", "Algorithmique"],
-      "description": "Concevoir un moteur de combat temps réel avec agents IA autonomes capables de micro-management et de gestion de formations tactiques (inspiré d'Age of Empires II).",
-      "lien": "https://github.com/Patrice404/age_of_empire_ai_battle_simulation",
+      "titre": "Mini-GLIBC & Shell UNIX (Bas Niveau)",
+      "tags": ["Langage C", "Système", "Processus"],
+      "description": "Réimplémenter les fonctions système (malloc, printf) et développer un shell UNIX gérant les processus (fork/wait) et les redirections de flux. Expertise en gestion mémoire.",
+      "lien": "https://github.com/Patrice404/Mini_Glibc",
+      "image": "assets/img/mini_glibc.png",
       "source": "Github"
     },
     {
       "id": 6,
-      "titre": "Moteur de Jeu Tactique & Design Patterns",
-      "tags": ["Java", "POO", "JUnit"],
-      "description": "Concevoir un jeu de stratégie sur grille 2D en appliquant les Design Patterns structurants (State, Strategy, Factory) et valider la robustesse via tests unitaires JUnit.",
-      "lien": "https://github.com/Patrice404/fightGame/",
+      "titre": "IA Tactique & Simulateur RTS",
+      "tags": ["Python", "IA", "Matplotlib"],
+      "description": "Concevoir un moteur de combat temps réel avec agents IA autonomes capables de micro-management et de gestion de formations tactiques (inspiré d'Age of Empires II).",
+      "lien": "https://github.com/Patrice404/age_of_empire_ai_battle_simulation",
+      "image": "assets/img/battle_sim.png",
       "source": "Github"
     },
     {
       "id": 7,
-      "titre": "Planification Automatique (Blocks World)",
-      "tags": ["Java", "IA", "CSP"],
-      "description": "Développer un système de planification via solveurs de contraintes (CSP) et algorithmes STRIPS pour la résolution de scénarios complexes de réorganisation spatiale.",
-      "lien": "https://github.com/Patrice404/blocksword",
+      "titre": "Moteur de Jeu Tactique & Design Patterns",
+      "tags": ["Java", "POO", "JUnit"],
+      "description": "Concevoir un jeu de stratégie sur grille 2D en appliquant les Design Patterns structurants (State, Strategy, Factory) et valider la robustesse via tests unitaires JUnit.",
+      "lien": "https://github.com/Patrice404/fightGame/",
+      "image": "assets/img/fightgame.png",
       "source": "Github"
     },
     {
       "id": 8,
+      "titre": "Planification Automatique (Blocks World)",
+      "tags": ["Java", "IA", "CSP"],
+      "description": "Développer un système de planification via solveurs de contraintes (CSP) et algorithmes STRIPS pour la résolution de scénarios complexes de réorganisation spatiale.",
+      "lien": "https://github.com/Patrice404/blocksword",
+      "image": "assets/img/blocksworld.png",
+      "source": "Github"
+    },
+    {
+      "id": 9,
       "titre": "Générateur Procédural L-Systèmes",
       "tags": ["Java", "Algorithmique", "3D"],
-      "description": "Modéliser des structures biologiques complexes (systèmes de Lindenmayer) via des interpréteurs de règles stochastiques et un moteur de rendu hybride 2D/3D.",
+      "description": "Modéliser des structures biologiques complexes via des interpréteurs de règles stochastiques et un moteur de rendu hybride 2D/3D.",
       "lien": "https://github.com/Patrice404/lsystem",
+      "image": "assets/img/lsystem.png",
       "source": "Github"
     }
   ],
