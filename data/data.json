@@ -138,7 +138,8 @@
     "developpement_scripting": ["Python (Scraping/API)", "Langage C (Système)", "Java (POO)", "Bash/Shell", "Git"],
     "systemes_virtualisation": ["Linux (Debian/Ubuntu)", "Windows Server 2022", "VMware ESXi", "Docker"]
   },
- "certifications": [
+  "parcours_detaille": "Passionné par les infrastructures réseau et les systèmes, je conçois, déploie et administre des environnements IT robustes. Mes expériences terrain m'ont permis de développer une approche rigoureuse et orientée résultats. En parallèle, je me forme activement en cybersécurité offensive et défensive via TryHackMe et HackTheBox, afin d'intégrer la dimension sécurité au cœur de chaque infrastructure que je construis. Aujourd'hui, je cherche à relever des défis techniques ambitieux au sein d'une équipe où l'excellence opérationnelle est une priorité.",
+  "certifications": [
     {
       "nom": "HTB CDSA (Training Completed)",
       "date": "2026",
@@ -174,8 +175,27 @@
       "detail": "J'attache une grande importance aux sorties entre amis, favorisant ainsi le partage d'idées et le maintien d'un bon équilibre personnel."
     }
   ],
-  "langues": {
-    "francais": "Natif",
-    "anglais": "Technique (Lecture doc, outils pros, rédaction rapports)"
-  }
+  "formations": [
+    {
+      "id": 1,
+      "diplome": "Diplôme d'ingénieur spécialité Sécurité et Technologies Informatiques (STI)",
+      "etablissement": "INSA Centre Val de Loire",
+      "lieu": "Bourges, France",
+      "periode": "2025 - 2028"
+    },
+    {
+      "id": 2,
+      "diplome": "Licence Informatique",
+      "etablissement": "Université de Caen Normandie",
+      "lieu": "Caen, France",
+      "periode": "2023 - 2025"
+    },
+    {
+      "id": 3,
+      "diplome": "Licence Sécurité Informatique",
+      "etablissement": "IFRI",
+      "lieu": "Bénin",
+      "periode": "2019 - 2022"
+    }
+  ]
 }
