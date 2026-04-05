@@ -17,8 +17,8 @@
       "missions": [
         "Auditer le SI et refondre l'architecture Wi-Fi universitaire (RBER) pour optimiser la redondance et l'isolation des flux.",
         "Déployer et configurer des équipements réseaux durcis pour réduire la surface d'attaque exposée.",
+        "Étendre et câbler l'infrastructure réseau du Ministère de l'Économie (tirage câbles, raccordement switchs, tests de connectivité)",
         "Animer des sessions de sensibilisation incluant des simulations d'attaques réelles pour les utilisateurs.",
-        "Conduire des audits de sécurité et rédiger les rapports de préconisations techniques.",
         "Cartographier l'existant informatique auprès des agents publics pour la modernisation du SI."
       ]
     },
