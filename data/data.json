@@ -133,10 +133,10 @@
     }
   ],
   "competences": {
-    "cybersecurite": ["Wazuh", "Suricata", "Pentesting", "Audit de Vulnérabilités", "Hardening (ANSSI)"],
-    "infrastructures_reseaux": ["Active Directory", "Supervision (Zabbix/SNMP)", "TCP/IP & VLAN", "Routage (OSPF/BGP)"],
-    "developpement_scripting": ["Python (Scraping/API)", "Langage C (Système)", "Java (POO)", "Bash/Shell", "Git"],
-    "systemes_virtualisation": ["Linux (Debian/Ubuntu)", "Windows Server 2022", "VMware ESXi", "Docker"]
+    "cybersecurite": ["Wazuh", "Splunk", "ELK", "Snort", "Suricata", "Pentesting", "Audit de Vulnérabilités", "Hardening", "Yara & Sigma"],
+    "infrastructures_reseaux": ["Active Directory", "Supervision (Nagios/Zabbix/SNMP)", "TCP/IP", "FortiGate", "pfSense", "Mikrotik", "Services IP (DHCP, DNS)", "Configuration LAN/WAN/VLAN", "Routage (RIP/OSPF/BGP)"],
+    "developpement_scripting": ["Python (Scraping/API)", "Langage C (Système)", "Java (POO)", "Bash/Shell", "PowerShell", "Web (HTML/CSS/PHP/JS)", "Git"],
+    "systemes_virtualisation": ["Linux (Gentoo/Ubuntu/Kali)", "Windows Server 2022/2025", "VMware ESXi", "VirtualBox", "Docker"]
   },
   "parcours_detaille": "Passionné par les infrastructures réseau et les systèmes, je conçois, déploie et administre des environnements IT robustes. Mes expériences terrain m'ont permis de développer une approche rigoureuse et orientée résultats. En parallèle, je me forme activement en cybersécurité offensive et défensive via TryHackMe et HackTheBox, afin d'intégrer la dimension sécurité au cœur de chaque infrastructure que je construis. Aujourd'hui, je cherche à relever des défis techniques ambitieux au sein d'une équipe où l'excellence opérationnelle est une priorité.",
   "certifications": [
