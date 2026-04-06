@@ -43,7 +43,7 @@
       "lieu": "Bénin",
       "missions": [
         "Cadrer les besoins et rédiger le cahier des charges pour le monitoring de l'infrastructure.",
-        "Déployer la solution EyesOfNetwork (SNMP) pour la supervision centralisée des services critiques.",
+        "Déployer la solution EyesOfNetwork pour la supervision centralisée des services critiques.",
         "Automatiser la détection des incidents réseaux et systèmes via des alertes proactives.",
         "Rédiger les procédures d'exploitation technique (SOP) pour garantir la résilience du SI."
       ]
