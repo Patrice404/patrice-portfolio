@@ -47,6 +47,35 @@
         "Automatiser la détection des incidents réseaux et systèmes via des alertes proactives.",
         "Rédiger les procédures d'exploitation technique (SOP) pour garantir la résilience du SI."
       ]
+    },
+    {
+      "id": 5,
+      "poste": "Développeur Web Front-End",
+      "entreprise": "Soft Services Agency",
+      "lieu": "Cotonou, Bénin",
+      "periode": "07/2020 - 09/2020",
+      "missions": [
+        "Concevoir et intégrer des interfaces web responsives (HTML5, CSS3, JavaScript) pour des clients institutionnels.",
+        "Contribuer au développement de la plateforme de l'Ordre National des Pharmaciens du Bénin (onpb.bj).",
+        "Travailler en mode projet au sein d'une équipe pluridisciplinaire (Design, Dev, Stratégie digitale)."
+      ]
+    }
+  ],
+  "autres_experiences": [
+    {
+      "id": 2,
+      "poste": "Auxiliaire de Vie — Garde et Assistance à Domicile",
+      "entreprise": "Le Loup Blanc · Vitalliance",
+      "lieu": "Caen/Bourges, France",
+      "periode": "12/2023 - Présent",
+      "missions": [
+        "Assurer une vigilance accrue et une réactivité immédiate lors de gardes nocturnes isolées.",
+        "Gestion de l'imprévu et prise de décision autonome en situation critique.",
+        "Rigueur absolue dans le respect des protocoles de sécurité et d'assistance.",
+        "Organisation et optimisation des tournées pour garantir la continuité du service.",
+        "Développement d'une forte capacité d'écoute et d'adaptation face à des interlocuteurs variés.",
+        "Fiabilité et discrétion professionnelle (respect strict de la confidentialité)."
+      ]
     }
   ],
   "realisations_techniques": [
@@ -133,8 +162,8 @@
     }
   ],
   "competences": {
-    "cybersecurite": ["Wazuh", "Splunk", "ELK", "Snort", "Suricata", "Pentesting", "Audit de Vulnérabilités", "Hardening", "Yara & Sigma"],
-    "infrastructures_reseaux": ["Active Directory", "Supervision (Nagios/Zabbix/SNMP)", "TCP/IP", "FortiGate", "pfSense", "Mikrotik", "Services IP (DHCP, DNS)", "Configuration LAN/WAN/VLAN", "Routage (RIP/OSPF/BGP)"],
+    "infrastructures_reseaux": ["Active Directory", "Supervision (EyesOfNetwork/Nagios/Zabbix/SNMP)", "TCP/IP", "FortiGate", "pfSense", "Mikrotik", "Cisco", "Services IP (DHCP, DNS)", "Configuration LAN/WAN/VLAN", "Routage (RIP/OSPF/BGP)"],
+    "cybersecurite": ["Wazuh", "Splunk", "ELK", "Snort", "Nessus", "Suricata", "Pentesting", "Audit de Vulnérabilités", "Hardening", "Yara & Sigma"],
     "developpement_scripting": ["Python (Scraping/API)", "Langage C (Système)", "Java (POO)", "Bash/Shell", "PowerShell", "Web (HTML/CSS/PHP/JS)", "Git"],
     "systemes_virtualisation": ["Linux (Gentoo/Ubuntu/Kali)", "Windows Server 2022/2025", "VMware ESXi", "VirtualBox", "Docker"]
   },
