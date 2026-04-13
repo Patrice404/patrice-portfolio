@@ -1,78 +1,261 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="fr" class="scroll-smooth">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Patrice COTCHO | Administrateur Systèmes & Réseaux</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Patrice COTCHO — Ingénieur Infrastructure & Cybersécurité</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 <body>
 
+  <!-- ==================== NAVBAR ==================== -->
+  <header class="navbar" id="navbar">
+    <nav class="nav-inner">
+      <a href="#hero" class="nav-logo">PC<span>.</span></a>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#projets"     class="nav-link">Projets</a></li>
+        <li><a href="#competences" class="nav-link">Compétences</a></li>
+        <li><a href="#experiences" class="nav-link">Expériences</a></li>
+        <li><a href="#parcours"    class="nav-link">Parcours</a></li>
+      </ul>
+      <a href="#contact" class="nav-cta">Contact</a>
+      <button class="nav-burger" id="nav-burger" aria-label="Ouvrir le menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
 
-    <header>
-        <nav class="container">
-            <div class="logo">P.<span>COTCHO</span></div>
-            <ul class="nav-links">
-                <li><a href="index.html" >Accueil</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="a-propos.html">Parcours</a></li>
-                <li><a href="contact.html" class="btn-contact">Me contacter</a></li>
-            </ul>
-        </nav>
-    </header>
+  <main>
 
-    <section class="hero">
-        <div class="container hero-grid">
-            <div class="hero-content">
-                <span class="badge">Recherche une alternance de 24 mois à partir de septembre 2026</span> 
-                <h2>Élève ingénieur en Sécurité & Technologies Informatiques à l'INSA Centre Val de Loire</h2> 
-                <p>Ingénieur en devenir spécialisé en infrastructure réseau et cybersécurité, je construis et sécurise des environnements IT robustes. Fort d'une expérience terrain en déploiement d'équipements réseau, supervision, support et gestion de projet IT, je cherche à mettre ces compétences au service d'une équipe technique ambitieuse.</p>
-                
-                <div class="hero-btns">
-                    <a href="portfolio.html" class="btn-primary">Voir mes réalisations</a>
-                    <a href="assets/CV_Patrice.pdf" class="btn-secondary" target="_blank">Télécharger mon CV</a>
-                </div>
-            </div>
-            
-            <div class="hero-profile">
-                <div class="photo-container">
-                    <img src="assets/img/photo.jpeg" alt="Patrice COTCHO" class="hero-photo">
-                </div>
-            </div>
+    <!-- ==================== HERO ==================== -->
+    <section id="hero" class="section-hero">
+      <div class="hero-inner container">
+
+        <div class="hero-left">
+          <div class="status-badge reveal" style="--delay:0ms">
+            <span class="status-dot"></span>
+            Disponible — Alternance 24 mois · Sept. 2026
+          </div>
+          <h1 class="hero-name reveal" style="--delay:80ms">
+            Patrice<br><span class="accent">COTCHO</span>
+          </h1>
+          <p class="hero-role reveal" style="--delay:160ms">
+            Ingénieur <span class="accent">Infrastructure & Cybersécurité</span>
+          </p>
+          <p class="hero-bio reveal" style="--delay:240ms">
+            Élève ingénieur STI à l'INSA Centre Val de Loire, je conçois et sécurise des infrastructures réseau depuis 2021, du déploiement terrain au Bénin jusqu'aux environnements de lab virtualisés sous VMware. Je cherche une alternance de 24 mois à partir de septembre 2026 dans un environnement techniquement exigeant, où chaque mission est une occasion de monter en compétence.
+          </p>
+          <div class="hero-ctas reveal" style="--delay:320ms">
+            <a href="#projets" class="btn-primary">Voir mes projets</a>
+            <a href="assets/CV_Patrice.pdf" target="_blank" class="btn-secondary">
+              <i class="fas fa-download"></i> Télécharger le CV
+            </a>
+          </div>
+          <div class="hero-tags reveal" style="--delay:400ms">
+            <span class="mono-tag">FortiGate</span>
+            <span class="mono-tag">pfSense</span>
+            <span class="mono-tag">Wazuh</span>
+            <span class="mono-tag">Active Directory</span>
+            <span class="mono-tag">Suricata</span>
+            <span class="mono-tag">VMware ESXi</span>
+          </div>
         </div>
+
+        <div class="hero-right reveal" style="--delay:200ms">
+          <div class="stat-panel">
+            <div class="stat-row">
+              <div class="stat-card">
+                <span class="stat-num" id="stat-exp">--</span>
+                <span class="stat-label">expériences</span>
+              </div>
+              <div class="stat-card">
+                <span class="stat-num" id="stat-proj">--</span>
+                <span class="stat-label">projets</span>
+              </div>
+            </div>
+            <div class="stat-card stat-card--wide">
+              <span class="stat-num">INSA CVL</span>
+              <span class="stat-label">Ingénieur STI · 2025 – 2028</span>
+            </div>
+            <div class="stat-card stat-card--accent">
+              <span class="stat-label">Rythme alternance</span>
+              <span class="stat-num-sm">2/3 Entreprise · 1/3 École</span>
+            </div>
+            <div class="profile-badge">
+              <div class="profile-img-wrap">
+                <img src="assets/img/photo.jpeg" alt="Patrice COTCHO" class="profile-img"
+                     onerror="this.parentElement.innerHTML='<span class=\'profile-initials\'>PC</span>'">
+              </div>
+              <div class="profile-info">
+                <span class="profile-name">Patrice COTCHO</span>
+                <span class="profile-loc"><i class="fas fa-location-dot"></i> Bourges · Mobile France</span>
+              </div>
+              <div class="profile-links">
+                <a href="https://www.linkedin.com/in/patrice-cotcho-a6a0571b3/" target="_blank" class="icon-link" title="LinkedIn">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://github.com/Patrice404" target="_blank" class="icon-link" title="GitHub">
+                  <i class="fab fa-github"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div class="hero-scroll-hint">
+        <span class="mono">scroll</span>
+        <i class="fas fa-arrow-down"></i>
+      </div>
     </section>
 
-   <section class="container" style="padding-top: 80px;">
-        <h2 class="section-title">Mes Domaines d'Intervention</h2>
-        
-        <div class="skills-preview">
-            <div class="skill-card fade-in">
-                <div class="icon">🛡️</div>
-                <h3>Sécurité Offensive & Défensive</h3>
-                <p>Maîtrise de la <strong>Blue Team</strong> via SIEM/XDR (Splunk, Wazuh) et détection NIDS. Expertise <strong>Red Team</strong> développée sur TryHackMe/HackTheBox : audit de vulnérabilités, tests d'intrusion et sécurisation des vecteurs d'attaque.</p>
-            </div>
-
-            <div class="skill-card fade-in">
-                <div class="icon">🌐</div>
-                <h3>Infrastructures & Réseaux</h3>
-                <p>Administration avancée <strong>Active Directory</strong>, gestion des services Core (DNS, DHCP) et segmentation <strong>VLAN</strong>. Supervision proactive via SNMP (Nagios/Centreon) pour garantir la haute disponibilité.</p>
-            </div>
-
-            <div class="skill-card fade-in">
-                <div class="icon">⚙️</div>
-                <h3>Systèmes & Automatisation</h3>
-                <p>Maîtrise <strong>Linux/Windows Server</strong> et virtualisation. Développement d'outils en <strong>Python</strong> (IA/Simulation) et programmation système bas-niveau en <strong>Langage C</strong>.</p>
-            </div>
+    <!-- ==================== PROJETS ==================== -->
+    <section id="projets" class="section-block">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-num mono">// 01</span>
+          <h2>Projets & Réalisations</h2>
+          <p>Mise en pratique concrète sur des environnements réels et simulés.</p>
         </div>
+        <div id="projects-grid" class="projects-grid"></div>
+      </div>
     </section>
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2026 Patrice COTCHO - Futur Ingénieur Infrastructure & Cybersécurité.</p>
+    <!-- ==================== COMPÉTENCES ==================== -->
+    <section id="competences" class="section-block">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-num mono">// 02</span>
+          <h2>Compétences Techniques</h2>
+          <p>Les technologies que je manipule au quotidien.</p>
         </div>
-    </footer>
+        <div id="skills-grid" class="skills-grid reveal"></div>
+      </div>
+    </section>
 
-    <script src="js/script.js"></script>
+    <!-- ==================== EXPÉRIENCES ==================== -->
+    <section id="experiences" class="section-block">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-num mono">// 03</span>
+          <h2>Expériences Professionnelles</h2>
+          <p>Terrain en infrastructure, réseau et sécurité.</p>
+        </div>
+        <div id="exp-list" class="timeline-wrap reveal"></div>
+      </div>
+    </section>
+
+    <!-- ==================== PARCOURS + CERTIFS ==================== -->
+    <section id="parcours" class="section-block">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-num mono">// 04</span>
+          <h2>Parcours & Certifications</h2>
+          <p>Formations académiques et reconnaissance sectorielle.</p>
+        </div>
+        <div class="parcours-grid reveal">
+          <div class="parcours-col">
+            <div class="col-label mono">Formations</div>
+            <div id="edu-list" class="timeline-wrap"></div>
+          </div>
+          <div class="parcours-col">
+            <div class="col-label mono">Certifications</div>
+            <div id="certif-list" class="certif-list"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==================== CONTACT ==================== -->
+    <section id="contact" class="section-block">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-num mono">// 05</span>
+          <h2>Me Contacter</h2>
+          <p>Discutons de vos besoins en infrastructure et de mon alternance.</p>
+        </div>
+        <div class="contact-grid reveal">
+
+          <div class="contact-info">
+            <p class="contact-intro">
+              Disponible pour une alternance de 24 mois à partir de septembre 2026,
+              rythme 2/3 entreprise — 1/3 école. N'hésitez pas à me joindre directement.
+            </p>
+            <div class="contact-items">
+              <div class="contact-item">
+                <span class="contact-icon"><i class="fas fa-map-marker-alt"></i></span>
+                <div>
+                  <strong>Localisation</strong>
+                  <span>Bourges, France (Mobile France)</span>
+                </div>
+              </div>
+              <div class="contact-item">
+                <span class="contact-icon"><i class="fas fa-envelope"></i></span>
+                <div>
+                  <strong>Email</strong>
+                  <span>patricecotcho@gmail.com</span>
+                </div>
+              </div>
+              <div class="contact-item">
+                <span class="contact-icon"><i class="fas fa-phone-alt"></i></span>
+                <div>
+                  <strong>Téléphone</strong>
+                  <span>06 01 00 20 41</span>
+                </div>
+              </div>
+            </div>
+            <div class="social-row">
+              <a href="https://www.linkedin.com/in/patrice-cotcho-a6a0571b3/" target="_blank" class="icon-link icon-link--lg" title="LinkedIn">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+              <a href="https://github.com/Patrice404" target="_blank" class="icon-link icon-link--lg" title="GitHub">
+                <i class="fab fa-github"></i>
+              </a>
+            </div>
+          </div>
+
+          <form action="https://formspree.io/f/maqbrgdl" method="POST" class="contact-form" id="contact-form">
+            <div class="field-group">
+              <label class="field-label mono" for="f-nom">nom_complet</label>
+              <input type="text" id="f-nom" name="nom" placeholder="Jean Dupont" required>
+            </div>
+            <div class="field-group">
+              <label class="field-label mono" for="f-email">email</label>
+              <input type="email" id="f-email" name="_replyto" placeholder="jean@exemple.com" required>
+            </div>
+            <div class="field-group">
+              <label class="field-label mono" for="f-msg">message</label>
+              <textarea id="f-msg" name="message" rows="5" placeholder="Votre message..." required></textarea>
+            </div>
+            <input type="hidden" name="_subject" value="Nouveau message — Portfolio Patrice COTCHO">
+            <div class="field-group recaptcha-wrap">
+              <div class="g-recaptcha" data-sitekey="6LfW-2gsAAAAALKdVx3R0a0aamiWH7vhpPNeSGTa"></div>
+            </div>
+            <button type="submit" class="btn-primary btn-full" id="submit-btn">
+              Envoyer le message <i class="fas fa-paper-plane"></i>
+            </button>
+            <p id="form-status" class="form-status"></p>
+          </form>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span class="mono">© 2026 Patrice COTCHO</span>
+      <span class="footer-sep">·</span>
+      <span>Futur Ingénieur IT & Cyber · INSA Centre Val de Loire</span>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
 </body>
 </html>
