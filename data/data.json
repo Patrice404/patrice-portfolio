@@ -99,7 +99,7 @@
     },
     {
       "id": 3,
-      "titre": "Infrastructure Windows Server 2022",
+      "titre": "Infrastructure Windows Server",
       "tags": ["Active Directory", "GPO", "VPN", "PowerShell"],
       "description": "Déployer une infrastructure AD complète : automatisation PowerShell des UOs/Users, sécurisation des accès distants (VPN RRAS/NPS) et gestion des politiques de sécurité centralisées (GPO).",
       "lien": "https://www.linkedin.com/in/patrice-cotcho-a6a0571b3/",
