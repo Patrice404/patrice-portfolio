@@ -12,7 +12,7 @@
       "id": 1,
       "poste": "Consultant Junior en Réseau & Cybersécurité",
       "entreprise": "Grafnet Sarl",
-      "lieu": "Bénin",
+      "lieu": "Cotonou, Bénin",
       "periode": "09/2022 - 03/2023",
       "missions": [
         "Auditer le SI et refondre l'architecture Wi-Fi universitaire (RBER) pour optimiser la redondance et l'isolation des flux.",
@@ -27,7 +27,7 @@
       "poste": "Support Informatique N1/N2 (MCO)",
       "entreprise": "Ministère des Affaires Étrangères",
       "periode": "10/2021 - 12/2021",
-      "lieu": "Bénin",
+      "lieu": "Cotonou, Bénin",
       "missions": [
         "Résoudre les incidents N1/N2 sur un parc Windows de 500+ postes (Maintien en Condition Opérationnelle).",
         "Durcir les OS (Hardening), intégrer les machines au domaine AD et déployer des solutions antivirus centralisées.",
@@ -40,7 +40,7 @@
       "poste": "Responsable de Projet IT – Supervision",
       "entreprise": "APDP",
       "periode": "03/2021 - 06/2021",
-      "lieu": "Bénin",
+      "lieu": "Cotonou, Bénin",
       "missions": [
         "Cadrer les besoins et rédiger le cahier des charges pour le monitoring de l'infrastructure.",
         "Déployer la solution EyesOfNetwork pour la supervision centralisée des services critiques.",
@@ -79,11 +79,11 @@
     }
   ],
   "realisations_techniques": [
-    {
+     {
       "id": 1,
-      "titre": "Architecture Réseau Sécurisée & MCO",
-      "tags": ["FortiGate", "pfSense", "Wazuh", "Zabbix", "GLPI", "API"],
-      "description": "Concevoir une infrastructure segmentée LAN/DMZ/SOC. Interconnecter Zabbix à GLPI via API pour automatiser le cycle de vie des incidents (Ticketing & Inventaire). Intégrer une stack SIEM/XDR (Wazuh + Suricata).",
+      "titre": "Infrastructure Réseau d'Entreprise Sécurisée — HomeTech Lab",
+      "tags": ["FortiGate", "pfSense", "Wazuh", "Suricata", "Zabbix", "GLPI", "Active Directory", "PKI/AD CS", "OpenVPN", "VMware", "Squid/SquidGuard", "SSSD/realmd"],
+      "description": "Déployer sous VMware une infrastructure d'entreprise en défense en profondeur : pare-feu en cascade FortiGate/pfSense, segmentation LAN/DMZ/SOC, Active Directory, PKI interne (AD CS), SIEM Wazuh + IDS Suricata, supervision Zabbix→GLPI automatisée et accès distant OpenVPN.",
       "lien": "https://www.linkedin.com/in/patrice-cotcho-a6a0571b3/",
       "image": "assets/img/network-security.jpg",
       "source": "LinkedIn"
@@ -91,7 +91,7 @@
     {
       "id": 2,
       "titre": "Moteur de Recherche d'Alternance (Bot Python)",
-      "tags": ["Python", "Selenium", "Web Scraping", "Discord Webhook"],
+      "tags": ["Python", "Selenium", "Web Scraping", "Matplotlib", "Discord Webhook"],
       "description": "Développer un robot de scraping capable d'agréger les offres de 5 plateformes majeures (LinkedIn, APEC, HelloWork, WTTJ, LBA) avec algorithme de scoring et notifications Discord en temps réel.",
       "lien": "https://github.com/Patrice404/alternance_search_engine",
       "image": "assets/img/bot.png",
@@ -127,7 +127,7 @@
     {
       "id": 6,
       "titre": "IA Tactique & Simulateur RTS",
-      "tags": ["Python", "IA", "Matplotlib"],
+      "tags": ["Python", "Pygame", "IA", "Matplotlib"],
       "description": "Concevoir un moteur de combat temps réel avec agents IA autonomes capables de micro-management et de gestion de formations tactiques (inspiré d'Age of Empires II).",
       "lien": "https://github.com/Patrice404/age_of_empire_ai_battle_simulation",
       "image": "assets/img/battle_sim.png",
@@ -136,7 +136,7 @@
     {
       "id": 7,
       "titre": "Moteur de Jeu Tactique & Design Patterns",
-      "tags": ["Java", "POO", "JUnit"],
+      "tags": ["Java", "POO", "Swing", "JUnit"],
       "description": "Concevoir un jeu de stratégie sur grille 2D en appliquant les Design Patterns structurants (State, Strategy, Factory) et valider la robustesse via tests unitaires JUnit.",
       "lien": "https://github.com/Patrice404/fightGame/",
       "image": "assets/img/fightgame.png",
@@ -145,7 +145,7 @@
     {
       "id": 8,
       "titre": "Planification Automatique (Blocks World)",
-      "tags": ["Java", "IA", "CSP"],
+      "tags": ["Java", "IA", "CSP", "Algorithmique"],
       "description": "Développer un système de planification via solveurs de contraintes (CSP) et algorithmes STRIPS pour la résolution de scénarios complexes de réorganisation spatiale.",
       "lien": "https://github.com/Patrice404/blocksword",
       "image": "assets/img/blocksworld.png",
