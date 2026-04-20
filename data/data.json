@@ -83,7 +83,7 @@
       "id": 1,
       "titre": "Infrastructure Réseau d'Entreprise Sécurisée — HomeTech Lab",
       "tags": ["FortiGate", "pfSense", "Wazuh", "Suricata", "Zabbix", "GLPI", "Active Directory", "PKI/AD CS", "OpenVPN", "VMware", "Squid/SquidGuard", "SSSD/realmd"],
-      "description": "Déployer sous VMware une infrastructure d'entreprise en défense en profondeur : pare-feu en cascade FortiGate/pfSense, segmentation LAN/DMZ/SOC, Active Directory, PKI interne (AD CS), SIEM Wazuh + IDS Suricata, supervision Zabbix→GLPI automatisée et accès distant OpenVPN.",
+      "description": "Déployer sous VMware une infrastructure réseau : pare-feu FortiGate/pfSense, segmentation LAN/DMZ/SOC, Active Directory, PKI interne, SIEM Wazuh + IDS Suricata, supervision Zabbix→GLPI automatisée et accès distant OpenVPN.",
       "lien": "https://www.linkedin.com/in/patrice-cotcho-a6a0571b3/",
       "image": "assets/img/network-security.jpg",
       "source": "LinkedIn"
