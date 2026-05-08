@@ -8,6 +8,7 @@
     "localisation": "Mobile France"
   },
   "experiences_pro": [
+
     {
       "id": 1,
       "poste": "Consultant Junior en Réseau & Cybersécurité",
@@ -31,8 +32,9 @@
       "missions": [
         "Résoudre les incidents N1/N2 sur un parc Windows de 500+ postes (Maintien en Condition Opérationnelle).",
         "Durcir les OS (Hardening), intégrer les machines au domaine AD et déployer des solutions antivirus centralisées.",
-        "Accompagner et former les utilisateurs pour optimiser l'autonomie et réduire le volume de tickets.",
-        "Assurer la continuité de service des agents via une maintenance proactive du parc informatique."
+        "Accompagner et former les utilisateurs finaux aux bonnes pratiques informatiques.",
+        "Assurer la continuité de service des agents via une maintenance proactive du parc informatique.",
+        "Rédiger des documentations techniques d'intervention et des guides utilisateurs pour favoriser l'autonomie."
       ]
     },
     {
@@ -79,17 +81,26 @@
     }
   ],
   "realisations_techniques": [
-     {
+    {
       "id": 1,
-      "titre": "Infrastructure Réseau d'Entreprise Sécurisée — HomeTech Lab",
-      "tags": ["FortiGate", "pfSense", "Wazuh", "Suricata", "Zabbix", "GLPI", "Active Directory", "PKI/AD CS", "OpenVPN", "VMware", "Squid/SquidGuard", "SSSD/realmd"],
-      "description": "Déployer sous VMware une infrastructure réseau : pare-feu FortiGate/pfSense, segmentation LAN/DMZ/SOC, Active Directory, PKI interne, SIEM Wazuh + IDS Suricata, supervision Zabbix→GLPI automatisée et accès distant OpenVPN.",
-      "lien": "https://www.linkedin.com/in/patrice-cotcho-a6a0571b3/",
-      "image": "assets/img/network-security.jpg",
-      "source": "LinkedIn"
+      "titre": "Étude Stratégique : Souveraineté Cloud & Conformité Européenne",
+      "tags": ["Souveraineté Numérique", "Conformité", "RGPD", "NIS2", "DORA", "Cloud Act", "Recherche"],
+      "description": "Rédaction d'une étude analytique sur les enjeux de cyber-résilience européenne face à la domination des hyperscalers américains. Analyse des cadres réglementaires (NIS2, DORA, RGPD) et confrontation avec la réalité du terrain via des entretiens ciblés avec des experts.",
+      "lien": "assets/docs/Etude_Souverainete_Patrice_Cotcho.pdf",
+      "image": "assets/img/cloud_compliance.jpg",
+      "source": "Recherche"
     },
     {
       "id": 2,
+      "titre": "Infrastructure Réseau d'Entreprise Sécurisée — HomeTech Lab",
+      "tags": ["AD", "FortiGate", "pfSense", "Wazuh", "Suricata", "Zabbix", "GLPI", "PKI/AD CS", "OpenVPN", "Squid"],
+      "description": "Déployer sous VMware une infrastructure réseau : pare-feu FortiGate/pfSense, segmentation LAN/DMZ/SOC, Active Directory, PKI interne, SIEM Wazuh + IDS Suricata, supervision Zabbix→GLPI automatisée et accès distant OpenVPN.",
+      "lien": "assets/docs/Infra_Réseau_Phase1_Patrice_Cotcho.pdf",
+      "image": "assets/img/network-security.jpg",
+      "source": "Lab"
+    },
+    {
+      "id": 3,
       "titre": "Moteur de Recherche d'Alternance (Bot Python)",
       "tags": ["Python", "Selenium", "Web Scraping", "Matplotlib", "Discord Webhook"],
       "description": "Développer un robot de scraping capable d'agréger les offres de 5 plateformes majeures (LinkedIn, APEC, HelloWork, WTTJ, LBA) avec algorithme de scoring et notifications Discord en temps réel.",
@@ -98,25 +109,25 @@
       "source": "Github"
     },
     {
-      "id": 3,
+      "id": 4,
       "titre": "Infrastructure Windows Server",
       "tags": ["Active Directory", "GPO", "VPN", "PowerShell"],
       "description": "Déployer une infrastructure AD complète : automatisation PowerShell des UOs/Users, sécurisation des accès distants (VPN RRAS/NPS) et gestion des politiques de sécurité centralisées (GPO).",
-      "lien": "https://www.linkedin.com/in/patrice-cotcho-a6a0571b3/",
+      "lien": "assets/docs/Infra_Windows_Server_Patrice_Cotcho.pdf",
       "image": "assets/img/windows-server.png",
-      "source": "LinkedIn"
-    },
-    {
-      "id": 4,
-      "titre": "Plateforme SIEM & XDR – PoC Wazuh",
-      "tags": ["AD", "Wazuh", "Cybersecurity", "Suricata"],
-      "description": "Déployer une plateforme de sécurité unifiée en environnement hybride : corrélation d'événements, analyse de vulnérabilités et activation de mécanismes de réponse active.",
-      "lien": "https://www.linkedin.com/in/patrice-cotcho-a6a0571b3/",
-      "image": "assets/img/wazuh.png",
-      "source": "LinkedIn"
+      "source": "Lab"
     },
     {
       "id": 5,
+      "titre": "Plateforme SIEM & XDR – PoC Wazuh",
+      "tags": ["AD", "Wazuh", "Cybersecurity", "Suricata"],
+      "description": "Déployer une plateforme de sécurité unifiée en environnement hybride : corrélation d'événements, analyse de vulnérabilités et activation de mécanismes de réponse active.",
+      "lien": "assets/docs/POC_Wazuh_Patrice_Cotcho.pdf",
+      "image": "assets/img/wazuh.png",
+      "source": "Lab"
+    },
+    {
+      "id": 6,
       "titre": "Mini-GLIBC & Shell UNIX (Bas Niveau)",
       "tags": ["Langage C", "Système", "Processus"],
       "description": "Réimplémenter les fonctions système (malloc, printf) et développer un shell UNIX gérant les processus (fork/wait) et les redirections de flux. Expertise en gestion mémoire.",
@@ -125,7 +136,7 @@
       "source": "Github"
     },
     {
-      "id": 6,
+      "id": 7,
       "titre": "IA Tactique & Simulateur RTS",
       "tags": ["Python", "Pygame", "IA", "Matplotlib"],
       "description": "Concevoir un moteur de combat temps réel avec agents IA autonomes capables de micro-management et de gestion de formations tactiques (inspiré d'Age of Empires II).",
@@ -134,7 +145,7 @@
       "source": "Github"
     },
     {
-      "id": 7,
+      "id": 8,
       "titre": "Moteur de Jeu Tactique & Design Patterns",
       "tags": ["Java", "POO", "Swing", "JUnit"],
       "description": "Concevoir un jeu de stratégie sur grille 2D en appliquant les Design Patterns structurants (State, Strategy, Factory) et valider la robustesse via tests unitaires JUnit.",
@@ -143,7 +154,7 @@
       "source": "Github"
     },
     {
-      "id": 8,
+      "id": 9,
       "titre": "Planification Automatique (Blocks World)",
       "tags": ["Java", "IA", "CSP", "Algorithmique"],
       "description": "Développer un système de planification via solveurs de contraintes (CSP) et algorithmes STRIPS pour la résolution de scénarios complexes de réorganisation spatiale.",
@@ -152,7 +163,7 @@
       "source": "Github"
     },
     {
-      "id": 9,
+      "id": 10,
       "titre": "Générateur Procédural L-Systèmes",
       "tags": ["Java", "Algorithmique", "3D"],
       "description": "Modéliser des structures biologiques complexes via des interpréteurs de règles stochastiques et un moteur de rendu hybride 2D/3D.",
@@ -163,7 +174,7 @@
   ],
   "competences": {
     "infrastructures_reseaux": ["Active Directory (GPO, PKI, IAM)", "Supervision (EyesOfNetwork/Nagios/Zabbix/SNMP)", "FortiGate", "pfSense", "Mikrotik", "Cisco", "Services IP (DHCP, DNS)", "Configuration LAN/WAN/VLAN", "Routage (RIP/OSPF/BGP)"],
-    "cybersecurite": ["Wazuh", "Splunk", "ELK", "Snort", "Nessus", "Suricata", "Pentesting", "Audit de Vulnérabilités", "Hardening", "Yara & Sigma"],
+    "cybersecurite": ["Wazuh", "Splunk", "ELK", "Snort", "Nessus", "Suricata", "Burp Suite", "Nmap", "Metasploit", "BloodHound", "SQLmap", "Hydra", "Hashcat", "Aircrack-ng", "Audit de Vulnérabilités", "Hardening", "Yara & Sigma"],
     "developpement_scripting": ["Python (Scraping/API)", "Langage C (Système)", "Java (POO)", "Bash/Shell", "PowerShell", "Ansible", "Terraform", "Web (HTML/CSS/PHP/JS)", "Git"],
     "systemes_virtualisation": ["Linux (Gentoo/Ubuntu/Kali/Debian/Rocky)", "Windows Server 2022/2025", "VMware ESXi", "VirtualBox", "Proxmox", "Docker"]
   },
