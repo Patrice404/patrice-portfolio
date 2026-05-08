@@ -56,10 +56,34 @@ function renderProjects(projects) {
   if (!el || !projects) return;
 
   el.innerHTML = projects.map((p, i) => {
-    const isGH = p.source?.toLowerCase() === 'github';
-    const sourceClass = isGH ? 'source--github' : 'source--linkedin';
-    const sourceIcon  = isGH ? 'fa-github' : 'fa-linkedin';
-    const linkLabel   = isGH ? 'Voir le code' : 'Voir la publication';
+    const source = p.source?.toLowerCase();
+    
+    // Configuration par défaut
+    let sourceClass = 'source--default';
+    let sourceIcon = 'fa-external-link-alt';
+    let linkLabel = 'Voir le projet';
+    let isDownload = false;
+
+    // Personnalisation selon la source
+    if (source === 'github') {
+      sourceClass = 'source--github';
+      sourceIcon = 'fa-github';
+      linkLabel = 'Voir le code';
+    } else if (source === 'linkedin') {
+      sourceClass = 'source--linkedin';
+      sourceIcon = 'fa-linkedin';
+      linkLabel = 'Voir la publication';
+    } else if (source === 'recherche') {
+      sourceClass = 'source--research'; 
+      sourceIcon = 'fa-globe';       
+      linkLabel = 'Télécharger l\'étude';
+      isDownload = true;               
+    } else if (source === 'tp' || source === 'lab') {
+      sourceClass = 'source--tp'; 
+      sourceIcon = 'fa-terminal'; 
+      linkLabel = 'Télécharger le compte-rendu';
+      isDownload = true; 
+    }
 
     return `
       <div class="proj-card" style="transition-delay:${i * 60}ms">
@@ -72,7 +96,7 @@ function renderProjects(projects) {
             onerror="this.style.opacity='0'"
           >
           <span class="proj-source-badge ${sourceClass}">
-            <i class="fab ${sourceIcon}"></i>${p.source}
+            <i class="${sourceIcon.includes('github') || sourceIcon.includes('linkedin') ? 'fab' : 'fas'} ${sourceIcon}"></i> ${p.source}
           </span>
         </div>
         <div class="proj-body">
@@ -82,8 +106,12 @@ function renderProjects(projects) {
           </div>
           <p class="proj-desc">${p.description}</p>
           ${p.lien && p.lien !== '#' ? `
-            <a href="${p.lien}" target="_blank" rel="noopener noreferrer" class="proj-link">
-              <i class="fab ${sourceIcon}"></i>${linkLabel}
+            <a href="${p.lien}" 
+               target="_blank" 
+               rel="noopener noreferrer" 
+               class="proj-link"
+               ${isDownload ? `download="${p.titre}.pdf"` : ''}>
+              <i class="${sourceIcon.includes('github') || sourceIcon.includes('linkedin')  ? 'fab' : 'fas'} ${sourceIcon}"></i> ${linkLabel}
             </a>
           ` : ''}
         </div>
@@ -362,3 +390,6 @@ function initContactForm() {
     }
   });
 }
+
+
+
