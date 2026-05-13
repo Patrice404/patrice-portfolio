@@ -102,6 +102,9 @@
                 <a href="https://github.com/Patrice404" target="_blank" class="icon-link" title="GitHub">
                   <i class="fab fa-github"></i>
                 </a>
+                <a href="https://tryhackme.com/p/zd" target="_blank" class="icon-link" title="Try Hack Me">
+                  <img src="assets/img/thm.svg" alt="HTB" style="width: 1em; height: 1em; filter: grayscale(100%);">
+                </a>
               </div>
             </div>
           </div>
@@ -156,21 +159,23 @@
         <div class="section-header reveal">
           <span class="section-num mono">// 04</span>
           <h2>Parcours & Certifications</h2>
-          <p>Formations académiques et reconnaissance sectorielle.</p>
+          <p>Formations académiques et preuves sectorielles.</p>
         </div>
         <div class="parcours-grid reveal">
+          
           <div class="parcours-col">
-            <div class="col-label mono">Formations</div>
-            <div id="edu-list" class="timeline-wrap"></div>
+            <div class="col-label mono">Formation Académique</div>
+            <div id="edu-grid" class="cards-col-grid"></div>
           </div>
+          
           <div class="parcours-col">
-            <div class="col-label mono">Certifications</div>
-            <div id="certif-list" class="certif-list"></div>
+            <div class="col-label mono">Certifications Sectorielles</div>
+            <div id="certif-grid" class="cards-col-grid"></div>
           </div>
+
         </div>
       </div>
     </section>
-
     <!-- ==================== CONTACT ==================== -->
     <section id="contact" class="section-block">
       <div class="container">
@@ -216,6 +221,9 @@
               <a href="https://github.com/Patrice404" target="_blank" class="icon-link icon-link--lg" title="GitHub">
                 <i class="fab fa-github"></i>
               </a>
+              <a href="https://tryhackme.com/p/zd" target="_blank" class="icon-link" title="Try Hack Me">
+                  <img src="assets/img/thm.svg" alt="HTB" style="width: 1em; height: 1em; filter: grayscale(100%);">
+              </a>
             </div>
           </div>
 
@@ -255,6 +263,13 @@
       <span>Futur Ingénieur IT & Cyber · INSA Centre Val de Loire</span>
     </div>
   </footer>
+
+  <!-- ==================== LIGHTBOX ==================== -->
+  <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+    <span class="lightbox-close">&times;</span>
+    <img class="lightbox-img" id="lightbox-img" src="" alt="Preuve documentaire" onclick="event.stopPropagation()">
+    <div class="lightbox-caption" id="lightbox-caption"></div>
+  </div>
 
   <script src="js/script.js"></script>
 </body>

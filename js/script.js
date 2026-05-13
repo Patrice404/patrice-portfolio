@@ -65,6 +65,7 @@ function renderProjects(projects) {
     let isDownload = false;
 
     // Personnalisation selon la source
+    // Personnalisation selon la source
     if (source === 'github') {
       sourceClass = 'source--github';
       sourceIcon = 'fa-github';
@@ -77,10 +78,10 @@ function renderProjects(projects) {
       sourceClass = 'source--research'; 
       sourceIcon = 'fa-globe';       
       linkLabel = 'Télécharger l\'étude';
-      isDownload = true;               
+      isDownload = true;                
     } else if (source === 'tp' || source === 'lab') {
       sourceClass = 'source--tp'; 
-      sourceIcon = 'fa-terminal'; 
+      sourceIcon = 'fa-terminal'; // Icône de terminal pour l'aspect technique
       linkLabel = 'Télécharger le compte-rendu';
       isDownload = true; 
     }
@@ -111,7 +112,7 @@ function renderProjects(projects) {
                rel="noopener noreferrer" 
                class="proj-link"
                ${isDownload ? `download="${p.titre}.pdf"` : ''}>
-              <i class="${sourceIcon.includes('github') || sourceIcon.includes('linkedin')  ? 'fab' : 'fas'} ${sourceIcon}"></i> ${linkLabel}
+              <i class="${sourceIcon.includes('github') || sourceIcon.includes('linkedin') ? 'fab' : 'fas'} ${sourceIcon}"></i> ${linkLabel}
             </a>
           ` : ''}
         </div>
@@ -119,7 +120,6 @@ function renderProjects(projects) {
     `;
   }).join('');
 }
-
 /* ============================================================
    RENDER — COMPÉTENCES
    ============================================================ */
@@ -207,15 +207,24 @@ function renderExperiences(exps, autres) {
    RENDER — FORMATIONS (timeline)
    ============================================================ */
 function renderEducation(formations) {
-  const el = document.getElementById('edu-list');
+  const el = document.getElementById('edu-grid');
   if (!el || !formations) return;
 
   el.innerHTML = formations.map(f => `
-    <div class="tl-item">
-      <div class="tl-dot"></div>
-      <span class="tl-period">${f.periode}</span>
-      <h3 class="tl-title">${f.diplome}</h3>
-      <p class="tl-sub">${f.etablissement} · ${f.lieu}</p>
+    <div class="proof-card" onclick="openLightbox('${f.image || 'assets/img/placeholder.jpg'}', '${f.diplome.replace(/'/g, "\\'")}')">
+      <div class="proof-img-wrap">
+        <img src="${f.image || 'assets/img/placeholder.jpg'}" alt="${f.diplome}" class="proof-img" loading="lazy">
+        <div class="proof-overlay">
+          <span class="proof-overlay-btn"><i class="fas fa-expand"></i> Voir le diplôme</span>
+        </div>
+      </div>
+      <div class="proof-body">
+        <div class="proof-meta">
+          <span class="proof-org">${f.etablissement}</span>
+          <span class="proof-date">${f.periode}</span>
+        </div>
+        <h3 class="proof-title">${f.diplome}</h3>
+      </div>
     </div>
   `).join('');
 }
@@ -224,19 +233,59 @@ function renderEducation(formations) {
    RENDER — CERTIFICATIONS
    ============================================================ */
 function renderCertifs(certifs) {
-  const el = document.getElementById('certif-list');
+  const el = document.getElementById('certif-grid');
   if (!el || !certifs) return;
 
   el.innerHTML = certifs.map(c => `
-    <div class="certif-item">
-      <div>
-        <div class="certif-name">${c.nom}</div>
-        <div class="certif-org">${c.entreprise}</div>
+    <div class="proof-card" onclick="openLightbox('${c.image || 'assets/img/placeholder.jpg'}', '${c.nom.replace(/'/g, "\\'")}')">
+      <div class="proof-img-wrap">
+        <img src="${c.image || 'assets/img/placeholder.jpg'}" alt="${c.nom}" class="proof-img" loading="lazy">
+        <div class="proof-overlay">
+          <span class="proof-overlay-btn"><i class="fas fa-expand"></i> Voir la certification</span>
+        </div>
       </div>
-      <span class="certif-year">${c.date}</span>
+      <div class="proof-body">
+        <div class="proof-meta">
+          <span class="proof-org">${c.entreprise}</span>
+          <span class="proof-date">${c.date}</span>
+        </div>
+        <h3 class="proof-title">${c.nom}</h3>
+      </div>
     </div>
   `).join('');
 }
+
+/* ============================================================
+   UI — LIGHTBOX
+   ============================================================ */
+window.openLightbox = function(imgSrc, caption) {
+  const lb = document.getElementById('lightbox');
+  const img = document.getElementById('lightbox-img');
+  const cap = document.getElementById('lightbox-caption');
+  
+  if (!lb || !img) return;
+  
+  img.src = imgSrc;
+  if (cap) cap.textContent = caption;
+  
+  lb.classList.add('active');
+  // Bloque le scroll de la page quand la lightbox est ouverte
+  document.body.style.overflow = 'hidden';
+};
+
+window.closeLightbox = function() {
+  const lb = document.getElementById('lightbox');
+  if (!lb) return;
+  
+  lb.classList.remove('active');
+  // Réactive le scroll de la page
+  document.body.style.overflow = '';
+};
+
+// Fermer la lightbox avec la touche Échap
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') closeLightbox();
+});
 
 /* ============================================================
    RENDER — PASSIONS

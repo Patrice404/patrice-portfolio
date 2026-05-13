@@ -81,15 +81,7 @@
     }
   ],
   "realisations_techniques": [
-    {
-      "id": 1,
-      "titre": "Étude Stratégique : Souveraineté Cloud & Conformité Européenne",
-      "tags": ["Souveraineté Numérique", "Conformité", "RGPD", "NIS2", "DORA", "Cloud Act", "Recherche"],
-      "description": "Rédaction d'une étude analytique sur les enjeux de cyber-résilience européenne face à la domination des hyperscalers américains. Analyse des cadres réglementaires (NIS2, DORA, RGPD) et confrontation avec la réalité du terrain via des entretiens ciblés avec des experts.",
-      "lien": "assets/docs/Etude_Souverainete_Patrice_Cotcho.pdf",
-      "image": "assets/img/cloud_compliance.jpg",
-      "source": "Recherche"
-    },
+ 
     {
       "id": 2,
       "titre": "Infrastructure Réseau d'Entreprise Sécurisée — HomeTech Lab",
@@ -180,25 +172,24 @@
   },
   "parcours_detaille": "Passionné par les infrastructures réseau et les systèmes, je conçois, déploie et administre des environnements IT robustes. Mes expériences terrain m'ont permis de développer une approche rigoureuse et orientée résultats. En parallèle, je me forme activement en cybersécurité offensive et défensive via TryHackMe et HackTheBox, afin d'intégrer la dimension sécurité au cœur de chaque infrastructure que je construis. Aujourd'hui, je cherche à relever des défis techniques ambitieux au sein d'une équipe où l'excellence opérationnelle est une priorité.",
   "certifications": [
-    {
-      "nom": "HTB CDSA (Training Completed)",
-      "date": "2026",
-      "entreprise": "Hack The Box"
-    },
+   
     {
       "nom": "Networking Basics",
       "date": "2025",
-      "entreprise": "Cisco Networking Academy"
+      "entreprise": "Cisco Networking Academy",
+      "image" : "assets/img/cisco_nb.png"
     },
     {
       "nom": "SecNumAcadémie",
       "date": "2021",
-      "entreprise": "ANSSI"
+      "entreprise": "ANSSI",
+      "image" : "assets/img/secnumacademie.png"
     },
     {
       "nom": "Advent of Cyber",
       "date": "2021",
-      "entreprise": "TryHackMe"
+      "entreprise": "TryHackMe",
+      "image" : "assets/img/thm_aoc.jpeg"
     }
   ],
   "passions": [
@@ -221,21 +212,24 @@
       "diplome": "Diplôme d'ingénieur spécialité Sécurité et Technologies Informatiques (STI)",
       "etablissement": "INSA Centre Val de Loire",
       "lieu": "Bourges, France",
-      "periode": "2025 - 2028"
+      "periode": "2025 - 2028",
+      "image" : "assets/img/insa_ingenieur.jpg"
     },
     {
       "id": 2,
       "diplome": "Licence Informatique",
       "etablissement": "Université de Caen Normandie",
       "lieu": "Caen, France",
-      "periode": "2023 - 2025"
+      "periode": "2023 - 2025",
+      "image" : "assets/img/caen_licence.png"
     },
     {
       "id": 3,
       "diplome": "Licence Sécurité Informatique",
       "etablissement": "IFRI",
       "lieu": "Bénin",
-      "periode": "2019 - 2022"
+      "periode": "2019 - 2022",
+      "image" : "assets/img/ifri_licence.png"
     }
   ]
 }
