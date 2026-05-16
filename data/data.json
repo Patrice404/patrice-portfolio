@@ -1,235 +1,300 @@
 {
   "profil": {
     "nom": "Patrice COTCHO",
-    "titre": "Alternant Ingénieur Systèmes, Réseaux et Cybersécurité",
+    "titre": "Élève Ingénieur Infrastructure, Cloud & Sécurité",
     "ecole": "INSA Centre Val de Loire",
-    "recherche": "Alternance de 24 mois en infrastructure IT / Cybersécurité",
+    "recherche": "Alternance de 24 mois en Infrastructure Cloud, Platform Engineering ou DevSecOps",
     "rythme": "5 à 7 semaines consécutives (2/3 Entreprise, 1/3 École)",
-    "localisation": "Mobile France"
+    "localisation": "Mobile France",
+    "description": "Je conçois et sécurise des infrastructures hybrides modernes combinant systèmes, réseau, cloud et automatisation. Mes projets s’articulent autour du Platform Engineering, du DevSecOps et de l’observabilité des systèmes : Infrastructure as Code, supervision, SIEM, PKI, automatisation et cloud hybride."
   },
-  "experiences_pro": [
 
+  "experiences_pro": [
     {
       "id": 1,
-      "poste": "Consultant Junior en Réseau & Cybersécurité",
+      "poste": "Consultant Junior Réseau & Sécurité",
       "entreprise": "Grafnet Sarl",
       "lieu": "Cotonou, Bénin",
       "periode": "09/2022 - 03/2023",
       "missions": [
-        "Auditer le SI et refondre l'architecture Wi-Fi universitaire (RBER) pour optimiser la redondance et l'isolation des flux.",
-        "Déployer et configurer des équipements réseaux durcis pour réduire la surface d'attaque exposée.",
-        "Étendre et câbler l'infrastructure réseau du Ministère de l'Économie (tirage câbles, raccordement switchs, tests de connectivité)",
-        "Animer des sessions de sensibilisation incluant des simulations d'attaques réelles pour les utilisateurs.",
-        "Cartographier l'existant informatique auprès des agents publics pour la modernisation du SI."
+        "Auditer le SI et participer à la refonte de l’architecture Wi-Fi universitaire (RBER) afin d’améliorer la redondance et l’isolation des flux.",
+        "Déployer et configurer des équipements réseaux durcis pour réduire la surface d’attaque exposée.",
+        "Participer à l’extension et à la mise en production d’infrastructures réseau critiques dans un contexte institutionnel.",
+        "Cartographier l’existant informatique dans le cadre de projets de modernisation du SI.",
+        "Animer des sessions de sensibilisation à la cybersécurité pour les utilisateurs."
       ]
     },
+
     {
       "id": 2,
-      "poste": "Support Informatique & Exploitation (N1/N2)",
+      "poste": "Technicien Exploitation & Administration Systèmes",
       "entreprise": "Ministère des Affaires Étrangères",
       "periode": "10/2021 - 12/2021",
       "lieu": "Cotonou, Bénin",
       "missions": [
-        "Résoudre les incidents N1/N2 sur un parc Windows de 500+ postes (Maintien en Condition Opérationnelle).",
-        "Durcir les OS (Hardening), intégrer les machines au domaine AD et déployer des solutions antivirus centralisées.",
-        "Accompagner et former les utilisateurs finaux aux bonnes pratiques informatiques.",
-        "Assurer la continuité de service des agents via une maintenance proactive du parc informatique.",
-        "Rédiger des documentations techniques d'intervention et des guides utilisateurs pour favoriser l'autonomie."
+        "Maintenir en condition opérationnelle un parc Windows de plus de 500 postes.",
+        "Résoudre les incidents N1/N2 et participer à l’administration des postes de travail.",
+        "Durcir les systèmes Windows, intégrer les machines au domaine Active Directory et déployer des solutions antivirus centralisées.",
+        "Assurer la continuité de service via une maintenance proactive du parc informatique.",
+        "Rédiger des procédures techniques et guides utilisateurs afin d’améliorer l’efficacité opérationnelle."
       ]
     },
+
     {
-      "id": 4,
+      "id": 3,
       "poste": "Responsable de Projet IT – Supervision",
       "entreprise": "APDP",
       "periode": "03/2021 - 06/2021",
       "lieu": "Cotonou, Bénin",
       "missions": [
-        "Cadrer les besoins et rédiger le cahier des charges pour le monitoring de l'infrastructure.",
+        "Cadrer les besoins et rédiger le cahier des charges pour la supervision de l’infrastructure.",
         "Déployer la solution EyesOfNetwork pour la supervision centralisée des services critiques.",
-        "Automatiser la détection des incidents réseaux et systèmes via des alertes proactives.",
-        "Rédiger les procédures d'exploitation technique (SOP) pour garantir la résilience du SI."
-      ]
-    },
-    {
-      "id": 5,
-      "poste": "Développeur Web Front-End",
-      "entreprise": "Soft Services Agency",
-      "lieu": "Cotonou, Bénin",
-      "periode": "07/2020 - 09/2020",
-      "missions": [
-        "Concevoir et intégrer des interfaces web responsives (HTML5, CSS3, JavaScript) pour des clients institutionnels.",
-        "Contribuer au développement de la plateforme de l'Ordre National des Pharmaciens du Bénin (onpb.bj).",
-        "Travailler en mode projet au sein d'une équipe pluridisciplinaire (Design, Dev, Stratégie digitale)."
+        "Automatiser la détection d’incidents via des alertes proactives.",
+        "Rédiger les procédures d’exploitation technique afin de renforcer la résilience du SI."
       ]
     }
   ],
+
   "autres_experiences": [
     {
-      "id": 2,
+      "id": 1,
       "poste": "Auxiliaire de Vie — Garde et Assistance à Domicile",
       "entreprise": "Le Loup Blanc · Vitalliance",
-      "lieu": "Caen/Bourges, France",
+      "lieu": "Caen / Bourges, France",
       "periode": "12/2023 - Présent",
       "missions": [
-        "Assurer une vigilance accrue et une réactivité immédiate lors de gardes nocturnes isolées.",
-        "Gestion de l'imprévu et prise de décision autonome en situation critique.",
-        "Rigueur absolue dans le respect des protocoles de sécurité et d'assistance.",
-        "Organisation et optimisation des tournées pour garantir la continuité du service.",
-        "Développement d'une forte capacité d'écoute et d'adaptation face à des interlocuteurs variés.",
-        "Fiabilité et discrétion professionnelle (respect strict de la confidentialité)."
+        "Assurer une vigilance constante et une réactivité immédiate en situation critique.",
+        "Faire preuve d’autonomie et de rigueur dans des contextes exigeants.",
+        "Respecter des protocoles stricts et garantir la continuité du service.",
+        "Développer des capacités d’écoute, d’adaptation et de gestion des imprévus."
       ]
     }
   ],
+
   "realisations_techniques": [
- 
+
     {
-      "id": 2,
-      "titre": "Infrastructure Réseau d'Entreprise Sécurisée — HomeTech Lab",
-      "tags": ["AD", "FortiGate", "pfSense", "Wazuh", "Suricata", "Zabbix", "GLPI", "PKI/AD CS", "OpenVPN", "Squid"],
-      "description": "Déployer sous VMware une infrastructure réseau : pare-feu FortiGate/pfSense, segmentation LAN/DMZ/SOC, Active Directory, PKI interne, SIEM Wazuh + IDS Suricata, supervision Zabbix→GLPI automatisée et accès distant OpenVPN.",
+      "id": 1,
+      "titre": "Infrastructure Réseau & Sécurité d’Entreprise — HomeTech Lab (Phase 1)",
+      "tags": [
+        "FortiGate",
+        "pfSense",
+        "Active Directory",
+        "Wazuh",
+        "Suricata",
+        "Zabbix",
+        "GLPI",
+        "PKI",
+        "OpenVPN",
+        "VMware"
+      ],
+      "description": "Conception sous VMware d’une infrastructure d’entreprise segmentée (LAN/DMZ/SOC) intégrant firewalling FortiGate/pfSense, Active Directory, PKI interne, supervision Zabbix, SIEM Wazuh, IDS Suricata et automatisation du traitement des incidents.",
       "lien": "assets/docs/Infra_Réseau_Phase1_Patrice_Cotcho.pdf",
       "image": "assets/img/network-security.jpg",
       "source": "Lab"
     },
+
+    {
+      "id": 2,
+      "titre": "Infrastructure Multi-Sites Automatisée — HomeTech Lab (Phase 2)",
+      "tags": [
+        "Terraform",
+        "Ansible",
+        "Azure",
+        "Vault",
+        "Docker",
+        "Proxmox",
+        "GitOps",
+        "Elastic Stack",
+        "OPNsense",
+        "Automation"
+      ],
+      "description": "Extension de l’infrastructure HomeTech Lab vers une architecture hybride multi-sites interconnectée combinant Proxmox, Azure et automatisation complète via Terraform, Ansible, Vault, Docker et GitOps. Déploiement d’une plateforme d’observabilité centralisée avec Elastic Stack et orchestration des workflows d’infrastructure.",
+      "lien": "assets/docs/HomeTechLab_Phase2_Patrice_Cotcho.pdf",
+      "image": "assets/img/hybrid-cloud.jpg",
+      "source": "Lab"
+    },
+
     {
       "id": 3,
-      "titre": "Moteur de Recherche d'Alternance (Bot Python)",
-      "tags": ["Python", "Selenium", "Web Scraping", "Matplotlib", "Discord Webhook"],
-      "description": "Développer un robot de scraping capable d'agréger les offres de 5 plateformes majeures (LinkedIn, APEC, HelloWork, WTTJ, LBA) avec algorithme de scoring et notifications Discord en temps réel.",
-      "lien": "https://github.com/Patrice404/alternance_search_engine",
-      "image": "assets/img/bot.png",
-      "source": "Github"
-    },
-    {
-      "id": 4,
-      "titre": "Infrastructure Windows Server",
-      "tags": ["Active Directory", "GPO", "VPN", "PowerShell"],
-      "description": "Déployer une infrastructure AD complète : automatisation PowerShell des UOs/Users, sécurisation des accès distants (VPN RRAS/NPS) et gestion des politiques de sécurité centralisées (GPO).",
+      "titre": "Infrastructure Windows Server & Gouvernance des Identités",
+      "tags": [
+        "Active Directory",
+        "GPO",
+        "PowerShell",
+        "VPN",
+        "RRAS",
+        "NPS",
+        "FSRM"
+      ],
+      "description": "Déploiement d’une infrastructure Active Directory complète avec automatisation PowerShell, stratégies de groupe (GPO), sécurisation des accès distants via RRAS/NPS et gouvernance des données avec FSRM.",
       "lien": "assets/docs/Infra_Windows_Server_Patrice_Cotcho.pdf",
       "image": "assets/img/windows-server.png",
       "source": "Lab"
     },
+
     {
-      "id": 5,
-      "titre": "Plateforme SIEM & XDR – PoC Wazuh",
-      "tags": ["AD", "Wazuh", "Cybersecurity", "Suricata"],
-      "description": "Déployer une plateforme de sécurité unifiée en environnement hybride : corrélation d'événements, analyse de vulnérabilités et activation de mécanismes de réponse active.",
+      "id": 4,
+      "titre": "Plateforme SIEM & Observabilité Sécurité — PoC Wazuh",
+      "tags": [
+        "Wazuh",
+        "SIEM",
+        "Suricata",
+        "Windows Server",
+        "Linux",
+        "Observabilité"
+      ],
+      "description": "Déploiement d’une plateforme SIEM hybride centralisant la télémétrie systèmes et réseau, avec corrélation d’événements, supervision de l’intégrité des fichiers, détection d’anomalies et automatisation de la réponse aux incidents.",
       "lien": "assets/docs/POC_Wazuh_Patrice_Cotcho.pdf",
       "image": "assets/img/wazuh.png",
       "source": "Lab"
     },
+
     {
-      "id": 6,
-      "titre": "Mini-GLIBC & Shell UNIX (Bas Niveau)",
-      "tags": ["Langage C", "Système", "Processus"],
-      "description": "Réimplémenter les fonctions système (malloc, printf) et développer un shell UNIX gérant les processus (fork/wait) et les redirections de flux. Expertise en gestion mémoire.",
-      "lien": "https://github.com/Patrice404/Mini_Glibc",
-      "image": "assets/img/mini_glibc.png",
-      "source": "Github"
-    },
-    {
-      "id": 7,
-      "titre": "IA Tactique & Simulateur RTS",
-      "tags": ["Python", "Pygame", "IA", "Matplotlib"],
-      "description": "Concevoir un moteur de combat temps réel avec agents IA autonomes capables de micro-management et de gestion de formations tactiques (inspiré d'Age of Empires II).",
-      "lien": "https://github.com/Patrice404/age_of_empire_ai_battle_simulation",
-      "image": "assets/img/battle_sim.png",
-      "source": "Github"
-    },
-    {
-      "id": 8,
-      "titre": "Moteur de Jeu Tactique & Design Patterns",
-      "tags": ["Java", "POO", "Swing", "JUnit"],
-      "description": "Concevoir un jeu de stratégie sur grille 2D en appliquant les Design Patterns structurants (State, Strategy, Factory) et valider la robustesse via tests unitaires JUnit.",
-      "lien": "https://github.com/Patrice404/fightGame/",
-      "image": "assets/img/fightgame.png",
-      "source": "Github"
-    },
-    {
-      "id": 9,
-      "titre": "Planification Automatique (Blocks World)",
-      "tags": ["Java", "IA", "CSP", "Algorithmique"],
-      "description": "Développer un système de planification via solveurs de contraintes (CSP) et algorithmes STRIPS pour la résolution de scénarios complexes de réorganisation spatiale.",
-      "lien": "https://github.com/Patrice404/blocksword",
-      "image": "assets/img/blocksworld.png",
-      "source": "Github"
-    },
-    {
-      "id": 10,
-      "titre": "Générateur Procédural L-Systèmes",
-      "tags": ["Java", "Algorithmique", "3D"],
-      "description": "Modéliser des structures biologiques complexes via des interpréteurs de règles stochastiques et un moteur de rendu hybride 2D/3D.",
-      "lien": "https://github.com/Patrice404/lsystem",
-      "image": "assets/img/lsystem.png",
+      "id": 5,
+      "titre": "Moteur de Recherche d’Alternance Automatisé",
+      "tags": [
+        "Python",
+        "Automation",
+        "Selenium",
+        "Web Scraping",
+        "API",
+        "Discord Webhook"
+      ],
+      "description": "Développement d’un moteur d’automatisation capable d’agréger les offres de plusieurs plateformes d’emploi, de scorer les résultats et de notifier automatiquement les nouvelles opportunités via Discord.",
+      "lien": "https://github.com/Patrice404/alternance_search_engine",
+      "image": "assets/img/bot.png",
       "source": "Github"
     }
   ],
+
   "competences": {
-    "infrastructures_reseaux": ["Active Directory (GPO, PKI, IAM)", "Supervision (EyesOfNetwork/Nagios/Zabbix/SNMP)", "FortiGate", "pfSense", "Mikrotik", "Cisco", "Services IP (DHCP, DNS)", "Configuration LAN/WAN/VLAN", "Routage (RIP/OSPF/BGP)"],
-    "cybersecurite": ["Wazuh", "Splunk", "ELK", "Snort", "Nessus", "Suricata", "Burp Suite", "Nmap", "Metasploit", "BloodHound", "SQLmap", "Hydra", "Hashcat", "Aircrack-ng", "Audit de Vulnérabilités", "Hardening", "Yara & Sigma"],
-    "developpement_scripting": ["Python (Scraping/API)", "Langage C (Système)", "Java (POO)", "Bash/Shell", "PowerShell", "Ansible", "Terraform", "Web (HTML/CSS/PHP/JS)", "Git"],
-    "systemes_virtualisation": ["Linux (Gentoo/Ubuntu/Kali/Debian/Rocky)", "Windows Server 2022/2025", "VMware ESXi", "VirtualBox", "Proxmox", "Docker"]
+
+    "cloud_automation": [
+      "Terraform",
+      "Ansible",
+      "Docker",
+      "Git",
+      "Vault",
+      "Azure",
+      "GitOps",
+      "Automation Python"
+    ],
+
+    "infrastructure_systemes": [
+      "Linux (Ubuntu, Debian, Rocky)",
+      "Windows Server 2022/2025",
+      "Active Directory",
+      "GPO",
+      "PKI (AD CS)",
+      "VMware ESXi",
+      "Proxmox",
+      "Services Réseau (DNS, DHCP, NFS, Samba)"
+    ],
+
+    "reseaux_securite": [
+      "FortiGate",
+      "pfSense",
+      "OpenVPN",
+      "Segmentation LAN/WAN/VLAN",
+      "Routage",
+      "SIEM (Wazuh, ELK)",
+      "Suricata",
+      "Hardening",
+      "Nessus",
+      "Nmap",
+      "YARA & Sigma"
+    ],
+
+    "observabilite_supervision": [
+      "Zabbix",
+      "EyesOfNetwork",
+      "Nagios",
+      "Elastic Stack",
+      "GLPI",
+      "SNMP",
+      "Syslog",
+      "Rsyslog"
+    ],
+
+    "scripting_developpement": [
+      "Python",
+      "PowerShell",
+      "Bash",
+      "C (Système)",
+      "Java"
+    ]
   },
-  "parcours_detaille": "Passionné par les infrastructures réseau et les systèmes, je conçois, déploie et administre des environnements IT robustes. Mes expériences terrain m'ont permis de développer une approche rigoureuse et orientée résultats. En parallèle, je me forme activement en cybersécurité offensive et défensive via TryHackMe et HackTheBox, afin d'intégrer la dimension sécurité au cœur de chaque infrastructure que je construis. Aujourd'hui, je cherche à relever des défis techniques ambitieux au sein d'une équipe où l'excellence opérationnelle est une priorité.",
+
+  "parcours_detaille": "Je conçois et sécurise des infrastructures hybrides modernes combinant systèmes, réseau, cloud et automatisation. Mes projets s’articulent autour du Platform Engineering, du DevSecOps et de l’observabilité des systèmes : Infrastructure as Code, supervision, SIEM, PKI, automatisation et cloud hybride. Je m’intéresse particulièrement aux problématiques de résilience, d’industrialisation et de sécurité des infrastructures modernes.",
+
   "certifications": [
-   
+
     {
       "nom": "Networking Basics",
       "date": "2025",
       "entreprise": "Cisco Networking Academy",
-      "image" : "assets/img/cisco_nb.png"
+      "image": "assets/img/cisco_nb.png"
     },
+
     {
       "nom": "SecNumAcadémie",
       "date": "2021",
       "entreprise": "ANSSI",
-      "image" : "assets/img/secnumacademie.png"
+      "image": "assets/img/secnumacademie.png"
     },
+
     {
       "nom": "Advent of Cyber",
       "date": "2021",
       "entreprise": "TryHackMe",
-      "image" : "assets/img/thm_aoc.jpeg"
+      "image": "assets/img/thm_aoc.jpeg"
     }
   ],
+
   "passions": [
     {
-      "nom": "Veille & Threat Intelligence",
-      "detail": "Passionné par l'actualité de la cybersécurité, le suivi des nouvelles vulnérabilités (CVE) et l'évolution des menaces mondiales."
+      "nom": "Veille & Observabilité",
+      "detail": "Intérêt pour les architectures modernes, l’observabilité des systèmes distribués et les enjeux de résilience des infrastructures."
     },
+
+    {
+      "nom": "Cybersécurité & Cloud",
+      "detail": "Veille continue autour du cloud hybride, du DevSecOps, des SIEM et des architectures sécurisées."
+    },
+
     {
       "nom": "Musique",
-      "detail": "Un pilier quotidien qui m'aide à la concentration lors de mes sessions de déploiement ou de résolution de problèmes techniques."
-    },
-    {
-      "nom": "Vie Sociale & Échanges",
-      "detail": "J'attache une grande importance aux sorties entre amis, favorisant ainsi le partage d'idées et le maintien d'un bon équilibre personnel."
+      "detail": "Support de concentration et de créativité lors des phases de conception, d’automatisation et de résolution de problèmes techniques."
     }
   ],
+
   "formations": [
     {
       "id": 1,
-      "diplome": "Diplôme d'ingénieur spécialité Sécurité et Technologies Informatiques (STI)",
+      "diplome": "Diplôme d’Ingénieur — Sécurité et Technologies Informatiques (STI)",
       "etablissement": "INSA Centre Val de Loire",
       "lieu": "Bourges, France",
       "periode": "2025 - 2028",
-      "image" : "assets/img/insa_ingenieur.jpg"
+      "image": "assets/img/insa_ingenieur.jpg"
     },
+
     {
       "id": 2,
       "diplome": "Licence Informatique",
       "etablissement": "Université de Caen Normandie",
       "lieu": "Caen, France",
       "periode": "2023 - 2025",
-      "image" : "assets/img/caen_licence.png"
+      "image": "assets/img/caen_licence.png"
     },
+
     {
       "id": 3,
       "diplome": "Licence Sécurité Informatique",
       "etablissement": "IFRI",
       "lieu": "Bénin",
       "periode": "2019 - 2022",
-      "image" : "assets/img/ifri_licence.png"
+      "image": "assets/img/ifri_licence.png"
     }
   ]
 }
