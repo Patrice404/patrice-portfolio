@@ -29,7 +29,7 @@
       "periode": "10/2021 - 12/2021",
       "lieu": "Cotonou, Bénin",
       "missions": [
-        "Piloter l'exploitation et assurer le Maintien en Condition Opérationnelle (MCO) d'un parc critique de plus de 500 endpoints.",
+        "Assurer l'exploitation et le Maintien en Condition Opérationnelled'un parc critique de plus de 500 endpoints.",
         "Standardiser et durcir l'infrastructure système via l'intégration Active Directory et le déploiement centralisé de solutions de sécurité.",
         "Industrialiser les workflows de support (N1/N2) en structurant une base de connaissances et des procédures d'exploitation optimisées."
       ]
@@ -41,7 +41,7 @@
       "periode": "03/2021 - 06/2021",
       "lieu": "Cotonou, Bénin",
       "missions": [
-        "Piloter l'ingénierie et le déploiement d'une plateforme d'observabilité centralisée pour garantir la visibilité en temps réel des actifs critiques.",
+        "Piloter le déploiement d'une plateforme d'observabilité centralisée pour garantir la visibilité en temps réel des actifs critiques.",
         "Accroître la résilience opérationnelle du SI en implémentant des mécanismes automatisés de détection proactive des anomalies.",
         "Pérenniser l'exploitation de l'infrastructure en industrialisant les workflows et les procédures de réponse aux incidents."
       ]
