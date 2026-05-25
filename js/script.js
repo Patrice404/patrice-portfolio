@@ -65,6 +65,7 @@ function renderProjects(projects) {
     let isDownload = false;
 
     // Personnalisation selon la source
+    // Personnalisation selon la source
     if (source === 'github') {
       sourceClass = 'source--github';
       sourceIcon = 'fa-github';
@@ -77,10 +78,10 @@ function renderProjects(projects) {
       sourceClass = 'source--research'; 
       sourceIcon = 'fa-globe';       
       linkLabel = 'Télécharger l\'étude';
-      isDownload = true;               
+      isDownload = true;                
     } else if (source === 'tp' || source === 'lab') {
       sourceClass = 'source--tp'; 
-      sourceIcon = 'fa-terminal'; 
+      sourceIcon = 'fa-terminal'; // Icône de terminal pour l'aspect technique
       linkLabel = 'Télécharger le compte-rendu';
       isDownload = true; 
     }
@@ -111,7 +112,7 @@ function renderProjects(projects) {
                rel="noopener noreferrer" 
                class="proj-link"
                ${isDownload ? `download="${p.titre}.pdf"` : ''}>
-              <i class="${sourceIcon.includes('github') || sourceIcon.includes('linkedin')  ? 'fab' : 'fas'} ${sourceIcon}"></i> ${linkLabel}
+              <i class="${sourceIcon.includes('github') || sourceIcon.includes('linkedin') ? 'fab' : 'fas'} ${sourceIcon}"></i> ${linkLabel}
             </a>
           ` : ''}
         </div>
@@ -119,24 +120,25 @@ function renderProjects(projects) {
     `;
   }).join('');
 }
-
 /* ============================================================
-   RENDER — COMPÉTENCES
+   RENDER — COMPÉTENCES (version Ops/Infra/Cloud/Sec)
    ============================================================ */
 function renderSkills(competences) {
   const el = document.getElementById('skills-grid');
   if (!el || !competences) return;
 
+  // Mapping JSON -> UI
   const meta = {
-    infrastructures_reseaux:  { icon: 'fa-network-wired', title: 'réseaux & infrastructure' },
-    cybersecurite:            { icon: 'fa-shield-halved',  title: 'cybersécurité' },
-    systemes_virtualisation:  { icon: 'fa-server',         title: 'systèmes & virtualisation' },
-    developpement_scripting:  { icon: 'fa-terminal',       title: 'développement & scripting' }
+    cloud_automation:         { icon: 'fa-cloud',           title: 'Cloud & Automation' },
+    infrastructure_systemes:  { icon: 'fa-server',          title: 'Systèmes & Infrastructure' },
+    reseaux_securite:         { icon: 'fa-shield-halved',   title: 'Réseau & Sécurité' },
+    observabilite_supervision:{ icon: 'fa-eye',             title: 'Observabilité & Supervision' },
+    scripting_developpement:  { icon: 'fa-terminal',        title: 'Scripting & Automatisation' }
   };
 
   el.innerHTML = Object.entries(competences)
     .filter(([k]) => meta[k])
-    .map(([k, list]) => {
+    .map(([k, skills]) => {
       const m = meta[k];
       return `
         <div class="skill-card">
@@ -150,7 +152,7 @@ function renderSkills(competences) {
             <i class="fas ${m.icon} skill-header-icon"></i>
           </div>
           <div class="skill-body">
-            ${list.map(s => `<span class="skill-tag">${s}</span>`).join('')}
+            ${skills.map(s => `<span class="skill-tag">${s}</span>`).join('')}
           </div>
         </div>
       `;
@@ -206,37 +208,175 @@ function renderExperiences(exps, autres) {
 /* ============================================================
    RENDER — FORMATIONS (timeline)
    ============================================================ */
-function renderEducation(formations) {
-  const el = document.getElementById('edu-list');
+/*function renderEducation(formations) {
+  const el = document.getElementById('edu-grid');
   if (!el || !formations) return;
 
   el.innerHTML = formations.map(f => `
-    <div class="tl-item">
-      <div class="tl-dot"></div>
-      <span class="tl-period">${f.periode}</span>
-      <h3 class="tl-title">${f.diplome}</h3>
-      <p class="tl-sub">${f.etablissement} · ${f.lieu}</p>
+    <div class="proof-card" onclick="openLightbox('${f.image || 'assets/img/placeholder.jpg'}', '${f.diplome.replace(/'/g, "\\'")}')">
+      <div class="proof-img-wrap">
+        <img src="${f.image || 'assets/img/placeholder.jpg'}" alt="${f.diplome}" class="proof-img" loading="lazy">
+        <div class="proof-overlay">
+          <span class="proof-overlay-btn"><i class="fas fa-expand"></i> Voir le diplôme</span>
+        </div>
+      </div>
+      <div class="proof-body">
+        <div class="proof-meta">
+          <span class="proof-org">${f.etablissement}</span>
+          <span class="proof-date">${f.periode}</span>
+        </div>
+        <h3 class="proof-title">${f.diplome}</h3>
+      </div>
     </div>
   `).join('');
+}*/
+
+/*function renderEducation(formations) {
+  const el = document.getElementById('edu-grid');
+  if (!el || !formations) return;
+
+  el.innerHTML = formations.map((f, i) => `
+    <div class="timeline-card">
+      <div class="edu-img-wrap">
+        <img src="${f.image || 'assets/img/placeholder.jpg'}" alt="${f.diplome}" loading="lazy">
+      </div>
+      <div class="edu-content">
+        <h3>${f.diplome}</h3>
+        <div class="edu-meta">${f.etablissement} · ${f.periode}</div>
+        ${f.detail ? `<div class="edu-detail">${f.detail}</div>` : ''}
+      </div>
+    </div>
+  `).join('');
+}*/
+
+/* ============================================================
+   RENDER — FORMATIONS (Accordéon)
+   ============================================================ */
+function renderEducation(formations) {
+  const el = document.getElementById('edu-grid');
+  if (!el || !formations) return;
+
+  // On génère la liste empilée
+  el.innerHTML = formations.map((f, i) => `
+    <div class="edu-item">
+      <div class="edu-header">
+        <div class="edu-header-info">
+          <h3 class="edu-diploma">${f.diplome}</h3>
+          <div class="edu-meta">
+            <span class="edu-org">${f.etablissement}</span>
+            <span class="edu-sep">·</span>
+            <span class="edu-period">${f.periode}</span>
+          </div>
+        </div>
+        <div class="edu-toggle-icon">
+          <i class="fas fa-chevron-down"></i>
+        </div>
+      </div>
+      <div class="edu-content">
+        <div class="edu-content-inner">
+          <div class="edu-img-wrap">
+            <img src="${f.image || 'assets/img/placeholder.jpg'}" alt="${f.diplome}" loading="lazy">
+          </div>
+          ${f.detail ? `<p class="edu-detail">${f.detail}</p>` : ''}
+        </div>
+      </div>
+    </div>
+  `).join('');
+
+  // Ajout des écouteurs de clics pour dérouler/enrouler
+  const items = el.querySelectorAll('.edu-item');
+  items.forEach(item => {
+    const header = item.querySelector('.edu-header');
+    header.addEventListener('click', () => {
+      // Optionnel : Si tu veux qu'un seul bandeau soit ouvert à la fois, décommente la ligne ci-dessous
+      // items.forEach(other => { if (other !== item) other.classList.remove('active'); });
+      
+      item.classList.toggle('active');
+    });
+  });
 }
 
 /* ============================================================
    RENDER — CERTIFICATIONS
    ============================================================ */
 function renderCertifs(certifs) {
-  const el = document.getElementById('certif-list');
+  const el = document.getElementById('certif-grid');
   if (!el || !certifs) return;
 
   el.innerHTML = certifs.map(c => `
-    <div class="certif-item">
-      <div>
-        <div class="certif-name">${c.nom}</div>
-        <div class="certif-org">${c.entreprise}</div>
+    <div class="proof-card" onclick="openLightbox('${c.image || 'assets/img/placeholder.jpg'}', '${c.nom.replace(/'/g, "\\'")}')">
+      <div class="proof-img-wrap">
+        <img src="${c.image || 'assets/img/placeholder.jpg'}" alt="${c.nom}" class="proof-img" loading="lazy">
+        <div class="proof-overlay">
+          <span class="proof-overlay-btn"><i class="fas fa-expand"></i> Voir la certification</span>
+        </div>
       </div>
-      <span class="certif-year">${c.date}</span>
+      <div class="proof-body">
+        <div class="proof-meta">
+          <span class="proof-org">${c.entreprise}</span>
+          <span class="proof-date">${c.date}</span>
+        </div>
+        <h3 class="proof-title">${c.nom}</h3>
+      </div>
     </div>
   `).join('');
 }
+
+/* ============================================================
+   RENDER — KEY PROJECT
+   ============================================================ */
+
+function renderKeyProjects(projects) {
+  const el = document.getElementById('projects-portfolio');
+  if (!el || !projects) return;
+
+  el.innerHTML = projects
+    .filter(p => p.highlight) // clé 'highlight: true' dans le JSON
+    .map((p, i) => `
+      <div class="proj-card" style="transition-delay:${i*60}ms">
+        <div class="proj-img-wrap">
+          <img src="${p.image || 'assets/img/placeholder.jpg'}" alt="${p.titre}" class="proj-img">
+        </div>
+        <div class="proj-body">
+          <h3 class="proj-title">${p.titre}</h3>
+          <p class="proj-desc">${p.description}</p>
+          ${p.lien ? `<a href="${p.lien}" target="_blank" class="proj-link">Voir le projet</a>` : ''}
+        </div>
+      </div>
+    `).join('');
+}
+
+/* ============================================================
+   UI — LIGHTBOX
+   ============================================================ */
+window.openLightbox = function(imgSrc, caption) {
+  const lb = document.getElementById('lightbox');
+  const img = document.getElementById('lightbox-img');
+  const cap = document.getElementById('lightbox-caption');
+  
+  if (!lb || !img) return;
+  
+  img.src = imgSrc;
+  if (cap) cap.textContent = caption;
+  
+  lb.classList.add('active');
+  // Bloque le scroll de la page quand la lightbox est ouverte
+  document.body.style.overflow = 'hidden';
+};
+
+window.closeLightbox = function() {
+  const lb = document.getElementById('lightbox');
+  if (!lb) return;
+  
+  lb.classList.remove('active');
+  // Réactive le scroll de la page
+  document.body.style.overflow = '';
+};
+
+// Fermer la lightbox avec la touche Échap
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') closeLightbox();
+});
 
 /* ============================================================
    RENDER — PASSIONS

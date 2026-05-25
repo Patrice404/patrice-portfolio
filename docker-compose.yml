@@ -1,0 +1,8 @@
+services:
+  web:
+    build: .
+    ports:
+      - "8080:80"
+    volumes:
+      # Le fameux pont : ./ (ton dossier actuel) remplace le dossier Nginx
+      - ./:/usr/share/nginx/html

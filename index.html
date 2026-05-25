@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html lang="fr" class="scroll-smooth">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Patrice COTCHO — Ingénieur Infrastructure & Cybersécurité</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,400&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="css/style.css">
   <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
+
 <body>
 
   <!-- ==================== NAVBAR ==================== -->
@@ -18,10 +22,10 @@
     <nav class="nav-inner">
       <a href="#hero" class="nav-logo">PC<span>.</span></a>
       <ul class="nav-links" id="nav-links">
-        <li><a href="#projets"     class="nav-link">Projets</a></li>
+        <li><a href="#projets" class="nav-link">Projets</a></li>
         <li><a href="#competences" class="nav-link">Compétences</a></li>
         <li><a href="#experiences" class="nav-link">Expériences</a></li>
-        <li><a href="#parcours"    class="nav-link">Parcours</a></li>
+        <li><a href="#parcours" class="nav-link">Parcours</a></li>
       </ul>
       <a href="#contact" class="nav-cta">Contact</a>
       <button class="nav-burger" id="nav-burger" aria-label="Ouvrir le menu" aria-expanded="false">
@@ -45,10 +49,19 @@
             Patrice<br><span class="accent">COTCHO</span>
           </h1>
           <p class="hero-role reveal" style="--delay:160ms">
-            Ingénieur <span class="accent">Infrastructure & Cybersécurité</span>
+            Élève Ingénieur <span class="accent"> Infrastructure, Cloud & Sécurité</span>
           </p>
           <p class="hero-bio reveal" style="--delay:240ms">
-            Élève ingénieur STI à l'INSA Centre Val de Loire, je conçois et sécurise des infrastructures réseau depuis 2021, du déploiement terrain au Bénin jusqu'aux environnements de lab virtualisés sous Proxmox et Azure. Je cherche une alternance de 24 mois à partir de septembre 2026 dans un environnement techniquement exigeant, où chaque mission est une occasion de monter en compétence.
+            Avant d'intégrer l'INSA Centre Val de Loire, j'ai éprouvé et consolidé mes compétences dans des
+            environnements IT critiques et exigeants. Cette maîtrise fine des infrastructures classiques (systèmes,
+            réseaux, sécurité) constitue aujourd'hui mon meilleur atout pour pivoter vers les architectures modernes.
+
+            Je capitalise sur ce socle pour concevoir des environnements automatisés et orientés Cloud. À travers mes
+            projets d'ingénierie, je déploie des pratiques DevSecOps et Platform Engineering : automatisation (Ansible,
+            Terraform), supervision proactive, intégration de SIEM et conteneurisation.
+
+            Je recherche une alternance de 24 mois à partir de septembre 2026 en Infrastructure, Cloud, Platform
+            Engineering, DevSecOps ou Cybersécurité défensive.
           </p>
           <div class="hero-ctas reveal" style="--delay:320ms">
             <a href="#projets" class="btn-primary">Voir mes projets</a>
@@ -61,8 +74,8 @@
             <span class="mono-tag">pfSense</span>
             <span class="mono-tag">Wazuh</span>
             <span class="mono-tag">Active Directory</span>
-            <span class="mono-tag">Suricata</span>
-            <span class="mono-tag">VMware ESXi</span>
+            <span class="mono-tag">Terraform</span>
+            <span class="mono-tag">Proxmox VE</span>
           </div>
         </div>
 
@@ -89,18 +102,22 @@
             <div class="profile-badge">
               <div class="profile-img-wrap">
                 <img src="assets/img/photo.jpeg" alt="Patrice COTCHO" class="profile-img"
-                     onerror="this.parentElement.innerHTML='<span class=\'profile-initials\'>PC</span>'">
+                  onerror="this.parentElement.innerHTML='<span class=\'profile-initials\'>PC</span>'">
               </div>
               <div class="profile-info">
                 <span class="profile-name">Patrice COTCHO</span>
                 <span class="profile-loc"><i class="fas fa-location-dot"></i> Bourges · Mobile France</span>
               </div>
               <div class="profile-links">
-                <a href="https://www.linkedin.com/in/patrice-cotcho-a6a0571b3/" target="_blank" class="icon-link" title="LinkedIn">
+                <a href="https://www.linkedin.com/in/patrice-cotcho-a6a0571b3/" target="_blank" class="icon-link"
+                  title="LinkedIn">
                   <i class="fab fa-linkedin-in"></i>
                 </a>
                 <a href="https://github.com/Patrice404" target="_blank" class="icon-link" title="GitHub">
                   <i class="fab fa-github"></i>
+                </a>
+                <a href="https://tryhackme.com/p/zd" target="_blank" class="icon-link" title="Try Hack Me">
+                  <img src="assets/img/thm.svg" alt="HTB" style="width: 1em; height: 1em; filter: grayscale(100%);">
                 </a>
               </div>
             </div>
@@ -155,22 +172,13 @@
       <div class="container">
         <div class="section-header reveal">
           <span class="section-num mono">// 04</span>
-          <h2>Parcours & Certifications</h2>
-          <p>Formations académiques et reconnaissance sectorielle.</p>
+          <h2>Parcours Académique</h2>
+          <p>Formations suivies et diplômes obtenus.</p>
         </div>
-        <div class="parcours-grid reveal">
-          <div class="parcours-col">
-            <div class="col-label mono">Formations</div>
-            <div id="edu-list" class="timeline-wrap"></div>
-          </div>
-          <div class="parcours-col">
-            <div class="col-label mono">Certifications</div>
-            <div id="certif-list" class="certif-list"></div>
-          </div>
+        <div class="edu-container reveal">
+          <div id="edu-grid" class="edu-accordion"></div>
         </div>
-      </div>
     </section>
-
     <!-- ==================== CONTACT ==================== -->
     <section id="contact" class="section-block">
       <div class="container">
@@ -210,11 +218,15 @@
               </div>
             </div>
             <div class="social-row">
-              <a href="https://www.linkedin.com/in/patrice-cotcho-a6a0571b3/" target="_blank" class="icon-link icon-link--lg" title="LinkedIn">
+              <a href="https://www.linkedin.com/in/patrice-cotcho-a6a0571b3/" target="_blank"
+                class="icon-link icon-link--lg" title="LinkedIn">
                 <i class="fab fa-linkedin-in"></i>
               </a>
               <a href="https://github.com/Patrice404" target="_blank" class="icon-link icon-link--lg" title="GitHub">
                 <i class="fab fa-github"></i>
+              </a>
+              <a href="https://tryhackme.com/p/zd" target="_blank" class="icon-link" title="Try Hack Me">
+                <img src="assets/img/thm.svg" alt="HTB" style="width: 1em; height: 1em; filter: grayscale(100%);">
               </a>
             </div>
           </div>
@@ -256,6 +268,14 @@
     </div>
   </footer>
 
+  <!-- ==================== LIGHTBOX ==================== -->
+  <div id="lightbox" class="lightbox" onclick="closeLightbox()">
+    <span class="lightbox-close">&times;</span>
+    <img class="lightbox-img" id="lightbox-img" src="" alt="Preuve documentaire" onclick="event.stopPropagation()">
+    <div class="lightbox-caption" id="lightbox-caption"></div>
+  </div>
+
   <script src="js/script.js"></script>
 </body>
+
 </html>
