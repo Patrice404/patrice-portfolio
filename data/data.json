@@ -47,24 +47,28 @@
       ]
     }
   ],
-  "autres_experiences": [
+  "realisations_techniques": [
     {
       "id": 1,
-      "poste": "Auxiliaire de Vie — Garde et Assistance à Domicile",
-      "entreprise": "Le Loup Blanc · Vitalliance",
-      "lieu": "Caen / Bourges, France",
-      "periode": "12/2023 - Présent",
-      "missions": [
-        "Assurer une vigilance constante et une réactivité immédiate en situation critique.",
-        "Faire preuve d’autonomie et de rigueur dans des contextes exigeants.",
-        "Respecter des protocoles stricts et garantir la continuité du service.",
-        "Développer des capacités d’écoute, d’adaptation et de gestion des imprévus."
-      ]
-    }
-  ],
-  "realisations_techniques": [
-     {
-      "id": 1,
+      "titre": "Architecture Cloud-Native, DevSecOps & Pipeline CI/CD — CampusLink",
+      "tags": [
+        "Docker",
+        "GitHub Actions",
+        "Azure PaaS",
+        "ACR",
+        "Web App",
+        "PostgreSQL",
+        "DevSecOps",
+        "CI/CD"
+      ],
+      "description": "Conteneurisation optimisée d'une application (Docker Multi-stage sous Alpine) et industrialisation du déploiement via un pipeline CI/CD sécurisé. Hébergement en mode Zero-Downtime sur infrastructure managée Azure PaaS avec gouvernance stricte des secrets.",
+      "lien": "https://github.com/Patrice404/campuslink",
+      "image": "assets/img/campusLink.png",
+      "source": "github",
+      "highlight": true
+    },
+    {
+      "id": 2,
       "titre": "Infrastructure Multi-Sites Automatisée — HomeTech Lab (Phase 2)",
       "tags": [
         "Terraform",
@@ -85,7 +89,7 @@
       "highlight": true
     },
     {
-      "id": 2,
+      "id": 3,
       "titre": "Infrastructure Réseau & Sécurité d’Entreprise — HomeTech Lab (Phase 1)",
       "tags": [
         "FortiGate",
@@ -105,9 +109,8 @@
       "source": "Lab",
       "highlight": true
     },
-   
     {
-      "id": 3,
+      "id": 4,
       "titre": "Infrastructure Windows Server & Gouvernance des Identités",
       "tags": [
         "Active Directory",
@@ -124,7 +127,7 @@
       "source": "Lab"
     },
     {
-      "id": 4,
+      "id": 5,
       "titre": "Plateforme SIEM & Observabilité Sécurité — PoC Wazuh",
       "tags": [
         "Wazuh",
@@ -140,7 +143,7 @@
       "source": "Lab"
     },
     {
-      "id": 5,
+      "id": 6,
       "titre": "Moteur de Recherche d’Alternance Automatisé",
       "tags": [
         "Python",
@@ -163,7 +166,10 @@
       "Docker",
       "Git",
       "Vault",
-      "Azure",
+      "Azure (PaaS / Web App)",
+      "ACR",
+      "GitHub Actions",
+      "CI/CD",
       "GitOps",
       "Automation Python"
     ],
@@ -173,6 +179,7 @@
       "Active Directory",
       "GPO",
       "PKI (AD CS)",
+      "FSRM",
       "VMware ESXi",
       "Proxmox",
       "Services Réseau (DNS, DHCP, NFS, Samba)"
@@ -180,12 +187,15 @@
     "reseaux_securite": [
       "FortiGate",
       "pfSense",
+      "OPNsense",
       "OpenVPN",
+      "RRAS & NPS",
       "Segmentation LAN/WAN/VLAN",
       "Routage",
       "SIEM (Wazuh, ELK)",
       "Suricata",
       "Hardening",
+      "DevSecOps",
       "Nessus",
       "Nmap",
       "YARA & Sigma"
@@ -198,14 +208,18 @@
       "GLPI",
       "SNMP",
       "Syslog",
-      "Rsyslog"
+      "Rsyslog",
+      "Discord Webhook"
     ],
     "scripting_developpement": [
       "Python",
       "PowerShell",
       "Bash",
       "C (Système)",
-      "Java"
+      "Java",
+      "PostgreSQL",
+      "Selenium (Web Scraping)",
+      "API"
     ]
   },
   "parcours_detaille": "Je conçois et sécurise des infrastructures hybrides modernes combinant systèmes, réseau, cloud et automatisation. Mes projets s’articulent autour du Platform Engineering, du DevSecOps et de l’observabilité des systèmes : Infrastructure as Code, supervision, SIEM, PKI, automatisation et cloud hybride. Je m’intéresse particulièrement aux problématiques de résilience, d’industrialisation et de sécurité des infrastructures modernes.",
