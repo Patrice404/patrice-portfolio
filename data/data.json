@@ -79,7 +79,7 @@
         "Proxmox",
         "GitOps",
         "Elastic Stack",
-        "OPNsense",
+        "IA API",
         "Automation"
       ],
       "description": "Extension de l’infrastructure HomeTech Lab vers une architecture hybride multi-sites interconnectée combinant Proxmox, Azure et automatisation complète via Terraform, Ansible, Vault, Docker et GitOps. Déploiement d’une plateforme d’observabilité centralisée avec Elastic Stack et orchestration des workflows d’infrastructure. Rédaction en cours...",
